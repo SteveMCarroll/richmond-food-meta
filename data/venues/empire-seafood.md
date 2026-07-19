@@ -5,14 +5,12 @@ nameZh: 帝苑皇宴海鮮酒家
 region: Cantonese / Hong Kong
 format: Dim sum · full-service
 hub: null
-area: Golden Village
+area: Brighouse
 address: "Unit 200, London Plaza, 5951 No. 3 Road, Richmond, BC V6X 2E3"
-phone: ""
+phone: "+1 604-249-0080"
 website: "https://empirerestaurant.ca"
 reservationUrl: ""
-coordinates:
-  lat: null
-  lng: null
+coordinates: { lat: null, lng: null }
 price: $$
 hours:
   mon: "9:00am–3:00pm, 5:30pm–9:00pm"
@@ -23,18 +21,25 @@ hours:
   sat: "9:00am–3:00pm, 5:30pm–9:00pm"
   sun: "9:00am–3:00pm, 5:30pm–9:00pm"
 kitchenCutoff: ""
-bestDaypart: Dim sum daily 9:00am–3:00pm
-status: staple
-confidence: medium
-lastVerified: "2026-07-19"
-dishes: []
-goodToKnow: Standalone room. Online reservations and an early 9am open make it the easiest low-crowd option. May 2026 locals praise the less-cramped room and SkyTrain view.
-cautions: []
-parking: ""
+bestDaypart: "9:00am opening for low-crowd dim sum"
+parking: "London Plaza parking; Canada Line access at Richmond–Brighouse"
 payment: ""
-groupFit: ""
+groupFit: "Spacious dining room; reserve larger groups by phone"
+status: staple
+confidence: high
+lastVerified: 2026-07-19
+dishes:
+  - name: Har gow
+    nameZh: 蝦餃
+    note: useful baseline in a broad traditional dim-sum menu
+cautions: []
 sources:
-  - label: Official hours
+  - label: Official address, phone, and daily hours
     url: https://empirerestaurant.ca/contacts/
+    date: 2026-07-19
 order: 10
 ---
+
+## Evidence and current read
+
+Empire Seafood is still a practical benchmark, but the updated reason to choose it is operational: a 9:00am start, a less cramped room than some legacy competitors, and easy SkyTrain access. No online reservation URL is asserted because the official contact page directs diners to the phone.

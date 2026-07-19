@@ -95,8 +95,9 @@
       "nameZh": "帝苑皇宴海鮮酒家",
       "region": "Cantonese / Hong Kong",
       "format": "Dim sum · full-service",
-      "area": "Golden Village",
+      "area": "Brighouse",
       "address": "Unit 200, London Plaza, 5951 No. 3 Road, Richmond, BC V6X 2E3",
+      "phone": "+1 604-249-0080",
       "website": "https://empirerestaurant.ca",
       "price": "$$",
       "hours": {
@@ -108,42 +109,78 @@
         "sat": "9:00am–3:00pm, 5:30pm–9:00pm",
         "sun": "9:00am–3:00pm, 5:30pm–9:00pm"
       },
-      "bestDaypart": "Dim sum daily 9:00am–3:00pm",
+      "bestDaypart": "9:00am opening for low-crowd dim sum",
+      "parking": "London Plaza parking; Canada Line access at Richmond–Brighouse",
+      "groupFit": "Spacious dining room; reserve larger groups by phone",
       "status": "staple",
-      "confidence": "medium",
-      "lastVerified": "2026-07-19",
-      "goodToKnow": "Standalone room. Online reservations and an early 9am open make it the easiest low-crowd option. May 2026 locals praise the less-cramped room and SkyTrain view.",
-      "sources": [
+      "confidence": "high",
+      "dishes": [
         {
-          "label": "Official hours",
-          "url": "https://empirerestaurant.ca/contacts/"
+          "name": "Har gow",
+          "nameZh": "蝦餃",
+          "note": "useful baseline in a broad traditional dim-sum menu"
         }
       ],
-      "order": 10
+      "sources": [
+        {
+          "label": "Official address, phone, and daily hours",
+          "url": "https://empirerestaurant.ca/contacts/",
+          "date": "2026-07-19T00:00:00.000Z"
+        }
+      ],
+      "order": 10,
+      "notes": "## Evidence and current read\n\nEmpire Seafood is still a practical benchmark, but the updated reason to choose it is operational: a 9:00am start, a less cramped room than some legacy competitors, and easy SkyTrain access. No online reservation URL is asserted because the official contact page directs diners to the phone."
     },
     {
       "id": "continental-seafood",
       "name": "Continental Seafood Restaurant",
+      "nameZh": "幸運海鮮酒樓",
       "region": "Cantonese",
-      "format": "Dim sum (push-cart)",
-      "area": "Golden Village",
+      "format": "Dim sum (push-cart) · banquet dining",
+      "area": "East Cambie",
+      "address": "Unit 150, 11700 Cambie Road, Richmond, BC V6X 1L5",
+      "phone": "+1 604-278-6331",
+      "website": "https://www.continentalrestaurant.ca",
       "price": "$$",
-      "bestDaypart": "Dim sum 10:00am–3:00pm",
+      "hours": {
+        "mon": "10:00am–3:00pm, 5:00pm–1:00am",
+        "tue": "10:00am–3:00pm, 5:00pm–1:00am",
+        "wed": "10:00am–3:00pm, 5:00pm–1:00am",
+        "thu": "10:00am–3:00pm, 5:00pm–1:00am",
+        "fri": "10:00am–3:00pm, 5:00pm–1:00am",
+        "sat": "10:00am–3:00pm, 5:00pm–1:00am",
+        "sun": "10:00am–3:00pm, 5:00pm–1:00am"
+      },
+      "kitchenCutoff": "Call before relying on post-midnight food service",
+      "bestDaypart": "10:00am opening for push-cart dim sum",
+      "parking": "Large plaza lot, but weekend dim sum still produces a congested entrance",
+      "groupFit": "Large room and carts suit a family group; reserve by phone",
       "status": "staple",
-      "confidence": "medium",
-      "lastVerified": "2026-07-19",
-      "goodToKnow": "Standalone room — Richmond's only remaining push-cart dim sum. The most distinctive experience. A 10am reservation may get carts before the peak crush.",
+      "confidence": "high",
+      "dishes": [
+        {
+          "name": "Push-cart dim sum",
+          "nameZh": "點心車",
+          "note": "the experience is the differentiator"
+        }
+      ],
       "cautions": [
-        "Packed entrance on weekends",
-        "Difficult parking"
+        "Late hours include live-entertainment service; confirm kitchen cutoff separately"
       ],
       "sources": [
         {
-          "label": "Official menu/hours",
-          "url": "https://www.continentalrestaurant.ca/menu/"
+          "label": "Official contact and daily service periods",
+          "url": "https://www.continentalrestaurant.ca/contact-us/",
+          "date": "2026-07-19T00:00:00.000Z"
+        },
+        {
+          "label": "Official menu",
+          "url": "https://www.continentalrestaurant.ca/menu/",
+          "date": "2026-07-19T00:00:00.000Z"
         }
       ],
-      "order": 20
+      "order": 20,
+      "notes": "## Evidence and current read\n\nContinental's present value is not that every dumpling is automatically the city's best; it is Richmond's distinctive old-school push-cart experience in a large banquet room. The official contact page lists live entertainment from 9:00pm to 12:30am, so the 1:00am close should not be read as a guaranteed full kitchen until 1:00am."
     },
     {
       "id": "fishermans-terrace",
@@ -153,71 +190,148 @@
       "format": "Dim sum · full-service",
       "hub": "aberdeen",
       "area": "Golden Village",
+      "address": "Suite 3580, Aberdeen Centre, 4151 Hazelbridge Way, Richmond, BC V6X 4J7",
+      "phone": "+1 604-303-9739",
+      "website": "https://www.fishermansterrace.com",
       "price": "$$",
-      "bestDaypart": "Dim sum 10:00am–3:00pm daily",
+      "hours": {
+        "mon": "10:00am–3:00pm, 5:30pm–9:30pm",
+        "tue": "10:00am–3:00pm, 5:30pm–9:30pm",
+        "wed": "10:00am–3:00pm, 5:30pm–9:30pm",
+        "thu": "10:00am–3:00pm, 5:30pm–9:30pm",
+        "fri": "10:00am–3:00pm, 5:30pm–9:30pm",
+        "sat": "10:00am–3:00pm, 5:30pm–9:30pm",
+        "sun": "10:00am–3:00pm, 5:30pm–9:30pm"
+      },
+      "bestDaypart": "10:00am opening or weekday dim sum",
+      "parking": "Aberdeen Centre: 3 hours on P1–P3, 4 hours on P4",
+      "groupFit": "Polished family/banquet room; reserve by phone",
       "status": "staple",
-      "confidence": "medium",
-      "lastVerified": "2026-07-19",
-      "goodToKnow": "Aberdeen Centre, 3rd floor. Long-running polished Cantonese benchmark with repeated 2026 recommendations.",
+      "confidence": "high",
+      "dishes": [
+        {
+          "name": "Steamed shrimp dumplings",
+          "nameZh": "蝦餃",
+          "note": "benchmark traditional dim sum"
+        }
+      ],
       "cautions": [
-        "First seating can be noisy"
+        "Mall crowds and first seating can be noisy"
       ],
       "sources": [
         {
-          "label": "Official site",
-          "url": "https://www.fishermansterrace.com/"
+          "label": "Official address, contact, daily service periods, and parking note",
+          "url": "https://www.fishermansterrace.com/contact",
+          "date": "2026-07-19T00:00:00.000Z"
         }
       ],
-      "order": 30
+      "order": 30,
+      "notes": "## Evidence and current read\n\nFisherman's Terrace remains the polished Aberdeen benchmark; it is a destination inside a mall whose general corridors can feel quiet outside its meal periods. The restaurant's own contact page is the operational source and asks diners to reserve by phone."
     },
     {
       "id": "chef-tony",
       "name": "Chef Tony Seafood Restaurant",
+      "nameZh": "頤東大酒樓",
       "region": "Cantonese",
       "format": "Dim sum · full-service",
       "hub": "empire",
       "area": "Golden Village",
+      "address": "Unit 101, 4600 No. 3 Road, Richmond, BC V6X 2C2",
+      "phone": "+1 604-279-0083",
+      "website": "https://cheftonycanada.com/en",
+      "coordinates": {
+        "lat": 49.1803784,
+        "lng": -123.1340147
+      },
       "price": "$$$",
-      "bestDaypart": "Dim sum 10:00am–3:00pm",
+      "hours": {
+        "mon": "10:00am–3:00pm, 5:00pm–10:00pm",
+        "tue": "10:00am–3:00pm, 5:00pm–10:00pm",
+        "wed": "10:00am–3:00pm, 5:00pm–10:00pm",
+        "thu": "10:00am–3:00pm, 5:00pm–10:00pm",
+        "fri": "10:00am–3:00pm, 5:00pm–10:00pm",
+        "sat": "10:00am–3:00pm, 5:00pm–10:00pm",
+        "sun": "10:00am–3:00pm, 5:00pm–10:00pm"
+      },
+      "bestDaypart": "Opening at 10:00am for lower-noise dim sum",
+      "parking": "Empire Centre surface lot; allow time at weekend lunch",
+      "groupFit": "Polished room suited to a family group; reserve by phone",
       "status": "hot",
-      "confidence": "medium",
-      "lastVerified": "2026-07-19",
-      "goodToKnow": "In Empire Centre. Modern, higher-end dim sum with specialty items and longstanding awards. Google ~3.9 (1,840).",
+      "confidence": "high",
+      "dishes": [
+        {
+          "name": "Black truffle siu mai",
+          "nameZh": "黑松露燒賣",
+          "note": "emblematic of the modern luxury style"
+        }
+      ],
       "cautions": [
-        "Recurring reports of noise/crowding"
+        "Sunday Google popular-times data peaks from noon to 1:00pm"
       ],
       "sources": [
         {
-          "label": "Official site",
-          "url": "https://cheftonycanada.com/en"
+          "label": "Official Richmond location, contact, and hours",
+          "url": "https://cheftonycanada.com/en",
+          "date": "2026-07-19T00:00:00.000Z"
+        },
+        {
+          "label": "Google Maps live listing and popular times",
+          "url": "https://www.google.com/maps/search/?api=1&query=Chef%20Tony%20Seafood%20Restaurant%20Richmond%20BC",
+          "date": "2026-07-19T00:00:00.000Z"
+        },
+        {
+          "label": "Google Maps Empire Centre centroid",
+          "url": "https://www.google.com/maps/place/Empire+Centre/@49.1803784,-123.1365896,17z/",
+          "date": "2026-07-19T00:00:00.000Z"
         }
       ],
-      "order": 40
+      "order": 40,
+      "notes": "## Evidence and current read\n\nChef Tony remains a current high-end dim-sum room rather than a reputation-only holdover. Its appeal is modern technique and luxury ingredients; the tradeoff is noise and a sharp Sunday noon peak. Reservations are handled by phone, so no unverified booking URL is supplied. Coordinates use the Empire Centre centroid."
     },
     {
       "id": "golden-paramount",
       "name": "Golden Paramount Seafood Restaurant",
       "nameZh": "金百樂海鮮酒家",
       "region": "Cantonese",
-      "format": "Dim sum (technique-focused)",
-      "area": "Golden Village",
+      "format": "Dim sum · technique-focused full-service",
+      "area": "Brighouse",
+      "address": "Unit 100, 8111 Anderson Road, Richmond, BC V6Y 3Z8",
+      "phone": "+1 604-278-0873",
+      "website": "https://www.goldenparamount.com",
       "price": "$$",
-      "bestDaypart": "Dim sum (opening time unconfirmed: 9:00 or 10:30)",
+      "hours": {
+        "mon": "10:30am–3:00pm, 5:00pm–9:00pm",
+        "tue": "Closed",
+        "wed": "10:30am–3:00pm, 5:00pm–9:00pm",
+        "thu": "10:30am–3:00pm, 5:00pm–9:00pm",
+        "fri": "10:30am–3:00pm, 5:00pm–9:00pm",
+        "sat": "10:30am–3:00pm, 5:00pm–9:00pm",
+        "sun": "10:30am–3:00pm, 5:00pm–9:00pm"
+      },
+      "bestDaypart": "10:30am opening for dim sum",
+      "parking": "Small shared lot; arrive at opening",
+      "groupFit": "Smaller room; phone reservation is prudent",
       "status": "watch",
-      "confidence": "low",
-      "lastVerified": "2026-07-19",
-      "goodToKnow": "Standalone, smaller technique-focused room with a concise menu and strong reputation among Chinese Restaurant Awards judges.",
+      "confidence": "medium",
+      "dishes": [
+        {
+          "name": "Steamed rice rolls",
+          "nameZh": "腸粉",
+          "note": "wrapper technique is the reason to compare this room"
+        }
+      ],
       "cautions": [
-        "Conflicting posted hours — verify by phone",
-        "Small room may mean waits"
+        "The official page still labels these as COVID-era hours, while directories sometimes show a 10:00pm dinner close; call to confirm"
       ],
       "sources": [
         {
-          "label": "Official site",
-          "url": "https://www.goldenparamount.com/"
+          "label": "Official menu, address, phone, and posted hours",
+          "url": "https://www.goldenparamount.com/menu",
+          "date": "2026-07-19T00:00:00.000Z"
         }
       ],
-      "order": 50
+      "order": 50,
+      "notes": "## Evidence and current read\n\nGolden Paramount's case is technique and a concise dim-sum menu, not scale or novelty. Its operating data is unusually messy: the official site still calls the schedule “COVID hours,” and third-party listings disagree on dinner close. That disagreement is why status stays **watch** despite the cooking reputation."
     },
     {
       "id": "jade-seafood",
@@ -225,206 +339,709 @@
       "nameZh": "玉庭軒",
       "region": "Cantonese",
       "format": "Dim sum · full-service",
-      "area": "Golden Village",
+      "area": "Capstan",
+      "address": "Unit 280, 2811 No. 3 Road, Richmond, BC V6X 2B2",
+      "phone": "+1 604-249-0082",
+      "website": "https://www.jaderestaurant.ca",
       "price": "$$",
-      "bestDaypart": "10:00am–3:00pm & 5:00–9:00pm daily",
+      "hours": {
+        "mon": "10:00am–3:00pm, 5:00pm–9:00pm",
+        "tue": "10:00am–3:00pm, 5:00pm–9:00pm",
+        "wed": "10:00am–3:00pm, 5:00pm–9:00pm",
+        "thu": "10:00am–3:00pm, 5:00pm–9:00pm",
+        "fri": "10:00am–3:00pm, 5:00pm–9:00pm",
+        "sat": "10:00am–3:00pm, 5:00pm–9:00pm",
+        "sun": "10:00am–3:00pm, 5:00pm–9:00pm"
+      },
+      "bestDaypart": "Before 11:00am for quieter dim sum and the advertised early discount",
+      "parking": "On-site lot; also near Capstan Station",
+      "groupFit": "Comfortable full-service room; phone reservations",
       "status": "rising",
-      "confidence": "low",
-      "lastVerified": "2026-07-19",
-      "goodToKnow": "Standalone. Tourism Richmond currently advertises 20% off before 11:00am — a possible alignment of value, freshness, and lower crowds.",
+      "confidence": "high",
+      "dishes": [
+        {
+          "name": "Steamed dim sum",
+          "nameZh": "蒸點",
+          "note": "order early for the freshest first rounds"
+        }
+      ],
       "cautions": [
-        "Confirm early seating is fully operational"
+        "Confirm the Tourism Richmond early-bird promotion when booking"
       ],
       "sources": [
         {
-          "label": "Official hours",
-          "url": "https://www.jaderestaurant.ca/en/contact"
+          "label": "Official address, phone, and daily hours",
+          "url": "https://www.jaderestaurant.ca/en/contact",
+          "date": "2026-07-19T00:00:00.000Z"
         },
         {
-          "label": "Early-bird listing",
-          "url": "https://www.visitrichmondbc.com/stakeholders/jade-seafood-restaurant-2/"
+          "label": "Tourism Richmond early-bird listing",
+          "url": "https://www.visitrichmondbc.com/stakeholders/jade-seafood-restaurant-2/",
+          "date": "2026-07-19T00:00:00.000Z"
         }
       ],
-      "order": 60
+      "order": 60,
+      "notes": "## Evidence and current read\n\nJade is a useful updated-meta option because the 10:00am room combines a lower-crowd daypart with a Tourism Richmond–advertised early discount. Treat the promotion as a call-ahead fact, not a permanent entitlement."
     },
     {
       "id": "lanxuan",
-      "name": "Lanxuan",
+      "name": "Lanxuan Restaurant",
+      "nameZh": "蘭軒",
       "region": "Cantonese",
-      "format": "Dim sum",
-      "area": "Golden Village",
+      "format": "Dim sum · full-service",
+      "area": "Capstan",
+      "address": "Unit 170, 3631 No. 3 Road, Richmond, BC V6X 2B9",
+      "phone": "+1 604-285-8989",
+      "website": "https://lanxuanrestaurant.zomi.menu/",
       "price": "$$",
-      "bestDaypart": "TBD",
+      "hours": {
+        "mon": "10:00am–3:00pm, 5:00pm–10:00pm",
+        "wed": "10:00am–3:00pm, 5:00pm–10:00pm",
+        "thu": "10:00am–3:00pm, 5:00pm–10:00pm",
+        "fri": "10:00am–3:00pm, 5:00pm–10:00pm",
+        "sat": "10:00am–3:00pm, 5:00pm–10:00pm",
+        "sun": "10:00am–3:00pm, 5:00pm–10:00pm"
+      },
+      "bestDaypart": "10:00am dim sum; call before a Tuesday visit",
+      "parking": "Shared plaza parking near Capstan Station",
+      "groupFit": "Full-service family meal; reserve by phone",
       "status": "rising",
-      "confidence": "lead",
-      "lastVerified": "2026-07-19",
-      "goodToKnow": "Chef received a recent Dim Sum Chef of the Year honor — a potential updated-meta pick that could displace a legacy room.",
-      "cautions": [
-        "Dish-level Chinese-language evidence still incomplete"
+      "confidence": "medium",
+      "dishes": [
+        {
+          "name": "Dim sum",
+          "nameZh": "點心",
+          "note": "chef-recognition signal makes this a technique audit target"
+        }
       ],
-      "order": 70
+      "cautions": [
+        "Current directories conflict: Bravo lists Tuesday closed and a 9:00pm close; Wanderlog lists daily service to 10:00pm. Call before relying on Tuesday or the last hour."
+      ],
+      "sources": [
+        {
+          "label": "Zomi current venue page",
+          "url": "https://lanxuanrestaurant.zomi.menu/",
+          "date": "2026-07-19T00:00:00.000Z"
+        },
+        {
+          "label": "Bravo address, phone, and shorter hours",
+          "url": "https://www.bravoup.ca/store/lanxuan-restaurant",
+          "date": "2026-07-19T00:00:00.000Z"
+        },
+        {
+          "label": "Wanderlog directory hours",
+          "url": "https://wanderlog.com/place/details/10631664",
+          "date": "2026-07-19T00:00:00.000Z"
+        }
+      ],
+      "order": 70,
+      "notes": "## Evidence and current read\n\nLanxuan is retained as a **rising** dim-sum audit rather than promoted to a settled recommendation. The chef-recognition signal is meaningful, but its web footprint is thin and current directories disagree materially on Tuesday and closing time; the blanks record that uncertainty instead of fabricating a schedule."
     },
     {
       "id": "yue",
-      "name": "Yue",
+      "name": "Yue Restaurant",
+      "nameZh": "鮑粵軒",
       "region": "Cantonese",
-      "format": "Dim sum",
-      "area": "Golden Village",
+      "format": "Dim sum · seafood full-service",
+      "hub": "alexandra",
+      "area": "Alexandra Road",
+      "address": "Unit 110, 8351 Alexandra Road, Richmond, BC V6X 3P3",
+      "phone": "+1 604-233-1219",
       "price": "$$",
-      "bestDaypart": "TBD",
+      "hours": {
+        "mon": "10:30am–3:00pm, 5:00pm–9:30pm",
+        "tue": "10:30am–3:00pm, 5:00pm–9:30pm",
+        "wed": "10:30am–3:00pm, 5:00pm–9:30pm",
+        "thu": "10:30am–3:00pm, 5:00pm–9:30pm",
+        "fri": "10:30am–3:00pm, 5:00pm–9:30pm",
+        "sat": "10:00am–3:00pm, 5:00pm–9:30pm",
+        "sun": "10:00am–3:00pm, 5:00pm–9:30pm"
+      },
+      "bestDaypart": "Weekend opening at 10:00am; weekday dim sum at 10:30am",
+      "parking": "Shared Alexandra Road plaza parking",
+      "groupFit": "Full-service room for a family group; reserve by phone",
       "status": "rising",
-      "confidence": "lead",
-      "lastVerified": "2026-07-19",
-      "goodToKnow": "Repeatedly named by experienced local diners as a current favorite.",
-      "cautions": [
-        "Official info + dish evidence still incomplete"
+      "confidence": "medium",
+      "dishes": [
+        {
+          "name": "Dim sum",
+          "nameZh": "點心",
+          "note": "repeated experienced-local recommendation is the signal to audit"
+        }
       ],
-      "order": 80
+      "cautions": [
+        "No maintained official website located; phone before a special trip"
+      ],
+      "sources": [
+        {
+          "label": "Restaurantji current address, phone, and weekly service periods",
+          "url": "https://www.restaurantji.com/bc/richmond/yue-restaurant-/",
+          "date": "2026-07-19T00:00:00.000Z"
+        },
+        {
+          "label": "Apple Maps corroborating current listing",
+          "url": "https://maps.apple.com/place?place-id=I26AA08EE0EF5F077",
+          "date": "2026-07-19T00:00:00.000Z"
+        }
+      ],
+      "order": 80,
+      "notes": "## Evidence and current read\n\nYue is an evidence-led **rising** pick: experienced local diners name it as a current favorite, while its weak official web footprint prevents a high-confidence operational designation. The Chinese name 鮑粵軒 is used on current listings; phone before relying on the schedule."
     },
     {
       "id": "cha-don",
       "name": "Cha Don",
+      "nameZh": "茶檔",
       "region": "Hong Kong",
       "format": "HK café / fast food",
       "hub": "empire",
       "area": "Golden Village",
+      "address": "Unit 1175, 4540 No. 3 Road, Richmond, BC V6X 4E4",
+      "website": "https://www.ubereats.com/ca/store/cha-don-%E8%8C%B6%E6%AA%94-empire-center/3vAhHY_wWImopxlrpGznEg",
+      "coordinates": {
+        "lat": 49.1803784,
+        "lng": -123.1340147
+      },
       "price": "$",
-      "bestDaypart": "HK breakfast; closes ~6:00pm",
+      "hours": {
+        "mon": "9:00am–4:30pm",
+        "tue": "9:00am–4:30pm",
+        "wed": "9:00am–4:30pm",
+        "thu": "9:00am–4:30pm",
+        "fri": "9:00am–4:30pm",
+        "sat": "9:00am–5:00pm",
+        "sun": "9:00am–5:00pm"
+      },
+      "bestDaypart": "HK breakfast before 9:30am; lunch service begins 11:30am",
+      "parking": "Empire Centre surface lot; peak meal periods are difficult",
+      "groupFit": "Counter-service food-court meal; easiest for a small group",
       "status": "hot",
       "confidence": "medium",
-      "lastVerified": "2026-07-19",
-      "goodToKnow": "Empire Centre stall. Named a Hong Kong breakfast destination; weekday and especially weekend morning crowds reported. Google ~4.0 (250).",
+      "dishes": [
+        {
+          "name": "Hong Kong breakfast set",
+          "nameZh": "港式早餐",
+          "note": "the current morning draw"
+        }
+      ],
       "cautions": [
-        "Lines by 9:30–10:30am",
-        "Closes early (~6pm)"
+        "Weekend breakfast lines build around 9:30–10:30am",
+        "Delivery-platform hours can lag temporary closures; verify day-of"
       ],
       "sources": [
         {
-          "label": "Eat Streets report (Mar 2026)",
-          "url": "https://ca.news.yahoo.com/eat-streets-comfort-food-served-130024190.html"
+          "label": "Uber Eats current listing, address, and service windows",
+          "url": "https://www.ubereats.com/ca/store/cha-don-%E8%8C%B6%E6%AA%94-empire-center/3vAhHY_wWImopxlrpGznEg",
+          "date": "2026-07-19T00:00:00.000Z"
+        },
+        {
+          "label": "Eat Streets breakfast and crowd report",
+          "url": "https://ca.news.yahoo.com/eat-streets-comfort-food-served-130024190.html",
+          "date": "2026-07-19T00:00:00.000Z"
+        },
+        {
+          "label": "Google Maps Empire Centre centroid",
+          "url": "https://www.google.com/maps/place/Empire+Centre/@49.1803784,-123.1365896,17z/",
+          "date": "2026-07-19T00:00:00.000Z"
         }
       ],
-      "order": 90
+      "order": 90,
+      "notes": "## Evidence and current read\n\nThe March 2026 *Eat Streets* report names Cha Don as an active Hong Kong-breakfast destination and describes lines rather than an empty legacy court. Uber Eats supplies current unit-level address and service windows; the coordinates are the Empire Centre centroid, not the stall door."
     },
     {
       "id": "one-cafe",
       "name": "One Cafe",
+      "nameZh": "正斗茶記",
       "region": "Hong Kong",
       "format": "HK café / fast food",
       "hub": "empire",
       "area": "Golden Village",
+      "address": "Unit 1150, 4540 No. 3 Road, Richmond, BC V6X 4E4",
+      "phone": "+1 604-284-2866",
+      "website": "https://onecafe.richmondpos.com/empire.html",
+      "coordinates": {
+        "lat": 49.1803784,
+        "lng": -123.1340147
+      },
       "price": "$",
-      "bestDaypart": "Breakfast/lunch; closes ~7:00pm",
+      "hours": {
+        "mon": "9:00am–7:00pm",
+        "tue": "9:00am–7:00pm",
+        "wed": "9:00am–7:00pm",
+        "thu": "9:00am–7:00pm",
+        "fri": "9:00am–7:00pm",
+        "sat": "9:00am–7:00pm",
+        "sun": "9:00am–7:00pm"
+      },
+      "kitchenCutoff": "6:45pm last order",
+      "bestDaypart": "Breakfast or an early lunch",
+      "parking": "Empire Centre surface lot",
+      "groupFit": "Counter-service food-court meal",
       "status": "staple",
-      "confidence": "medium",
-      "lastVerified": "2026-07-19",
-      "goodToKnow": "Empire Centre stall. Hong Kong-style fast food; draws morning crowds. Google ~4.4 (298).",
+      "confidence": "high",
+      "dishes": [
+        {
+          "name": "Hong Kong breakfast",
+          "nameZh": "港式早餐",
+          "note": "established morning draw"
+        }
+      ],
       "cautions": [
-        "Closes ~7pm"
+        "Last order is 15 minutes before the posted close"
       ],
       "sources": [
         {
+          "label": "Official ordering page, address, phone, daily hours, and last order",
+          "url": "https://onecafe.richmondpos.com/empire.html",
+          "date": "2026-07-19T00:00:00.000Z"
+        },
+        {
           "label": "Tourism Richmond Empire guide",
-          "url": "https://www.visitrichmondbc.com/blogs/food-drink/strip-malls-empire-centre/"
+          "url": "https://www.visitrichmondbc.com/blogs/food-drink/strip-malls-empire-centre/",
+          "date": "2026-07-19T00:00:00.000Z"
+        },
+        {
+          "label": "Google Maps Empire Centre centroid",
+          "url": "https://www.google.com/maps/place/Empire+Centre/@49.1803784,-123.1365896,17z/",
+          "date": "2026-07-19T00:00:00.000Z"
         }
       ],
-      "order": 100
+      "order": 100,
+      "notes": "## Evidence and current read\n\nOne Cafe is a morning institution, not a dinner recommendation. Its own ordering page supplies the operational facts and a useful 6:45pm last-order cutoff. Coordinates use the Empire Centre centroid."
     },
     {
       "id": "cloud-9",
       "name": "Cloud 9 Delicacy",
-      "region": "Taiwanese",
+      "nameZh": "雲頂閩南美食",
+      "region": "Minnan / Taiwanese",
       "format": "Food-court stall",
       "hub": "empire",
       "area": "Golden Village",
+      "address": "Unit 1370, 4540 No. 3 Road, Richmond, BC V6X 4E4",
+      "phone": "+1 778-861-7129",
+      "website": "https://www.fantuanorder.com/dianping/zh-CN/store/Restaurant-5640924504-ca",
+      "coordinates": {
+        "lat": 49.1803784,
+        "lng": -123.1340147
+      },
       "price": "$",
-      "bestDaypart": "Lunch",
+      "hours": {
+        "mon": "11:00am–7:00pm",
+        "tue": "Closed",
+        "wed": "11:00am–7:00pm",
+        "thu": "11:00am–7:00pm",
+        "fri": "11:00am–7:00pm",
+        "sat": "11:00am–7:00pm",
+        "sun": "11:00am–7:00pm"
+      },
+      "bestDaypart": "Lunch; arrive before the food court's noon peak",
+      "parking": "Empire Centre surface lot",
+      "groupFit": "Fast counter meal; large-value rice plates split well",
       "status": "rising",
-      "confidence": "low",
-      "lastVerified": "2026-07-19",
-      "goodToKnow": "Empire Centre stall. Taiwanese-style sets; unusually high Google ~4.7 (421) worth verifying against dish-level reports.",
-      "order": 110
+      "confidence": "high",
+      "dishes": [
+        {
+          "name": "Salt-and-pepper chicken rice",
+          "nameZh": "鹽酥雞飯",
+          "note": "recurring Fantuan recommendation"
+        },
+        {
+          "name": "Pork-chop rice",
+          "nameZh": "豬排飯",
+          "note": "Taiwanese-style value plate"
+        }
+      ],
+      "cautions": [
+        "Fantuan currently shows an earlier 6:30pm close on one weekday; do not depend on the last half-hour"
+      ],
+      "sources": [
+        {
+          "label": "Fantuan Chinese reviews, unit address, current dish signals",
+          "url": "https://www.fantuanorder.com/dianping/zh-CN/store/Restaurant-5640924504-ca",
+          "date": "2026-07-19T00:00:00.000Z"
+        },
+        {
+          "label": "Current directory phone and weekly hours",
+          "url": "https://wanderlog.com/place/details/5721034/cloud-9-delicacy",
+          "date": "2026-07-19T00:00:00.000Z"
+        },
+        {
+          "label": "Google Maps Empire Centre centroid",
+          "url": "https://www.google.com/maps/place/Empire+Centre/@49.1803784,-123.1365896,17z/",
+          "date": "2026-07-19T00:00:00.000Z"
+        }
+      ],
+      "order": 110,
+      "notes": "## Evidence and current read\n\nFantuan identifies the stall more specifically as 閩南美食, so the old “Taiwanese only” label was too narrow. The strongest transactional signal is inexpensive Taiwanese/Minnan rice plates rather than novelty. Fantuan's taste score is much stronger than its environment score, exactly the kind of food-court split this guide should preserve. Coordinates use the Empire Centre centroid."
     },
     {
       "id": "double-double",
       "name": "Double Double Restaurant",
-      "region": "Hong Kong",
-      "format": "Full-service (inexpensive)",
+      "nameZh": "加加旺餐廳",
+      "region": "Hong Kong / Cantonese",
+      "format": "Congee · noodle · full-service",
       "hub": "empire",
       "area": "Golden Village",
+      "address": "Unit 128, 4600 No. 3 Road, Richmond, BC V6X 2C2",
+      "phone": "+1 604-370-3345",
+      "website": "https://www.doubledoublerestaurant.ca",
+      "coordinates": {
+        "lat": 49.1803784,
+        "lng": -123.1340147
+      },
       "price": "$",
-      "bestDaypart": "Open to ~9:00pm",
+      "hours": {
+        "mon": "10:30am–9:00pm",
+        "tue": "Closed",
+        "wed": "10:30am–9:00pm",
+        "thu": "10:30am–9:00pm",
+        "fri": "10:30am–9:00pm",
+        "sat": "10:30am–9:00pm",
+        "sun": "10:30am–9:00pm"
+      },
+      "bestDaypart": "Off-peak lunch or early dinner",
+      "parking": "Empire Centre surface lot",
+      "groupFit": "Casual family room; call for larger parties",
       "status": "staple",
-      "confidence": "low",
-      "lastVerified": "2026-07-19",
-      "goodToKnow": "Empire Centre. Long-running inexpensive HK-style restaurant. Google 3.6 with 1,580 reviews — read as a busy volume institution, not a weak spot.",
-      "order": 120
+      "confidence": "high",
+      "dishes": [
+        {
+          "name": "Congee",
+          "nameZh": "粥",
+          "note": "recurring local use-case, not a trend dish"
+        }
+      ],
+      "cautions": [
+        "Some third-party directories still show a 10:00pm close; official site says 9:00pm"
+      ],
+      "sources": [
+        {
+          "label": "Official location, phone, and weekly hours",
+          "url": "https://www.doubledoublerestaurant.ca/contact-us",
+          "date": "2026-07-19T00:00:00.000Z"
+        },
+        {
+          "label": "Google Maps Empire Centre centroid",
+          "url": "https://www.google.com/maps/place/Empire+Centre/@49.1803784,-123.1365896,17z/",
+          "date": "2026-07-19T00:00:00.000Z"
+        }
+      ],
+      "order": 120,
+      "notes": "## Evidence and current read\n\nDouble Double is a long-running volume restaurant whose low aggregate score is a poor proxy for its role: inexpensive congee, noodles, and Cantonese comfort food. For operations, the official site overrides directory listings that still claim a later close. Coordinates use the Empire Centre centroid."
     },
     {
       "id": "sanbo",
       "name": "Sanbo Chinese Restaurant",
       "nameZh": "誼園茶餐廳",
-      "region": "Cantonese",
-      "format": "HK café / full-service",
+      "region": "Cantonese / Hong Kong",
+      "format": "HK café · full-service",
       "hub": "empire",
       "area": "Golden Village",
+      "address": "Unit 121, 4600 No. 3 Road, Richmond, BC V6X 2C2",
+      "phone": "+1 604-278-2616",
+      "coordinates": {
+        "lat": 49.1803784,
+        "lng": -123.1340147
+      },
       "price": "$",
-      "bestDaypart": "Lunch/dinner",
+      "hours": {
+        "mon": "11:00am–10:00pm",
+        "tue": "Closed",
+        "wed": "11:00am–10:00pm",
+        "thu": "11:00am–10:00pm",
+        "fri": "11:00am–10:00pm",
+        "sat": "11:00am–10:00pm",
+        "sun": "11:00am–10:00pm"
+      },
+      "bestDaypart": "Off-peak lunch or casual dinner",
+      "parking": "Empire Centre surface lot",
+      "groupFit": "Casual family meal",
       "status": "staple",
-      "confidence": "low",
-      "lastVerified": "2026-07-19",
-      "goodToKnow": "Empire Centre. Cantonese cha-chaan-teng style. Google ~4.0 (555).",
-      "order": 130
+      "confidence": "medium",
+      "dishes": [
+        {
+          "name": "Hong Kong café comfort dishes",
+          "nameZh": "茶餐廳小菜",
+          "note": "breadth and price are the use-case"
+        }
+      ],
+      "cautions": [
+        "Restaurantji intermittently shows a 4:00pm weekday opening; Allbiz shows 11:00am. Call before a weekday lunch."
+      ],
+      "sources": [
+        {
+          "label": "Allbiz address, phone, and weekly hours",
+          "url": "https://www.allbiz.ca/sanbo-chinese-restaurant-604-278-2616",
+          "date": "2026-07-19T00:00:00.000Z"
+        },
+        {
+          "label": "Restaurantji current listing and conflicting weekday hours",
+          "url": "https://www.restaurantji.com/bc/richmond/sanbo-chinese-restaurant-/",
+          "date": "2026-07-19T00:00:00.000Z"
+        },
+        {
+          "label": "Google Maps Empire Centre centroid",
+          "url": "https://www.google.com/maps/place/Empire+Centre/@49.1803784,-123.1365896,17z/",
+          "date": "2026-07-19T00:00:00.000Z"
+        }
+      ],
+      "order": 130,
+      "notes": "## Evidence and current read\n\nSanbo is a neighborhood-style cha chaan teng whose aggregate score should be read in context. Because current directories disagree on weekday lunch service and there is no maintained official site, confidence remains medium. Coordinates use the Empire Centre centroid."
     },
     {
       "id": "loon-fong-hotpot",
       "name": "Loon Fong Hotpot",
-      "region": "Hot pot",
-      "format": "Hot pot (late-night)",
+      "nameZh": "龍鳳打邊爐",
+      "region": "Cantonese hot pot",
+      "format": "Hot pot · late-night",
       "hub": "empire",
       "area": "Golden Village",
+      "address": "Unit 1200, 4540 No. 3 Road, Richmond, BC V6X 4E4",
+      "phone": "+1 778-297-7881",
+      "website": "https://loonfong.ca/vancouver/",
+      "coordinates": {
+        "lat": 49.1803784,
+        "lng": -123.1340147
+      },
       "price": "$$",
-      "bestDaypart": "Dinner / late-night",
+      "hours": {
+        "mon": "11:30am–12:00am",
+        "tue": "11:30am–12:00am",
+        "wed": "11:30am–12:00am",
+        "thu": "11:30am–12:00am",
+        "fri": "11:30am–12:00am",
+        "sat": "11:30am–12:00am",
+        "sun": "11:30am–12:00am"
+      },
+      "bestDaypart": "Dinner after the food court has wound down",
+      "parking": "Empire Centre surface lot; easier after the daytime food-court peak",
+      "groupFit": "Hot pot works best for a group; call to reserve",
       "status": "watch",
-      "confidence": "low",
-      "lastVerified": "2026-07-19",
-      "goodToKnow": "Empire Centre. Late-night hours. Google 4.9 with 1,543 reviews — an unusually high score worth auditing for review-acquisition patterns.",
-      "cautions": [
-        "Suspiciously high rating — verify"
+      "confidence": "high",
+      "dishes": [
+        {
+          "name": "Cantonese hot pot",
+          "nameZh": "打邊爐",
+          "note": "a late-day use of Empire after the stalls close"
+        }
       ],
-      "order": 140
+      "cautions": [
+        "The very high aggregate Google rating is not used as an authenticity signal"
+      ],
+      "sources": [
+        {
+          "label": "Official Richmond address, phone, and daily hours",
+          "url": "https://loonfong.ca/vancouver/",
+          "date": "2026-07-19T00:00:00.000Z"
+        },
+        {
+          "label": "Google Maps Empire Centre centroid",
+          "url": "https://www.google.com/maps/place/Empire+Centre/@49.1803784,-123.1365896,17z/",
+          "date": "2026-07-19T00:00:00.000Z"
+        }
+      ],
+      "order": 140,
+      "notes": "## Evidence and current read\n\nLoon Fong earns a place for daypart coverage: it keeps Empire useful after most food-court stalls have closed. The official page explicitly says there is no online reservation system and asks diners to call. Its rating is recorded neither as proof nor as a disqualifier; current dish-level evidence remains the next audit."
     },
     {
       "id": "meeting-in-changan",
       "name": "Meeting in Chang'an",
-      "nameZh": "西安肉夹馍",
+      "nameZh": "相逢長安・西安肉夾饃",
       "region": "Shaanxi / Xi'an",
       "format": "Food-court stall",
       "hub": "empire",
       "area": "Golden Village",
+      "address": "Empire Centre Food Court, 4540 No. 3 Road, Richmond, BC V6X 4E4",
+      "coordinates": {
+        "lat": 49.1803784,
+        "lng": -123.1340147
+      },
       "price": "$",
-      "bestDaypart": "TBD",
+      "bestDaypart": "Verify the physical stall before making a special trip",
+      "parking": "Empire Centre surface lot",
+      "groupFit": "Counter-service snack or light meal",
       "status": "new-lead",
       "confidence": "lead",
-      "lastVerified": "2026-07-19",
       "dishes": [
         {
           "name": "Roujiamo",
-          "nameZh": "肉夹馍",
-          "note": "Xi'an 'Chinese hamburger'"
+          "nameZh": "肉夾饃",
+          "note": "namesake Xi'an flatbread sandwich"
+        },
+        {
+          "name": "Lamb paomo",
+          "nameZh": "羊肉泡饃",
+          "note": "announced pre-opening menu item"
         }
       ],
-      "goodToKnow": "A Xi'an roujiamo stall reported (May 2026) being built in a converted Empire Centre unit, per the owner's RED post. Represents non-Cantonese, migration-driven range.",
       "cautions": [
-        "Opening not verified — was awaiting inspection"
+        "A current Fantuan dish listing suggests ordering activity, but unit number, phone, and public hours remain unverified"
       ],
       "sources": [
         {
-          "label": "Noms report (May 2026)",
-          "url": "https://nomsmagazine.com/new-meeting-in-changan-empire-centre/"
+          "label": "May 2026 buildout report and owner's RedNote account summary",
+          "url": "https://nomsmagazine.com/new-meeting-in-changan-empire-centre/",
+          "date": "2026-07-19T00:00:00.000Z"
+        },
+        {
+          "label": "Fantuan current liangpi dish directory showing Meeting in Chang'an",
+          "url": "https://www.fantuanorder.com/dish/ca/bc/vancouver/liangpi",
+          "date": "2026-07-19T00:00:00.000Z"
+        },
+        {
+          "label": "Google Maps Empire Centre centroid",
+          "url": "https://www.google.com/maps/place/Empire+Centre/@49.1803784,-123.1365896,17z/",
+          "date": "2026-07-19T00:00:00.000Z"
         }
       ],
-      "order": 150
+      "order": 150,
+      "notes": "## Evidence and current read\n\nNoms documented the stall at 90% buildout on May 19, based partly on the Xi'an-born owner's RedNote post. Fantuan now surfaces the business for liangpi and hot-and-sour noodles, which is evidence of commercial activity but not enough to assert a verified walk-in schedule. This is intentionally a **lead**, not a recommendation. Coordinates use the Empire Centre centroid."
+    },
+    {
+      "id": "hk-bbq-master",
+      "name": "HK BBQ Master",
+      "nameZh": "明家燒臘",
+      "region": "Cantonese / Hong Kong",
+      "format": "Siu mei · counter-service restaurant",
+      "area": "Golden Village",
+      "address": "4651 No. 3 Road, Richmond, BC V6X 2C4",
+      "phone": "+1 604-272-6568",
+      "website": "https://zh.chineserestaurantawards.com/list/2025/elite-30-canada/hk-bbq-master/",
+      "coordinates": {
+        "lat": 49.1797372,
+        "lng": -123.1378385
+      },
+      "price": "$",
+      "hours": {
+        "mon": "11:00am–8:00pm",
+        "tue": "11:00am–8:00pm",
+        "wed": "11:00am–8:00pm",
+        "thu": "11:00am–8:00pm",
+        "fri": "11:00am–8:00pm",
+        "sat": "11:00am–8:00pm",
+        "sun": "11:00am–8:00pm"
+      },
+      "kitchenCutoff": "Popular meats can sell out before close",
+      "bestDaypart": "11:00am opening or mid-afternoon outside the weekend peak",
+      "parking": "Under Real Canadian Superstore; the small dining area can queue",
+      "groupFit": "Counter meal or takeaway; awkward for a large group",
+      "status": "staple",
+      "confidence": "high",
+      "dishes": [
+        {
+          "name": "Crispy roast pork",
+          "nameZh": "燒肉",
+          "note": "Chinese Restaurant Awards recommendation"
+        },
+        {
+          "name": "Char siu",
+          "nameZh": "叉燒",
+          "note": "made without bright-red food colouring, per the award profile"
+        }
+      ],
+      "cautions": [
+        "Current local opinion is divided: still a benchmark, but some 2026 diners call it reputation-led",
+        "By roughly 7:30pm the room may still be full while popular meats are sold out"
+      ],
+      "sources": [
+        {
+          "label": "Chinese Restaurant Awards Chinese profile, address, phone, and specialties",
+          "url": "https://zh.chineserestaurantawards.com/list/2025/elite-30-canada/hk-bbq-master/",
+          "date": "2026-07-19T00:00:00.000Z"
+        },
+        {
+          "label": "Google Maps live hours, price, popular times, and coordinates",
+          "url": "https://www.google.com/maps/place/HK+BBQ+Master/@49.1797372,-123.1378385,17z/",
+          "date": "2026-07-19T00:00:00.000Z"
+        },
+        {
+          "label": "RedNote 2025 Richmond siu-mei comparison",
+          "url": "https://www.rednote.com/search_result/688a97000000000022038390",
+          "date": "2026-07-19T00:00:00.000Z"
+        },
+        {
+          "label": "Richmond locals' June 2026 BBQ-pork discussion",
+          "url": "https://www.reddit.com/r/richmondbc/comments/1trg0tw/best_bbq_pork_on_rice/",
+          "date": "2026-07-19T00:00:00.000Z"
+        }
+      ],
+      "order": 160,
+      "notes": "## Evidence and current read\n\nHK BBQ Master remains a real benchmark, not a tourist fabrication: the Chinese Restaurant Awards profile documents the Leung family succession and names roast pork, soy chicken, roast duck, and char siu. But it is no longer the automatic universal winner. A 2025 Chinese-language comparison calls it competent yet notes sellouts near closing, while a June 2026 Richmond thread includes both loyal endorsements and “resting on laurels” criticism.\n\nThe guide therefore treats it as a **staple** and a comparison point, not the answer to every roast-meat question."
+    },
+    {
+      "id": "parker-place-bbq",
+      "name": "Parker Place Aberdeen Fresh Meat & BBQ",
+      "nameZh": "百家店燒臘肉食",
+      "region": "Cantonese / Hong Kong",
+      "format": "Siu mei · takeaway counter",
+      "hub": "parker",
+      "area": "Golden Village",
+      "address": "Unit 1020, 4380 No. 3 Road, Richmond, BC V6X 3V7",
+      "phone": "+1 604-233-1138",
+      "website": "https://www.fantuanorder.com/dianping/en-US/store/Restaurant-0873165983-ca",
+      "coordinates": {
+        "lat": 49.181619,
+        "lng": -123.136461
+      },
+      "price": "$",
+      "hours": {
+        "mon": "8:30am–5:45pm",
+        "tue": "8:30am–5:45pm",
+        "wed": "8:30am–5:45pm",
+        "thu": "8:30am–5:45pm",
+        "fri": "8:30am–5:45pm",
+        "sat": "8:30am–5:45pm",
+        "sun": "8:30am–5:45pm"
+      },
+      "kitchenCutoff": "Selection narrows late in the day",
+      "bestDaypart": "Before 11:30am or mid-afternoon; avoid the lunch queue",
+      "parking": "Parker Place lot; busy at lunch and holidays",
+      "groupFit": "Takeaway counter; use the food-court seating for a small group",
+      "status": "staple",
+      "confidence": "high",
+      "dishes": [
+        {
+          "name": "Roast pork",
+          "nameZh": "燒肉",
+          "note": "recurring Chinese-language and local recommendation"
+        },
+        {
+          "name": "Roast duck",
+          "nameZh": "燒鴨",
+          "note": "reliable all-round order"
+        },
+        {
+          "name": "Soy chicken",
+          "nameZh": "油雞",
+          "note": "part of the dependable mixed-meat lane"
+        }
+      ],
+      "cautions": [
+        "Queues are normal; the service score is much lower than Fantuan's taste score"
+      ],
+      "sources": [
+        {
+          "label": "Fantuan Chinese reviews, taste/service split, address, and current hours",
+          "url": "https://www.fantuanorder.com/dianping/en-US/store/Restaurant-0873165983-ca",
+          "date": "2026-07-19T00:00:00.000Z"
+        },
+        {
+          "label": "Current phone and full weekly hours",
+          "url": "https://wanderlog.com/place/details/3652147/parker-place-aberdeen-fresh-meat--bbq",
+          "date": "2026-07-19T00:00:00.000Z"
+        },
+        {
+          "label": "RedNote 2025 Richmond siu-mei comparison",
+          "url": "https://www.rednote.com/search_result/688a97000000000022038390",
+          "date": "2026-07-19T00:00:00.000Z"
+        },
+        {
+          "label": "Parker Place coordinates",
+          "url": "https://www.mallsandstores.info/british-columbia/parker-place/130868-tak-fook-noodle-and-congee-shop.html",
+          "date": "2026-07-19T00:00:00.000Z"
+        }
+      ],
+      "order": 170,
+      "notes": "## Evidence and current read\n\nParker Place is the strongest all-round, low-theatre recommendation in the current siu-mei set. A Chinese comparison explicitly prefers it to HK BBQ Master for reliability and an efficient line. Fantuan's 4.2 taste score versus 2.1 environment and 2.1 service is culturally useful: the low comfort/service marks coexist with hundreds of food-driven reviews and are not a reason to discard the counter.\n\nCoordinates are the Parker Place building centroid, not the butcher-counter door."
     }
   ]
 }
