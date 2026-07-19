@@ -1,0 +1,430 @@
+{
+  "meta": {
+    "title": "Richmond BC — the Chinese food meta",
+    "subtitle": "Where the scene actually is, summer 2026",
+    "updated": "2026-07-19",
+    "intro": "A working, evidence-based map of Richmond's Chinese food scene — organized by hub and daypart, not one citywide popularity list. Every entry carries a confidence level and a last-verified date. SEED DATA extracted from research notes; being verified against current Chinese-language sources and official hours."
+  },
+  "hubs": [
+    {
+      "id": "empire",
+      "name": "Empire Centre",
+      "type": "Food court",
+      "area": "Golden Village",
+      "status": "hot",
+      "summary": "Strongly lunch-weighted food court (~97% popular-times at 1–2pm Sun). Key stalls close 6–7pm, so it is a lunch/early-afternoon destination, not a late-night one. Off-peak 3–4pm eases seating but risks sellouts/reduced menus.",
+      "dayparts": {
+        "breakfast": "HK breakfast at Cha Don / One Cafe draws lines by 9:30–10:30",
+        "lunch": "Peak and busiest; best variety",
+        "dinner": "Winding down; most stalls close 6–7pm",
+        "late": "Only Loon Fong Hotpot and a few full-service tenants"
+      },
+      "sources": [
+        {
+          "label": "Tourism Richmond Empire guide",
+          "url": "https://www.visitrichmondbc.com/blogs/food-drink/strip-malls-empire-centre/"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "id": "aberdeen",
+      "name": "Aberdeen Centre",
+      "type": "Mall",
+      "area": "Golden Village",
+      "status": "staple",
+      "summary": "Polished mall dining; strong dim sum on the 3rd floor. Busy at lunch and the early 5:00–6:30pm dinner rush, but can feel deserted near closing.",
+      "dayparts": {
+        "lunch": "Dim sum peak",
+        "dinner": "Early rush 5:00–6:30, quiet after"
+      },
+      "order": 20
+    },
+    {
+      "id": "alexandra",
+      "name": "Alexandra Road (Food Street)",
+      "type": "Food street",
+      "area": "Golden Village",
+      "status": "hot",
+      "summary": "The dinner / group dining / late-night spine. Where local sources point night diners. Strong for regional (non-Cantonese) full-service and communal formats.",
+      "dayparts": {
+        "dinner": "Prime",
+        "late": "Genuinely active"
+      },
+      "order": 30
+    },
+    {
+      "id": "capstan",
+      "name": "Capstan Village",
+      "type": "District",
+      "area": "North Richmond",
+      "status": "rising",
+      "summary": "Newer plazas near the Capstan Canada Line station; repeatedly cited for dinner and late-night. Emerging cluster to verify.",
+      "dayparts": {
+        "dinner": "Strong",
+        "late": "Growing"
+      },
+      "order": 40
+    },
+    {
+      "id": "yaohan",
+      "name": "Yaohan Centre / Richmond Public Market",
+      "type": "Mall",
+      "area": "Golden Village",
+      "status": "fading",
+      "summary": "Yaohan's court has been declining for years; Richmond Public Market is currently a weak general recommendation. Easy to misread — treat as timing-sensitive/legacy.",
+      "order": 50
+    },
+    {
+      "id": "parker",
+      "name": "Parker Place",
+      "type": "Mall",
+      "area": "Golden Village",
+      "status": "staple",
+      "summary": "Known benchmark for BBQ / roast-meat and bakery takeaway.",
+      "dayparts": {
+        "lunch": "Roast meat / takeaway"
+      },
+      "order": 60
+    }
+  ],
+  "restaurants": [
+    {
+      "id": "empire-seafood",
+      "name": "Empire Seafood Restaurant",
+      "nameZh": "帝苑皇宴海鮮酒家",
+      "region": "Cantonese / Hong Kong",
+      "format": "Dim sum · full-service",
+      "area": "Golden Village",
+      "address": "Unit 200, London Plaza, 5951 No. 3 Road, Richmond, BC V6X 2E3",
+      "website": "https://empirerestaurant.ca",
+      "price": "$$",
+      "hours": {
+        "mon": "9:00am–3:00pm, 5:30pm–9:00pm",
+        "tue": "9:00am–3:00pm, 5:30pm–9:00pm",
+        "wed": "9:00am–3:00pm, 5:30pm–9:00pm",
+        "thu": "9:00am–3:00pm, 5:30pm–9:00pm",
+        "fri": "9:00am–3:00pm, 5:30pm–9:00pm",
+        "sat": "9:00am–3:00pm, 5:30pm–9:00pm",
+        "sun": "9:00am–3:00pm, 5:30pm–9:00pm"
+      },
+      "bestDaypart": "Dim sum daily 9:00am–3:00pm",
+      "status": "staple",
+      "confidence": "medium",
+      "lastVerified": "2026-07-19",
+      "goodToKnow": "Standalone room. Online reservations and an early 9am open make it the easiest low-crowd option. May 2026 locals praise the less-cramped room and SkyTrain view.",
+      "sources": [
+        {
+          "label": "Official hours",
+          "url": "https://empirerestaurant.ca/contacts/"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "id": "continental-seafood",
+      "name": "Continental Seafood Restaurant",
+      "region": "Cantonese",
+      "format": "Dim sum (push-cart)",
+      "area": "Golden Village",
+      "price": "$$",
+      "bestDaypart": "Dim sum 10:00am–3:00pm",
+      "status": "staple",
+      "confidence": "medium",
+      "lastVerified": "2026-07-19",
+      "goodToKnow": "Standalone room — Richmond's only remaining push-cart dim sum. The most distinctive experience. A 10am reservation may get carts before the peak crush.",
+      "cautions": [
+        "Packed entrance on weekends",
+        "Difficult parking"
+      ],
+      "sources": [
+        {
+          "label": "Official menu/hours",
+          "url": "https://www.continentalrestaurant.ca/menu/"
+        }
+      ],
+      "order": 20
+    },
+    {
+      "id": "fishermans-terrace",
+      "name": "Fisherman's Terrace Seafood Restaurant",
+      "nameZh": "釣魚台海鮮酒家",
+      "region": "Cantonese",
+      "format": "Dim sum · full-service",
+      "hub": "aberdeen",
+      "area": "Golden Village",
+      "price": "$$",
+      "bestDaypart": "Dim sum 10:00am–3:00pm daily",
+      "status": "staple",
+      "confidence": "medium",
+      "lastVerified": "2026-07-19",
+      "goodToKnow": "Aberdeen Centre, 3rd floor. Long-running polished Cantonese benchmark with repeated 2026 recommendations.",
+      "cautions": [
+        "First seating can be noisy"
+      ],
+      "sources": [
+        {
+          "label": "Official site",
+          "url": "https://www.fishermansterrace.com/"
+        }
+      ],
+      "order": 30
+    },
+    {
+      "id": "chef-tony",
+      "name": "Chef Tony Seafood Restaurant",
+      "region": "Cantonese",
+      "format": "Dim sum · full-service",
+      "hub": "empire",
+      "area": "Golden Village",
+      "price": "$$$",
+      "bestDaypart": "Dim sum 10:00am–3:00pm",
+      "status": "hot",
+      "confidence": "medium",
+      "lastVerified": "2026-07-19",
+      "goodToKnow": "In Empire Centre. Modern, higher-end dim sum with specialty items and longstanding awards. Google ~3.9 (1,840).",
+      "cautions": [
+        "Recurring reports of noise/crowding"
+      ],
+      "sources": [
+        {
+          "label": "Official site",
+          "url": "https://cheftonycanada.com/en"
+        }
+      ],
+      "order": 40
+    },
+    {
+      "id": "golden-paramount",
+      "name": "Golden Paramount Seafood Restaurant",
+      "nameZh": "金百樂海鮮酒家",
+      "region": "Cantonese",
+      "format": "Dim sum (technique-focused)",
+      "area": "Golden Village",
+      "price": "$$",
+      "bestDaypart": "Dim sum (opening time unconfirmed: 9:00 or 10:30)",
+      "status": "watch",
+      "confidence": "low",
+      "lastVerified": "2026-07-19",
+      "goodToKnow": "Standalone, smaller technique-focused room with a concise menu and strong reputation among Chinese Restaurant Awards judges.",
+      "cautions": [
+        "Conflicting posted hours — verify by phone",
+        "Small room may mean waits"
+      ],
+      "sources": [
+        {
+          "label": "Official site",
+          "url": "https://www.goldenparamount.com/"
+        }
+      ],
+      "order": 50
+    },
+    {
+      "id": "jade-seafood",
+      "name": "Jade Seafood Restaurant",
+      "nameZh": "玉庭軒",
+      "region": "Cantonese",
+      "format": "Dim sum · full-service",
+      "area": "Golden Village",
+      "price": "$$",
+      "bestDaypart": "10:00am–3:00pm & 5:00–9:00pm daily",
+      "status": "rising",
+      "confidence": "low",
+      "lastVerified": "2026-07-19",
+      "goodToKnow": "Standalone. Tourism Richmond currently advertises 20% off before 11:00am — a possible alignment of value, freshness, and lower crowds.",
+      "cautions": [
+        "Confirm early seating is fully operational"
+      ],
+      "sources": [
+        {
+          "label": "Official hours",
+          "url": "https://www.jaderestaurant.ca/en/contact"
+        },
+        {
+          "label": "Early-bird listing",
+          "url": "https://www.visitrichmondbc.com/stakeholders/jade-seafood-restaurant-2/"
+        }
+      ],
+      "order": 60
+    },
+    {
+      "id": "lanxuan",
+      "name": "Lanxuan",
+      "region": "Cantonese",
+      "format": "Dim sum",
+      "area": "Golden Village",
+      "price": "$$",
+      "bestDaypart": "TBD",
+      "status": "rising",
+      "confidence": "lead",
+      "lastVerified": "2026-07-19",
+      "goodToKnow": "Chef received a recent Dim Sum Chef of the Year honor — a potential updated-meta pick that could displace a legacy room.",
+      "cautions": [
+        "Dish-level Chinese-language evidence still incomplete"
+      ],
+      "order": 70
+    },
+    {
+      "id": "yue",
+      "name": "Yue",
+      "region": "Cantonese",
+      "format": "Dim sum",
+      "area": "Golden Village",
+      "price": "$$",
+      "bestDaypart": "TBD",
+      "status": "rising",
+      "confidence": "lead",
+      "lastVerified": "2026-07-19",
+      "goodToKnow": "Repeatedly named by experienced local diners as a current favorite.",
+      "cautions": [
+        "Official info + dish evidence still incomplete"
+      ],
+      "order": 80
+    },
+    {
+      "id": "cha-don",
+      "name": "Cha Don",
+      "region": "Hong Kong",
+      "format": "HK café / fast food",
+      "hub": "empire",
+      "area": "Golden Village",
+      "price": "$",
+      "bestDaypart": "HK breakfast; closes ~6:00pm",
+      "status": "hot",
+      "confidence": "medium",
+      "lastVerified": "2026-07-19",
+      "goodToKnow": "Empire Centre stall. Named a Hong Kong breakfast destination; weekday and especially weekend morning crowds reported. Google ~4.0 (250).",
+      "cautions": [
+        "Lines by 9:30–10:30am",
+        "Closes early (~6pm)"
+      ],
+      "sources": [
+        {
+          "label": "Eat Streets report (Mar 2026)",
+          "url": "https://ca.news.yahoo.com/eat-streets-comfort-food-served-130024190.html"
+        }
+      ],
+      "order": 90
+    },
+    {
+      "id": "one-cafe",
+      "name": "One Cafe",
+      "region": "Hong Kong",
+      "format": "HK café / fast food",
+      "hub": "empire",
+      "area": "Golden Village",
+      "price": "$",
+      "bestDaypart": "Breakfast/lunch; closes ~7:00pm",
+      "status": "staple",
+      "confidence": "medium",
+      "lastVerified": "2026-07-19",
+      "goodToKnow": "Empire Centre stall. Hong Kong-style fast food; draws morning crowds. Google ~4.4 (298).",
+      "cautions": [
+        "Closes ~7pm"
+      ],
+      "sources": [
+        {
+          "label": "Tourism Richmond Empire guide",
+          "url": "https://www.visitrichmondbc.com/blogs/food-drink/strip-malls-empire-centre/"
+        }
+      ],
+      "order": 100
+    },
+    {
+      "id": "cloud-9",
+      "name": "Cloud 9 Delicacy",
+      "region": "Taiwanese",
+      "format": "Food-court stall",
+      "hub": "empire",
+      "area": "Golden Village",
+      "price": "$",
+      "bestDaypart": "Lunch",
+      "status": "rising",
+      "confidence": "low",
+      "lastVerified": "2026-07-19",
+      "goodToKnow": "Empire Centre stall. Taiwanese-style sets; unusually high Google ~4.7 (421) worth verifying against dish-level reports.",
+      "order": 110
+    },
+    {
+      "id": "double-double",
+      "name": "Double Double Restaurant",
+      "region": "Hong Kong",
+      "format": "Full-service (inexpensive)",
+      "hub": "empire",
+      "area": "Golden Village",
+      "price": "$",
+      "bestDaypart": "Open to ~9:00pm",
+      "status": "staple",
+      "confidence": "low",
+      "lastVerified": "2026-07-19",
+      "goodToKnow": "Empire Centre. Long-running inexpensive HK-style restaurant. Google 3.6 with 1,580 reviews — read as a busy volume institution, not a weak spot.",
+      "order": 120
+    },
+    {
+      "id": "sanbo",
+      "name": "Sanbo Chinese Restaurant",
+      "nameZh": "誼園茶餐廳",
+      "region": "Cantonese",
+      "format": "HK café / full-service",
+      "hub": "empire",
+      "area": "Golden Village",
+      "price": "$",
+      "bestDaypart": "Lunch/dinner",
+      "status": "staple",
+      "confidence": "low",
+      "lastVerified": "2026-07-19",
+      "goodToKnow": "Empire Centre. Cantonese cha-chaan-teng style. Google ~4.0 (555).",
+      "order": 130
+    },
+    {
+      "id": "loon-fong-hotpot",
+      "name": "Loon Fong Hotpot",
+      "region": "Hot pot",
+      "format": "Hot pot (late-night)",
+      "hub": "empire",
+      "area": "Golden Village",
+      "price": "$$",
+      "bestDaypart": "Dinner / late-night",
+      "status": "watch",
+      "confidence": "low",
+      "lastVerified": "2026-07-19",
+      "goodToKnow": "Empire Centre. Late-night hours. Google 4.9 with 1,543 reviews — an unusually high score worth auditing for review-acquisition patterns.",
+      "cautions": [
+        "Suspiciously high rating — verify"
+      ],
+      "order": 140
+    },
+    {
+      "id": "meeting-in-changan",
+      "name": "Meeting in Chang'an",
+      "nameZh": "西安肉夹馍",
+      "region": "Shaanxi / Xi'an",
+      "format": "Food-court stall",
+      "hub": "empire",
+      "area": "Golden Village",
+      "price": "$",
+      "bestDaypart": "TBD",
+      "status": "new-lead",
+      "confidence": "lead",
+      "lastVerified": "2026-07-19",
+      "dishes": [
+        {
+          "name": "Roujiamo",
+          "nameZh": "肉夹馍",
+          "note": "Xi'an 'Chinese hamburger'"
+        }
+      ],
+      "goodToKnow": "A Xi'an roujiamo stall reported (May 2026) being built in a converted Empire Centre unit, per the owner's RED post. Represents non-Cantonese, migration-driven range.",
+      "cautions": [
+        "Opening not verified — was awaiting inspection"
+      ],
+      "sources": [
+        {
+          "label": "Noms report (May 2026)",
+          "url": "https://nomsmagazine.com/new-meeting-in-changan-empire-centre/"
+        }
+      ],
+      "order": 150
+    }
+  ]
+}

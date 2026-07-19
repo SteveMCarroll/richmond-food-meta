@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Richmond BC — the Chinese food meta</title>
+    <meta
+      name="description"
+      content="An evidence-based, mobile-friendly guide to where Richmond BC's Chinese food scene actually is — by hub and daypart, with confidence and verification dates."
+    />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A5%A2%3C/text%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="home">
+    <header class="hero">
+      <div class="wrap">
+        <nav class="topnav">
+          <a class="brand" href="index.html">🥢 Richmond food meta</a>
+          <a class="navlink" href="meta.html">The mall meta →</a>
+        </nav>
+        <p class="eyebrow">Richmond, BC · updated <span id="updated"></span></p>
+        <h1 id="title">The Chinese food meta</h1>
+        <p class="subtitle" id="subtitle"></p>
+        <p class="intro" id="intro"></p>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <a class="meta-banner" href="meta.html" id="meta-banner">
+        <div class="meta-banner-text">
+          <p class="eyebrow">Where the scene moved</p>
+          <h2>The mall meta</h2>
+          <p>
+            Richmond's food map is fragmented across food courts, malls, plazas,
+            and food streets — each with its own dayparts and rhythm. See how the
+            hubs stack up and which stalls inside are worth knowing.
+          </p>
+        </div>
+        <span class="meta-banner-cta" id="meta-banner-count">Explore hubs →</span>
+      </a>
+
+      <section id="eat-section">
+        <h2>Eat</h2>
+        <div class="controls">
+          <input
+            type="search"
+            id="search"
+            placeholder="Search name, dish, region…"
+            autocomplete="off"
+          />
+          <div class="filters" id="filters"></div>
+          <p class="result-count" id="count"></p>
+        </div>
+        <div class="card-grid" id="restaurants"></div>
+        <p class="empty" id="empty" hidden>No places match those filters.</p>
+      </section>
+    </main>
+
+    <footer class="wrap">
+      <p class="muted">
+        Seed data extracted from research notes and being verified against current
+        Chinese-language sources and official hours. Every card shows a confidence
+        level and last-verified date.
+      </p>
+      <p class="muted">Static site · hostable on GitHub Pages.</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

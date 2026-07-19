@@ -1,0 +1,8 @@
+# dependencies
+node_modules/
+
+# build tooling caches
+.wrangler/
+.vinext/
+.openai/
+*.log
