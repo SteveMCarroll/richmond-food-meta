@@ -57,15 +57,22 @@ function readDir(sub) {
 // Drop empty placeholder values so the JSON stays lean and the site can test truthiness.
 const isEmpty = (v) => {
   if (v == null || v === '') return true;
+  if (v instanceof Date) return false;
   if (Array.isArray(v)) return v.length === 0;
   if (typeof v === 'object') return Object.values(v).every(isEmpty);
   return false;
+};
+const normalize = (v) => {
+  if (v instanceof Date) return v.toISOString().slice(0, 10);
+  if (Array.isArray(v)) return v.map(normalize);
+  if (v && typeof v === 'object') return prune(v);
+  return v;
 };
 function prune(obj) {
   const out = {};
   for (const [k, v] of Object.entries(obj)) {
     if (isEmpty(v)) continue;
-    out[k] = v && typeof v === 'object' && !Array.isArray(v) ? prune(v) : v;
+    out[k] = normalize(v);
   }
   return out;
 }
@@ -90,8 +97,30 @@ const restaurants = readDir('venues').sort(byOrder).map(prune);
 const hubIds = new Set(hubs.map((h) => h.id));
 for (const r of restaurants) {
   if (r.hub && !hubIds.has(r.hub)) warn(`venue ${r.id}: hub "${r.hub}" not found`);
-  for (const req of ['name', 'region', 'format', 'status', 'confidence']) {
+  for (const req of ['name', 'region', 'format', 'status', 'confidence', 'lastVerified']) {
     if (isEmpty(r[req])) warn(`venue ${r.id}: missing required "${req}"`);
+  }
+}
+const allowedStatus = new Set(['hot', 'rising', 'staple', 'watch', 'fading', 'lead', 'new-lead']);
+const allowedConfidence = new Set(['high', 'medium', 'low', 'lead']);
+for (const r of restaurants) {
+  if (!allowedStatus.has(r.status)) warn(`venue ${r.id}: invalid status "${r.status}"`);
+  if (!allowedConfidence.has(r.confidence)) warn(`venue ${r.id}: invalid confidence "${r.confidence}"`);
+  for (const [i, s] of (r.sources || []).entries()) {
+    for (const req of ['label', 'url', 'date']) {
+      if (isEmpty(s[req])) warn(`venue ${r.id}: source ${i + 1} missing "${req}"`);
+    }
+  }
+}
+for (const h of hubs) {
+  for (const req of ['name', 'type', 'status']) {
+    if (isEmpty(h[req])) warn(`hub ${h.id}: missing required "${req}"`);
+  }
+  if (!allowedStatus.has(h.status)) warn(`hub ${h.id}: invalid status "${h.status}"`);
+  for (const [i, s] of (h.sources || []).entries()) {
+    for (const req of ['label', 'url', 'date']) {
+      if (isEmpty(s[req])) warn(`hub ${h.id}: source ${i + 1} missing "${req}"`);
+    }
   }
 }
 const dupes = restaurants.map((r) => r.id).filter((id, i, a) => a.indexOf(id) !== i);
@@ -105,7 +134,7 @@ console.log(`Compiled ${hubs.length} hubs + ${restaurants.length} venues -> ${pa
 if (problems.length) {
   console.log(`\n${problems.length} warning(s):`);
   for (const p of problems) console.log('  - ' + p);
-  process.exitCode = 0; // warnings don't fail the build
+  process.exitCode = 1;
 } else {
   console.log('No warnings.');
 }

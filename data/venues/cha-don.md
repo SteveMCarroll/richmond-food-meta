@@ -35,6 +35,7 @@ dishes:
 cautions:
   - "Weekend breakfast lines build around 9:30–10:30am"
   - "Delivery-platform hours can lag temporary closures; verify day-of"
+  - "Tourism Richmond's Empire background predates this verification pass; current hours come from the delivery listing"
 sources:
   - label: Uber Eats current listing, address, and service windows
     url: https://www.ubereats.com/ca/store/cha-don-%E8%8C%B6%E6%AA%94-empire-center/3vAhHY_wWImopxlrpGznEg

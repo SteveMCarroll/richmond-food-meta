@@ -1,5 +1,7 @@
 # Richmond dim sum meta — 2026 working note
 
+> **Status:** Historical working note from the first research pass. It is useful as a dim-sum candidate ledger but is not the governing methodology. See `research/METHODOLOGY.md`; current structured facts live in `data/venues/`.
+
 This is a candidate audit, not a final ranking. Updated July 19, 2026.
 
 ## Family fit

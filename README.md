@@ -13,6 +13,8 @@ data/            # SINGLE SOURCE OF TRUTH (hand-edited: markdown + YAML frontmat
   hubs/*.md      #   one file per hub (food court / mall / plaza / food street)
   venues/*.md    #   one file per restaurant or stall
 research/        # exploratory research ledger (not read by the site)
+  METHODOLOGY.md #   canonical research and editorial method
+  REVIEW-BRIEF.md#   cold-review instructions for a separate agent/model
 site/            # the static website (GitHub Pages-ready)
   scripts/compile.mjs   # data/** -> site/content/restaurants.json
   content/restaurants.json  # GENERATED — do not hand-edit
@@ -33,4 +35,12 @@ npm run watch        # auto-recompile on data/ changes
 npm run serve        # preview at http://localhost:8137
 ```
 
-See `data/SCHEMA.md` for the full data contract.
+See `data/SCHEMA.md` for the data contract and `research/METHODOLOGY.md` for
+the canonical source hierarchy, evidence rules, status/confidence calibration,
+recency policy, known biases, and update workflow.
+
+## Independent review
+
+For a genuinely fresh point of view, start a new task with a different model and
+give it `research/REVIEW-BRIEF.md`. The reviewer should inspect the repository
+directly and should not be primed with this task's conversational conclusions.

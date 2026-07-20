@@ -59,3 +59,7 @@ order: 210
 ## Evidence and current read
 
 This is the strongest current Hunan-led signal in the dataset. Fantuan supplies a large Chinese-review base with high taste, environment, and service scores—not merely a Google average—and a RedNote author documented an eighth visit in April 2026. The repeated order pattern favors fresh-chile offal/chicken, boiling fish, blood-curd stew, and yellow beef rather than generic “spicy Chinese” choices.
+
+### Source-access note
+
+The April 2026 RedNote repeat-visit post was inspected in a signed-in browser session on 2026-07-19, and Fantuan's live Chinese listing was inspected through the rendered platform. Bare links may not reproduce those views without session access, so the eighth-visit claim, dish list, review-volume context, and score pattern are summarized above. Zomi and Restaurantji independently support current operations.

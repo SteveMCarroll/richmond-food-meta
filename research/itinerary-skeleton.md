@@ -1,5 +1,7 @@
 # Weekend meal skeleton
 
+> **Private planning artifact — not public site content.** This file tests whether the reusable guide supports a real weekend, but its family-specific schedule and constraints must not be compiled into venue or hub records. Current research policy is in `research/METHODOLOGY.md`.
+
 Working version, July 19, 2026. Restaurants remain intentionally unassigned until research establishes the strongest fit.
 
 ## Friday, July 31

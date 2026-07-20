@@ -26,7 +26,7 @@ parking: "Empire Centre surface lot; easier after the daytime food-court peak"
 payment: ""
 groupFit: "Hot pot works best for a group; call to reserve"
 status: watch
-confidence: high
+confidence: medium
 lastVerified: 2026-07-19
 dishes:
   - name: Cantonese hot pot
@@ -34,6 +34,7 @@ dishes:
     note: a late-day use of Empire after the stalls close
 cautions:
   - "The very high aggregate Google rating is not used as an authenticity signal"
+  - "Do not mix this Richmond, BC unit with the older Richmond Hill, Ontario locations when researching reviews or awards"
 sources:
   - label: Official Richmond address, phone, and daily hours
     url: https://loonfong.ca/vancouver/
@@ -46,4 +47,4 @@ order: 140
 
 ## Evidence and current read
 
-Loon Fong earns a place for daypart coverage: it keeps Empire useful after most food-court stalls have closed. The official page explicitly says there is no online reservation system and asks diners to call. Its rating is recorded neither as proof nor as a disqualifier; current dish-level evidence remains the next audit.
+Loon Fong earns a **watch** place for daypart coverage: it keeps Empire useful after most food-court stalls have closed. The official page explicitly says there is no online reservation system and asks diners to call. Confidence is medium because the current record verifies operations but still lacks an independent Richmond, BC–specific quality or transaction signal. Its rating is recorded neither as proof nor as a disqualifier; current dish-level evidence remains the next audit.

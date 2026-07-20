@@ -15,5 +15,11 @@ dayparts:
 sources:
   - label: Tourism Richmond Empire guide
     url: https://www.visitrichmondbc.com/blogs/food-drink/strip-malls-empire-centre/
+    date: 2026-07-19
+  - label: March 2026 Eat Streets report on active morning stalls
+    url: https://ca.news.yahoo.com/eat-streets-comfort-food-served-130024190.html
+    date: 2026-07-19
 order: 10
 ---
+
+Popular-times percentages were observed directly in Google Maps on 2026-07-19 and are a mall-level timing signal, not a venue-quality score. Stall-level files govern exact hours and sellout cautions.

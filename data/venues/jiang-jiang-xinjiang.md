@@ -57,3 +57,7 @@ order: 240
 ## Evidence and current read
 
 Jiang Jiang is a diversity **rising** pick, not yet a citywide benchmark. Fantuan's live deals have sold dozens of lamb-skewer/soup and Xinjiang fried-rice-noodle bundles, while the menu includes baked lamb buns and Kazakh-style lamb rice. That transaction evidence is stronger than an influencer photo, but the small review base and incomplete weekly hours keep confidence medium.
+
+### Source-access note
+
+Fantuan's live Chinese listing was inspected on 2026-07-19, including deal sales, the displayed Friday hours, and named dishes. Bare URLs can render opaque content outside the platform session; those observations are summarized above. The archived Uber Eats menu corroborates identity and dishes but is explicitly not treated as current operating proof.

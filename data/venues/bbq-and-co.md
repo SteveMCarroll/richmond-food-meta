@@ -54,3 +54,7 @@ order: 200
 ## Evidence and current read
 
 BBQ&Co is the genuinely new siu-mei challenger: it began in Richmond in March 2025 as a fresh-roasted takeaway operation inside MOD Kitchen. Current Richmond discussion is strongest on its duck; char-siu opinions split. The official page itself contains an older Mon–Sat schedule and a later staffing notice saying weekends are closed, so the later notice governs the structured hours and the disagreement is retained here.
+
+### Source-access note
+
+The June 2026 Richmond Reddit discussion was inspected live on 2026-07-19 but may block automated retrieval. It supplied the challenger comparison and split duck/char-siu opinions; the official BBQ&Co and MOD Kitchen pages independently support the business origin, address, phone, takeaway format, and conflicting schedules.

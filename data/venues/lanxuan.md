@@ -44,9 +44,15 @@ sources:
   - label: Wanderlog directory hours
     url: https://wanderlog.com/place/details/10631664
     date: 2026-07-19
+  - label: Chinese Restaurant Awards 2025 Elite 30 profile and signature dishes
+    url: https://chineserestaurantawards.com/list/2025/elite-30-canada/lanxuan-restaurant/
+    date: 2026-07-19
+  - label: Chinese Restaurant Awards 2024 Dim Sum Chef of the Year
+    url: https://chineserestaurantawards.com/dim-sum-chef-of-the-year-2024/
+    date: 2026-07-19
 order: 70
 ---
 
 ## Evidence and current read
 
-Lanxuan is retained as a **rising** dim-sum audit rather than promoted to a settled recommendation. The chef-recognition signal is meaningful, but its web footprint is thin and current directories disagree materially on Tuesday and closing time; the blanks record that uncertainty instead of fabricating a schedule.
+Lanxuan is retained as a **rising** dim-sum audit rather than promoted to a settled recommendation. The expert signal is now directly cited: chef Lai Wei received the Chinese Restaurant Awards' 2024 Dim Sum Chef of the Year honour, Lanxuan entered the 2025 Elite 30 Canada list, and its baked barbecue-pork bun received a 2024 signature-dish award. Confidence remains medium because current directories still disagree materially on Tuesday and closing time; the blank records that operational uncertainty instead of fabricating a schedule.

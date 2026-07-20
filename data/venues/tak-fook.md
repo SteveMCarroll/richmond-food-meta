@@ -59,3 +59,7 @@ order: 180
 ## Evidence and current read
 
 Tak Fook is the clearest “numbers mean something different here” case. Fantuan gives it a 4.5 taste score but roughly 2.2 for environment and service, while delivery transactions show 100-plus monthly orders and strong repeat rankings for roast-duck lai fun and combination rice. A Chinese-language comparison names it specifically for roast duck. This is a food-first **hot** pick, not a comfort-first restaurant.
+
+### Source-access note
+
+The RedNote comparison was inspected in a signed-in browser session on 2026-07-19, and Fantuan's live review and delivery pages were inspected through the rendered platform. Bare links may not reproduce those views without session access, so the roast-duck comparison, score split, monthly-sales threshold, repeat ranks, and named dishes are summarized above. Yellow Pages independently supports phone, hours, address, and the cash caution.

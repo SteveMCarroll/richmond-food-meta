@@ -53,3 +53,7 @@ order: 190
 ## Evidence and current read
 
 Master Hung's lane is soy chicken. The RedNote comparison calls it a lifelong favorite for 油雞, while current Richmond locals describe it as a no-frills alternative without HK BBQ Master's line. This is why the guide does not average every roast meat into one winner.
+
+### Source-access note
+
+The RedNote comparison was inspected in a signed-in browser session on 2026-07-19, and the Fantuan Chinese listing was inspected through the live platform page. Bare links may not reproduce those views without session access, so the soy-chicken comparison and listing identity are summarized above. Restaurantji independently supports current operations.

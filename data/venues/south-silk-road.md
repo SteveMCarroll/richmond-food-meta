@@ -60,3 +60,7 @@ order: 270
 ## Evidence and current read
 
 South Silk Road is the established Southwest-China anchor. Fantuan has thousands of Chinese reviews, hundreds of in-store payments, and live rice-noodle and set-menu sales; the menu's steam-pot chicken, Yunnan mushrooms, rice noodles, and regional mash dishes are a stronger authenticity signal than broad “Chinese” ratings. Closing time is the material disagreement: directories range from 10:00pm to 12:30am, so midnight is treated as provisional and diners should call after 10:00pm.
+
+### Source-access note
+
+Fantuan's live Chinese listing was inspected on 2026-07-19, including review volume, in-store payment count, live deal sales, and named Yunnan dishes. Bare URLs can render opaque content outside the platform session; those observations are summarized above. The Restaurantji URL retains an old `cool-chinese-restaurant` slug but was verified to resolve to South Silk Road; its citation label states the supported schedule and caution rather than the slug name.

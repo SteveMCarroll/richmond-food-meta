@@ -59,3 +59,7 @@ order: 160
 HK BBQ Master remains a real benchmark, not a tourist fabrication: the Chinese Restaurant Awards profile documents the Leung family succession and names roast pork, soy chicken, roast duck, and char siu. But it is no longer the automatic universal winner. A 2025 Chinese-language comparison calls it competent yet notes sellouts near closing, while a June 2026 Richmond thread includes both loyal endorsements and “resting on laurels” criticism.
 
 The guide therefore treats it as a **staple** and a comparison point, not the answer to every roast-meat question.
+
+### Source-access note
+
+The RedNote comparison was inspected in a signed-in browser session on 2026-07-19; its bare URL may require login, so the observed comparison and sellout warning are summarized above. The Reddit thread was also inspected live but can block automated retrieval. Neither is the sole support for this record: the Chinese Restaurant Awards profile independently establishes lineage, dishes, address, and phone.

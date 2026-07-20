@@ -3,7 +3,7 @@
     "title": "Richmond BC — the Chinese food meta",
     "subtitle": "Where the scene actually is, summer 2026",
     "updated": "2026-07-19",
-    "intro": "A working, evidence-based map of Richmond's Chinese food scene — organized by hub and daypart, not one citywide popularity list. Every entry carries a confidence level and a last-verified date. SEED DATA extracted from research notes; being verified against current Chinese-language sources and official hours."
+    "intro": "A curated, evidence-based map of Richmond's Chinese food scene — organized by hub, regional lane, dish, and daypart rather than one citywide popularity list. Every entry carries a confidence level, cautions, dated sources, and a last-verified date."
   },
   "hubs": [
     {
@@ -22,70 +22,157 @@
       "sources": [
         {
           "label": "Tourism Richmond Empire guide",
-          "url": "https://www.visitrichmondbc.com/blogs/food-drink/strip-malls-empire-centre/"
+          "url": "https://www.visitrichmondbc.com/blogs/food-drink/strip-malls-empire-centre/",
+          "date": "2026-07-19"
+        },
+        {
+          "label": "March 2026 Eat Streets report on active morning stalls",
+          "url": "https://ca.news.yahoo.com/eat-streets-comfort-food-served-130024190.html",
+          "date": "2026-07-19"
         }
       ],
-      "order": 10
+      "order": 10,
+      "notes": "Popular-times percentages were observed directly in Google Maps on 2026-07-19 and are a mall-level timing signal, not a venue-quality score. Stall-level files govern exact hours and sellout cautions."
     },
     {
       "id": "aberdeen",
       "name": "Aberdeen Centre",
+      "nameZh": "時代坊",
       "type": "Mall",
       "area": "Golden Village",
+      "address": "4151 Hazelbridge Way, Richmond, BC V6X 4J7",
       "status": "staple",
-      "summary": "Polished mall dining; strong dim sum on the 3rd floor. Busy at lunch and the early 5:00–6:30pm dinner rush, but can feel deserted near closing.",
+      "summary": "Polished mall dining with a large upper-level food court and Fisherman's Terrace on the third floor. A March 2026 Tourism Richmond report says weekends and lunchtimes can be especially busy; later-day activity must be checked venue by venue.",
       "dayparts": {
-        "lunch": "Dim sum peak",
-        "dinner": "Early rush 5:00–6:30, quiet after"
+        "lunch": "Weekend and lunch periods are busiest; consider off-peak",
+        "dinner": "Do not infer restaurant activity from the mall corridors near closing"
       },
-      "order": 20
+      "sources": [
+        {
+          "label": "Tourism Richmond March 2026 Aberdeen food-court report",
+          "url": "https://www.visitrichmondbc.com/blogs/food-drink/must-eat-dishes-at-the-aberdeen-centre-food-court/",
+          "date": "2026-07-19"
+        },
+        {
+          "label": "Fisherman's Terrace official third-floor address and service periods",
+          "url": "https://www.fishermansterrace.com/contact",
+          "date": "2026-07-19"
+        }
+      ],
+      "order": 20,
+      "notes": "The previous draft asserted a specific 5:00–6:30pm dinner rush without a traceable source. That claim was removed. Current evidence supports a strong lunch food-court use-case and a destination dim-sum room; dinner should be evaluated at the tenant level."
     },
     {
       "id": "alexandra",
       "name": "Alexandra Road (Food Street)",
+      "nameZh": "食街",
       "type": "Food street",
       "area": "Golden Village",
+      "address": "Alexandra Road, Richmond, BC",
       "status": "hot",
-      "summary": "The dinner / group dining / late-night spine. Where local sources point night diners. Strong for regional (non-Cantonese) full-service and communal formats.",
+      "summary": "A three-block dining corridor with more than 70 restaurants, according to Tourism Richmond. The guide's current Alexandra records skew toward regional, shareable full-service dining and late service; parking congestion is a known peak-period cost.",
       "dayparts": {
-        "dinner": "Prime",
-        "late": "Genuinely active"
+        "dinner": "Strongest documented use-case in the current guide",
+        "late": "Several linked venues operate later than the food courts"
       },
-      "order": 30
+      "sources": [
+        {
+          "label": "Tourism Richmond current Food Street overview and peak-traffic caution",
+          "url": "https://www.visitrichmondbc.com/itineraries/food-street/",
+          "date": "2026-07-19"
+        },
+        {
+          "label": "Tourism Richmond 2025 food guide listing Alexandra regional restaurants",
+          "url": "https://www.visitrichmondbc.com/wp-content/uploads/22-06-Food-Drink-Guide-2025-Updated_AS.pdf",
+          "date": "2026-07-19"
+        }
+      ],
+      "order": 30,
+      "notes": "The `hot` label describes the corridor's current concentration and the guide's active dinner records, not a claim that every restaurant on Alexandra Road is busy or recommended. Ban Bu Xian, Yue, and Joint BBQ are linked as venue records and retain their own status and confidence."
     },
     {
       "id": "capstan",
       "name": "Capstan Village",
       "type": "District",
       "area": "North Richmond",
-      "status": "rising",
-      "summary": "Newer plazas near the Capstan Canada Line station; repeatedly cited for dinner and late-night. Emerging cluster to verify.",
+      "address": "Capstan Way and No. 3 Road, Richmond, BC",
+      "status": "watch",
+      "summary": "A growing mixed-use district around Capstan Station. The guide currently covers nearby standalone venues through their Capstan area tags, not as tenants of one mall; cluster-level daypart evidence is still incomplete.",
       "dayparts": {
-        "dinner": "Strong",
-        "late": "Growing"
+        "lunch": "Standalone venue schedules vary",
+        "dinner": "Promising district; verify the chosen restaurant rather than relying on the hub"
       },
-      "order": 40
+      "sources": [
+        {
+          "label": "City of Richmond Capstan Village growth and mixed-use planning context",
+          "url": "https://citycouncil.richmond.ca/agendafiles/Open_DPP_1-27-2021.pdf",
+          "date": "2026-07-19"
+        },
+        {
+          "label": "Tourism Richmond 2025 food guide listing Sexsmith and Capstan-area venues",
+          "url": "https://www.visitrichmondbc.com/wp-content/uploads/22-06-Food-Drink-Guide-2025-Updated_AS.pdf",
+          "date": "2026-07-19"
+        }
+      ],
+      "order": 40,
+      "notes": "Geng Shi Ji, Jade Seafood, and Lanxuan are nearby standalone restaurants and correctly use `hub: null` under the schema. Their `area` fields connect them editorially to Capstan without falsely representing them as tenants of a single complex. This hub stays `watch` until district-level activity is researched directly."
     },
     {
       "id": "yaohan",
-      "name": "Yaohan Centre / Richmond Public Market",
+      "name": "Yaohan Centre",
+      "nameZh": "八佰伴中心",
       "type": "Mall",
       "area": "Golden Village",
-      "status": "fading",
-      "summary": "Yaohan's court has been declining for years; Richmond Public Market is currently a weak general recommendation. Easy to misread — treat as timing-sensitive/legacy.",
-      "order": 50
+      "address": "3700 No. 3 Road, Richmond, BC",
+      "status": "watch",
+      "summary": "A legacy Asian mall whose current directory still lists a substantial food-and-grocery group. The guide has not yet completed a 2026 stall-level quality audit, so it makes no current decline or general skip claim.",
+      "dayparts": {
+        "lunch": "Weekend lunch can be busy in the most recent detailed Tourism Richmond report, but that report dates to 2023",
+        "dinner": "Official first-floor hours run to 9:00pm; individual food counters may differ"
+      },
+      "sources": [
+        {
+          "label": "Yaohan official address, current mall hours, and directory",
+          "url": "https://www.yaohancentre.com/directory.html",
+          "date": "2026-07-19"
+        },
+        {
+          "label": "Tourism Richmond December 2023 Yaohan food-court report",
+          "url": "https://www.visitrichmondbc.com/blogs/food-drink/must-eat-dishes-at-the-yaohan-centre-food-court/",
+          "date": "2026-07-19"
+        }
+      ],
+      "order": 50,
+      "notes": "The earlier `fading` label and “declining for years” summary came from an unarchived discussion lead and were too strong for the cited record. They have been removed. Yaohan remains in the guide as a `watch` hub because it is culturally and geographically important, but no venue currently links to it and a new stall-by-stall pass is required."
     },
     {
       "id": "parker",
       "name": "Parker Place",
+      "nameZh": "百家店",
       "type": "Mall",
       "area": "Golden Village",
+      "address": "4380 No. 3 Road, Richmond, BC V6X 3V7",
       "status": "staple",
-      "summary": "Known benchmark for BBQ / roast-meat and bakery takeaway.",
+      "summary": "A busy, food-first court with roughly 20 counters and an established roast-meat/takeaway lane. The mall's official food-court hours are 8:00am–7:00pm, but individual counters keep their own schedules.",
       "dayparts": {
-        "lunch": "Roast meat / takeaway"
+        "breakfast": "Some counters open before general mall hours",
+        "lunch": "Primary roast-meat and food-court use-case",
+        "dinner": "Selection narrows before the 7:00pm food-court close"
       },
-      "order": 60
+      "sources": [
+        {
+          "label": "Parker Place official address and food-court hours",
+          "url": "https://parkerplace.com/contact/",
+          "date": "2026-07-19"
+        },
+        {
+          "label": "Tourism Richmond March 2026 Parker Place food-court report",
+          "url": "https://www.visitrichmondbc.com/blogs/food-drink/must-eat-dishes-at-the-parker-place-food-court/",
+          "date": "2026-07-19"
+        }
+      ],
+      "order": 60,
+      "notes": "The hub status is supported by current mall operations and a March 2026 field report. Parker Place BBQ and Tak Fook remain separate dish-level records; neither the mall nor one raw rating substitutes for those venue judgments."
     }
   ],
   "restaurants": [
@@ -114,6 +201,7 @@
       "groupFit": "Spacious dining room; reserve larger groups by phone",
       "status": "staple",
       "confidence": "high",
+      "lastVerified": "2026-07-19",
       "dishes": [
         {
           "name": "Har gow",
@@ -125,7 +213,7 @@
         {
           "label": "Official address, phone, and daily hours",
           "url": "https://empirerestaurant.ca/contacts/",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         }
       ],
       "order": 10,
@@ -157,6 +245,7 @@
       "groupFit": "Large room and carts suit a family group; reserve by phone",
       "status": "staple",
       "confidence": "high",
+      "lastVerified": "2026-07-19",
       "dishes": [
         {
           "name": "Push-cart dim sum",
@@ -171,12 +260,12 @@
         {
           "label": "Official contact and daily service periods",
           "url": "https://www.continentalrestaurant.ca/contact-us/",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "Official menu",
           "url": "https://www.continentalrestaurant.ca/menu/",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         }
       ],
       "order": 20,
@@ -208,6 +297,7 @@
       "groupFit": "Polished family/banquet room; reserve by phone",
       "status": "staple",
       "confidence": "high",
+      "lastVerified": "2026-07-19",
       "dishes": [
         {
           "name": "Steamed shrimp dumplings",
@@ -222,7 +312,7 @@
         {
           "label": "Official address, contact, daily service periods, and parking note",
           "url": "https://www.fishermansterrace.com/contact",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         }
       ],
       "order": 30,
@@ -258,6 +348,7 @@
       "groupFit": "Polished room suited to a family group; reserve by phone",
       "status": "hot",
       "confidence": "high",
+      "lastVerified": "2026-07-19",
       "dishes": [
         {
           "name": "Black truffle siu mai",
@@ -272,17 +363,17 @@
         {
           "label": "Official Richmond location, contact, and hours",
           "url": "https://cheftonycanada.com/en",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "Google Maps live listing and popular times",
           "url": "https://www.google.com/maps/search/?api=1&query=Chef%20Tony%20Seafood%20Restaurant%20Richmond%20BC",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "Google Maps Empire Centre centroid",
           "url": "https://www.google.com/maps/place/Empire+Centre/@49.1803784,-123.1365896,17z/",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         }
       ],
       "order": 40,
@@ -313,6 +404,7 @@
       "groupFit": "Smaller room; phone reservation is prudent",
       "status": "watch",
       "confidence": "medium",
+      "lastVerified": "2026-07-19",
       "dishes": [
         {
           "name": "Steamed rice rolls",
@@ -327,7 +419,7 @@
         {
           "label": "Official menu, address, phone, and posted hours",
           "url": "https://www.goldenparamount.com/menu",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         }
       ],
       "order": 50,
@@ -358,6 +450,7 @@
       "groupFit": "Comfortable full-service room; phone reservations",
       "status": "rising",
       "confidence": "high",
+      "lastVerified": "2026-07-19",
       "dishes": [
         {
           "name": "Steamed dim sum",
@@ -372,12 +465,12 @@
         {
           "label": "Official address, phone, and daily hours",
           "url": "https://www.jaderestaurant.ca/en/contact",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "Tourism Richmond early-bird listing",
           "url": "https://www.visitrichmondbc.com/stakeholders/jade-seafood-restaurant-2/",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         }
       ],
       "order": 60,
@@ -407,6 +500,7 @@
       "groupFit": "Full-service family meal; reserve by phone",
       "status": "rising",
       "confidence": "medium",
+      "lastVerified": "2026-07-19",
       "dishes": [
         {
           "name": "Dim sum",
@@ -421,21 +515,31 @@
         {
           "label": "Zomi current venue page",
           "url": "https://lanxuanrestaurant.zomi.menu/",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "Bravo address, phone, and shorter hours",
           "url": "https://www.bravoup.ca/store/lanxuan-restaurant",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "Wanderlog directory hours",
           "url": "https://wanderlog.com/place/details/10631664",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
+        },
+        {
+          "label": "Chinese Restaurant Awards 2025 Elite 30 profile and signature dishes",
+          "url": "https://chineserestaurantawards.com/list/2025/elite-30-canada/lanxuan-restaurant/",
+          "date": "2026-07-19"
+        },
+        {
+          "label": "Chinese Restaurant Awards 2024 Dim Sum Chef of the Year",
+          "url": "https://chineserestaurantawards.com/dim-sum-chef-of-the-year-2024/",
+          "date": "2026-07-19"
         }
       ],
       "order": 70,
-      "notes": "## Evidence and current read\n\nLanxuan is retained as a **rising** dim-sum audit rather than promoted to a settled recommendation. The chef-recognition signal is meaningful, but its web footprint is thin and current directories disagree materially on Tuesday and closing time; the blanks record that uncertainty instead of fabricating a schedule."
+      "notes": "## Evidence and current read\n\nLanxuan is retained as a **rising** dim-sum audit rather than promoted to a settled recommendation. The expert signal is now directly cited: chef Lai Wei received the Chinese Restaurant Awards' 2024 Dim Sum Chef of the Year honour, Lanxuan entered the 2025 Elite 30 Canada list, and its baked barbecue-pork bun received a 2024 signature-dish award. Confidence remains medium because current directories still disagree materially on Tuesday and closing time; the blank records that operational uncertainty instead of fabricating a schedule."
     },
     {
       "id": "yue",
@@ -462,6 +566,7 @@
       "groupFit": "Full-service room for a family group; reserve by phone",
       "status": "rising",
       "confidence": "medium",
+      "lastVerified": "2026-07-19",
       "dishes": [
         {
           "name": "Dim sum",
@@ -476,12 +581,12 @@
         {
           "label": "Restaurantji current address, phone, and weekly service periods",
           "url": "https://www.restaurantji.com/bc/richmond/yue-restaurant-/",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "Apple Maps corroborating current listing",
           "url": "https://maps.apple.com/place?place-id=I26AA08EE0EF5F077",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         }
       ],
       "order": 80,
@@ -516,6 +621,7 @@
       "groupFit": "Counter-service food-court meal; easiest for a small group",
       "status": "hot",
       "confidence": "medium",
+      "lastVerified": "2026-07-19",
       "dishes": [
         {
           "name": "Hong Kong breakfast set",
@@ -525,23 +631,24 @@
       ],
       "cautions": [
         "Weekend breakfast lines build around 9:30–10:30am",
-        "Delivery-platform hours can lag temporary closures; verify day-of"
+        "Delivery-platform hours can lag temporary closures; verify day-of",
+        "Tourism Richmond's Empire background predates this verification pass; current hours come from the delivery listing"
       ],
       "sources": [
         {
           "label": "Uber Eats current listing, address, and service windows",
           "url": "https://www.ubereats.com/ca/store/cha-don-%E8%8C%B6%E6%AA%94-empire-center/3vAhHY_wWImopxlrpGznEg",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "Eat Streets breakfast and crowd report",
           "url": "https://ca.news.yahoo.com/eat-streets-comfort-food-served-130024190.html",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "Google Maps Empire Centre centroid",
           "url": "https://www.google.com/maps/place/Empire+Centre/@49.1803784,-123.1365896,17z/",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         }
       ],
       "order": 90,
@@ -578,6 +685,7 @@
       "groupFit": "Counter-service food-court meal",
       "status": "staple",
       "confidence": "high",
+      "lastVerified": "2026-07-19",
       "dishes": [
         {
           "name": "Hong Kong breakfast",
@@ -586,23 +694,24 @@
         }
       ],
       "cautions": [
-        "Last order is 15 minutes before the posted close"
+        "Last order is 15 minutes before the posted close",
+        "Tourism Richmond's Empire background is older context; the official ordering page supplies current operations"
       ],
       "sources": [
         {
           "label": "Official ordering page, address, phone, daily hours, and last order",
           "url": "https://onecafe.richmondpos.com/empire.html",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "Tourism Richmond Empire guide",
           "url": "https://www.visitrichmondbc.com/blogs/food-drink/strip-malls-empire-centre/",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "Google Maps Empire Centre centroid",
           "url": "https://www.google.com/maps/place/Empire+Centre/@49.1803784,-123.1365896,17z/",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         }
       ],
       "order": 100,
@@ -638,6 +747,7 @@
       "groupFit": "Fast counter meal; large-value rice plates split well",
       "status": "rising",
       "confidence": "high",
+      "lastVerified": "2026-07-19",
       "dishes": [
         {
           "name": "Salt-and-pepper chicken rice",
@@ -651,27 +761,28 @@
         }
       ],
       "cautions": [
-        "Fantuan currently shows an earlier 6:30pm close on one weekday; do not depend on the last half-hour"
+        "Fantuan currently shows an earlier 6:30pm close on one weekday; do not depend on the last half-hour",
+        "Tourism Richmond's Empire classification is older background and is not used as current operational proof"
       ],
       "sources": [
         {
           "label": "Fantuan Chinese reviews, unit address, current dish signals",
           "url": "https://www.fantuanorder.com/dianping/zh-CN/store/Restaurant-5640924504-ca",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "Current directory phone and weekly hours",
           "url": "https://wanderlog.com/place/details/5721034/cloud-9-delicacy",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "Google Maps Empire Centre centroid",
           "url": "https://www.google.com/maps/place/Empire+Centre/@49.1803784,-123.1365896,17z/",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         }
       ],
       "order": 110,
-      "notes": "## Evidence and current read\n\nFantuan identifies the stall more specifically as 閩南美食, so the old “Taiwanese only” label was too narrow. The strongest transactional signal is inexpensive Taiwanese/Minnan rice plates rather than novelty. Fantuan's taste score is much stronger than its environment score, exactly the kind of food-court split this guide should preserve. Coordinates use the Empire Centre centroid."
+      "notes": "## Evidence and current read\n\nFantuan identifies the stall more specifically as 閩南美食, so the old “Taiwanese only” label was too narrow. The strongest transactional signal is inexpensive Taiwanese/Minnan rice plates rather than novelty. Fantuan's taste score is much stronger than its environment score, exactly the kind of food-court split this guide should preserve. Coordinates use the Empire Centre centroid.\n\n### Source-access note\n\nFantuan's live Chinese listing was inspected on 2026-07-19. Bare URLs can render opaque content outside the platform session; the Chinese business name, review-volume context, score split, and recommended rice plates are summarized here. The Tourism Richmond classification is older background, not the sole current signal."
     },
     {
       "id": "double-double",
@@ -703,6 +814,7 @@
       "groupFit": "Casual family room; call for larger parties",
       "status": "staple",
       "confidence": "high",
+      "lastVerified": "2026-07-19",
       "dishes": [
         {
           "name": "Congee",
@@ -717,12 +829,12 @@
         {
           "label": "Official location, phone, and weekly hours",
           "url": "https://www.doubledoublerestaurant.ca/contact-us",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "Google Maps Empire Centre centroid",
           "url": "https://www.google.com/maps/place/Empire+Centre/@49.1803784,-123.1365896,17z/",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         }
       ],
       "order": 120,
@@ -757,6 +869,7 @@
       "groupFit": "Casual family meal",
       "status": "staple",
       "confidence": "medium",
+      "lastVerified": "2026-07-19",
       "dishes": [
         {
           "name": "Hong Kong café comfort dishes",
@@ -771,17 +884,17 @@
         {
           "label": "Allbiz address, phone, and weekly hours",
           "url": "https://www.allbiz.ca/sanbo-chinese-restaurant-604-278-2616",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "Restaurantji current listing and conflicting weekday hours",
           "url": "https://www.restaurantji.com/bc/richmond/sanbo-chinese-restaurant-/",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "Google Maps Empire Centre centroid",
           "url": "https://www.google.com/maps/place/Empire+Centre/@49.1803784,-123.1365896,17z/",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         }
       ],
       "order": 130,
@@ -816,7 +929,8 @@
       "parking": "Empire Centre surface lot; easier after the daytime food-court peak",
       "groupFit": "Hot pot works best for a group; call to reserve",
       "status": "watch",
-      "confidence": "high",
+      "confidence": "medium",
+      "lastVerified": "2026-07-19",
       "dishes": [
         {
           "name": "Cantonese hot pot",
@@ -825,22 +939,23 @@
         }
       ],
       "cautions": [
-        "The very high aggregate Google rating is not used as an authenticity signal"
+        "The very high aggregate Google rating is not used as an authenticity signal",
+        "Do not mix this Richmond, BC unit with the older Richmond Hill, Ontario locations when researching reviews or awards"
       ],
       "sources": [
         {
           "label": "Official Richmond address, phone, and daily hours",
           "url": "https://loonfong.ca/vancouver/",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "Google Maps Empire Centre centroid",
           "url": "https://www.google.com/maps/place/Empire+Centre/@49.1803784,-123.1365896,17z/",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         }
       ],
       "order": 140,
-      "notes": "## Evidence and current read\n\nLoon Fong earns a place for daypart coverage: it keeps Empire useful after most food-court stalls have closed. The official page explicitly says there is no online reservation system and asks diners to call. Its rating is recorded neither as proof nor as a disqualifier; current dish-level evidence remains the next audit."
+      "notes": "## Evidence and current read\n\nLoon Fong earns a **watch** place for daypart coverage: it keeps Empire useful after most food-court stalls have closed. The official page explicitly says there is no online reservation system and asks diners to call. Confidence is medium because the current record verifies operations but still lacks an independent Richmond, BC–specific quality or transaction signal. Its rating is recorded neither as proof nor as a disqualifier; current dish-level evidence remains the next audit."
     },
     {
       "id": "meeting-in-changan",
@@ -861,6 +976,7 @@
       "groupFit": "Counter-service snack or light meal",
       "status": "new-lead",
       "confidence": "lead",
+      "lastVerified": "2026-07-19",
       "dishes": [
         {
           "name": "Roujiamo",
@@ -880,21 +996,21 @@
         {
           "label": "May 2026 buildout report and owner's RedNote account summary",
           "url": "https://nomsmagazine.com/new-meeting-in-changan-empire-centre/",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "Fantuan current liangpi dish directory showing Meeting in Chang'an",
           "url": "https://www.fantuanorder.com/dish/ca/bc/vancouver/liangpi",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "Google Maps Empire Centre centroid",
           "url": "https://www.google.com/maps/place/Empire+Centre/@49.1803784,-123.1365896,17z/",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         }
       ],
       "order": 150,
-      "notes": "## Evidence and current read\n\nNoms documented the stall at 90% buildout on May 19, based partly on the Xi'an-born owner's RedNote post. Fantuan now surfaces the business for liangpi and hot-and-sour noodles, which is evidence of commercial activity but not enough to assert a verified walk-in schedule. This is intentionally a **lead**, not a recommendation. Coordinates use the Empire Centre centroid."
+      "notes": "## Evidence and current read\n\nNoms documented the stall at 90% buildout on May 19, based partly on the Xi'an-born owner's RedNote post. Fantuan now surfaces the business for liangpi and hot-and-sour noodles, which is evidence of commercial activity but not enough to assert a verified walk-in schedule. This is intentionally a **lead**, not a recommendation. Coordinates use the Empire Centre centroid.\n\n### Source-access note\n\nFantuan's dish directory was inspected on 2026-07-19 but may not render consistently from a bare URL. It showed the business attached to liangpi and hot-and-sour-noodle categories; that observation is recorded only as commercial-activity evidence. The source does not resolve the physical unit, phone, hours, or walk-in opening status."
     },
     {
       "id": "hk-bbq-master",
@@ -926,6 +1042,7 @@
       "groupFit": "Counter meal or takeaway; awkward for a large group",
       "status": "staple",
       "confidence": "high",
+      "lastVerified": "2026-07-19",
       "dishes": [
         {
           "name": "Crispy roast pork",
@@ -946,26 +1063,26 @@
         {
           "label": "Chinese Restaurant Awards Chinese profile, address, phone, and specialties",
           "url": "https://zh.chineserestaurantawards.com/list/2025/elite-30-canada/hk-bbq-master/",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "Google Maps live hours, price, popular times, and coordinates",
           "url": "https://www.google.com/maps/place/HK+BBQ+Master/@49.1797372,-123.1378385,17z/",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "RedNote 2025 Richmond siu-mei comparison",
           "url": "https://www.rednote.com/search_result/688a97000000000022038390",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "Richmond locals' June 2026 BBQ-pork discussion",
           "url": "https://www.reddit.com/r/richmondbc/comments/1trg0tw/best_bbq_pork_on_rice/",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         }
       ],
       "order": 160,
-      "notes": "## Evidence and current read\n\nHK BBQ Master remains a real benchmark, not a tourist fabrication: the Chinese Restaurant Awards profile documents the Leung family succession and names roast pork, soy chicken, roast duck, and char siu. But it is no longer the automatic universal winner. A 2025 Chinese-language comparison calls it competent yet notes sellouts near closing, while a June 2026 Richmond thread includes both loyal endorsements and “resting on laurels” criticism.\n\nThe guide therefore treats it as a **staple** and a comparison point, not the answer to every roast-meat question."
+      "notes": "## Evidence and current read\n\nHK BBQ Master remains a real benchmark, not a tourist fabrication: the Chinese Restaurant Awards profile documents the Leung family succession and names roast pork, soy chicken, roast duck, and char siu. But it is no longer the automatic universal winner. A 2025 Chinese-language comparison calls it competent yet notes sellouts near closing, while a June 2026 Richmond thread includes both loyal endorsements and “resting on laurels” criticism.\n\nThe guide therefore treats it as a **staple** and a comparison point, not the answer to every roast-meat question.\n\n### Source-access note\n\nThe RedNote comparison was inspected in a signed-in browser session on 2026-07-19; its bare URL may require login, so the observed comparison and sellout warning are summarized above. The Reddit thread was also inspected live but can block automated retrieval. Neither is the sole support for this record: the Chinese Restaurant Awards profile independently establishes lineage, dishes, address, and phone."
     },
     {
       "id": "parker-place-bbq",
@@ -998,6 +1115,7 @@
       "groupFit": "Takeaway counter; use the food-court seating for a small group",
       "status": "staple",
       "confidence": "high",
+      "lastVerified": "2026-07-19",
       "dishes": [
         {
           "name": "Roast pork",
@@ -1022,26 +1140,26 @@
         {
           "label": "Fantuan Chinese reviews, taste/service split, address, and current hours",
           "url": "https://www.fantuanorder.com/dianping/en-US/store/Restaurant-0873165983-ca",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "Current phone and full weekly hours",
           "url": "https://wanderlog.com/place/details/3652147/parker-place-aberdeen-fresh-meat--bbq",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "RedNote 2025 Richmond siu-mei comparison",
           "url": "https://www.rednote.com/search_result/688a97000000000022038390",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "Parker Place coordinates",
           "url": "https://www.mallsandstores.info/british-columbia/parker-place/130868-tak-fook-noodle-and-congee-shop.html",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         }
       ],
       "order": 170,
-      "notes": "## Evidence and current read\n\nParker Place is the strongest all-round, low-theatre recommendation in the current siu-mei set. A Chinese comparison explicitly prefers it to HK BBQ Master for reliability and an efficient line. Fantuan's 4.2 taste score versus 2.1 environment and 2.1 service is culturally useful: the low comfort/service marks coexist with hundreds of food-driven reviews and are not a reason to discard the counter.\n\nCoordinates are the Parker Place building centroid, not the butcher-counter door."
+      "notes": "## Evidence and current read\n\nParker Place is the strongest all-round, low-theatre recommendation in the current siu-mei set. A Chinese comparison explicitly prefers it to HK BBQ Master for reliability and an efficient line. Fantuan's 4.2 taste score versus 2.1 environment and 2.1 service is culturally useful: the low comfort/service marks coexist with hundreds of food-driven reviews and are not a reason to discard the counter.\n\nCoordinates are the Parker Place building centroid, not the butcher-counter door.\n\n### Source-access note\n\nThe RedNote comparison was inspected in a signed-in browser session on 2026-07-19, and Fantuan's live listing was inspected through the rendered platform page. Bare links may not reproduce those views without session access, so the preference comparison, queue observation, review volume, and taste/environment/service split are summarized above. Current phone and hours are independently corroborated by a directory source."
     },
     {
       "id": "tak-fook",
@@ -1075,6 +1193,7 @@
       "groupFit": "Food-court stall; good for a quick small-group meal",
       "status": "hot",
       "confidence": "high",
+      "lastVerified": "2026-07-19",
       "dishes": [
         {
           "name": "Roast-duck lai fun",
@@ -1094,31 +1213,31 @@
         {
           "label": "Fantuan Chinese reviews, dish recommendations, and current hours",
           "url": "https://www.fantuanorder.com/dianping/zh-CN/store/-tai-fook-4925634022-ca",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "Fantuan delivery sales, repeat-order ranks, and June 2026 comments",
           "url": "https://www.fantuanorder.com/zh-CN/store/tak-fook-noodle-and-congee-shop/ca-4802750",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "RedNote 2025 siu-mei comparison naming Tak Fook for roast duck",
           "url": "https://www.rednote.com/search_result/688a97000000000022038390",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "Yellow Pages phone, hours, payment note, and address",
           "url": "https://www.yellowpages.ca/bus/British-Columbia/Richmond/Tak-Fook-Noodle-Congee-Shop/2568570.html",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "Parker Place coordinates",
           "url": "https://www.mallsandstores.info/british-columbia/parker-place/130868-tak-fook-noodle-and-congee-shop.html",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         }
       ],
       "order": 180,
-      "notes": "## Evidence and current read\n\nTak Fook is the clearest “numbers mean something different here” case. Fantuan gives it a 4.5 taste score but roughly 2.2 for environment and service, while delivery transactions show 100-plus monthly orders and strong repeat rankings for roast-duck lai fun and combination rice. A Chinese-language comparison names it specifically for roast duck. This is a food-first **hot** pick, not a comfort-first restaurant."
+      "notes": "## Evidence and current read\n\nTak Fook is the clearest “numbers mean something different here” case. Fantuan gives it a 4.5 taste score but roughly 2.2 for environment and service, while delivery transactions show 100-plus monthly orders and strong repeat rankings for roast-duck lai fun and combination rice. A Chinese-language comparison names it specifically for roast duck. This is a food-first **hot** pick, not a comfort-first restaurant.\n\n### Source-access note\n\nThe RedNote comparison was inspected in a signed-in browser session on 2026-07-19, and Fantuan's live review and delivery pages were inspected through the rendered platform. Bare links may not reproduce those views without session access, so the roast-duck comparison, score split, monthly-sales threshold, repeat ranks, and named dishes are summarized above. Yellow Pages independently supports phone, hours, address, and the cash caution."
     },
     {
       "id": "master-hung",
@@ -1145,6 +1264,7 @@
       "groupFit": "No-frills dining room; easy casual family stop",
       "status": "staple",
       "confidence": "high",
+      "lastVerified": "2026-07-19",
       "dishes": [
         {
           "name": "Soy chicken",
@@ -1164,21 +1284,21 @@
         {
           "label": "Fantuan Chinese listing and address",
           "url": "https://www.fantuanorder.com/dianping/zh-CN/store/Restaurant-8092580183-ca",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "Restaurantji current phone, weekly hours, and dish list",
           "url": "https://www.restaurantji.com/bc/richmond/master-hung-bbq-and-won-ton-/",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "RedNote 2025 siu-mei comparison naming Master Hung for soy chicken",
           "url": "https://www.rednote.com/search_result/688a97000000000022038390",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         }
       ],
       "order": 190,
-      "notes": "## Evidence and current read\n\nMaster Hung's lane is soy chicken. The RedNote comparison calls it a lifelong favorite for 油雞, while current Richmond locals describe it as a no-frills alternative without HK BBQ Master's line. This is why the guide does not average every roast meat into one winner."
+      "notes": "## Evidence and current read\n\nMaster Hung's lane is soy chicken. The RedNote comparison calls it a lifelong favorite for 油雞, while current Richmond locals describe it as a no-frills alternative without HK BBQ Master's line. This is why the guide does not average every roast meat into one winner.\n\n### Source-access note\n\nThe RedNote comparison was inspected in a signed-in browser session on 2026-07-19, and the Fantuan Chinese listing was inspected through the live platform page. Bare links may not reproduce those views without session access, so the soy-chicken comparison and listing identity are summarized above. Restaurantji independently supports current operations."
     },
     {
       "id": "bbq-and-co",
@@ -1205,6 +1325,7 @@
       "groupFit": "Takeaway only; not a dine-in family venue",
       "status": "rising",
       "confidence": "medium",
+      "lastVerified": "2026-07-19",
       "dishes": [
         {
           "name": "Roast duck",
@@ -1225,21 +1346,21 @@
         {
           "label": "Official BBQ&Co origin, address, format, ordering, and hours updates",
           "url": "https://www.jdkfinefoods.com/bbq-co",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "MOD Kitchen official address and phone",
           "url": "https://www.modkitchen.ca/home",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "Richmond locals' June 2026 challenger discussion",
           "url": "https://www.reddit.com/r/richmondbc/comments/1trg0tw/best_bbq_pork_on_rice/",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         }
       ],
       "order": 200,
-      "notes": "## Evidence and current read\n\nBBQ&Co is the genuinely new siu-mei challenger: it began in Richmond in March 2025 as a fresh-roasted takeaway operation inside MOD Kitchen. Current Richmond discussion is strongest on its duck; char-siu opinions split. The official page itself contains an older Mon–Sat schedule and a later staffing notice saying weekends are closed, so the later notice governs the structured hours and the disagreement is retained here."
+      "notes": "## Evidence and current read\n\nBBQ&Co is the genuinely new siu-mei challenger: it began in Richmond in March 2025 as a fresh-roasted takeaway operation inside MOD Kitchen. Current Richmond discussion is strongest on its duck; char-siu opinions split. The official page itself contains an older Mon–Sat schedule and a later staffing notice saying weekends are closed, so the later notice governs the structured hours and the disagreement is retained here.\n\n### Source-access note\n\nThe June 2026 Richmond Reddit discussion was inspected live on 2026-07-19 but may block automated retrieval. It supplied the challenger comparison and split duck/char-siu opinions; the official BBQ&Co and MOD Kitchen pages independently support the business origin, address, phone, takeaway format, and conflicting schedules."
     },
     {
       "id": "xiang-chuan-mansion",
@@ -1266,6 +1387,7 @@
       "groupFit": "Best with four or more so regional dishes can be shared",
       "status": "hot",
       "confidence": "high",
+      "lastVerified": "2026-07-19",
       "dishes": [
         {
           "name": "Fresh-chile intestine chicken",
@@ -1290,26 +1412,26 @@
         {
           "label": "Fantuan Chinese reviews, payer counts, dish frequency, address, and hours",
           "url": "https://www.fantuanorder.com/dianping/store/xiang-chuan-mansion-3316402358-ca",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "Zomi phone and daily closing time",
           "url": "https://www.zomi.menu/shop/xiangchuanmansion",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "RedNote April 2026 eighth-visit dish report",
           "url": "https://www.rednote.com/search_result/69d5c833000000001d01923a",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "Restaurantji current operations corroboration",
           "url": "https://www.restaurantji.com/bc/richmond/xiang-chuan-mansion-/",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         }
       ],
       "order": 210,
-      "notes": "## Evidence and current read\n\nThis is the strongest current Hunan-led signal in the dataset. Fantuan supplies a large Chinese-review base with high taste, environment, and service scores—not merely a Google average—and a RedNote author documented an eighth visit in April 2026. The repeated order pattern favors fresh-chile offal/chicken, boiling fish, blood-curd stew, and yellow beef rather than generic “spicy Chinese” choices."
+      "notes": "## Evidence and current read\n\nThis is the strongest current Hunan-led signal in the dataset. Fantuan supplies a large Chinese-review base with high taste, environment, and service scores—not merely a Google average—and a RedNote author documented an eighth visit in April 2026. The repeated order pattern favors fresh-chile offal/chicken, boiling fish, blood-curd stew, and yellow beef rather than generic “spicy Chinese” choices.\n\n### Source-access note\n\nThe April 2026 RedNote repeat-visit post was inspected in a signed-in browser session on 2026-07-19, and Fantuan's live Chinese listing was inspected through the rendered platform. Bare links may not reproduce those views without session access, so the eighth-visit claim, dish list, review-volume context, and score pattern are summarized above. Zomi and Restaurantji independently support current operations."
     },
     {
       "id": "chengdu-street-food",
@@ -1337,6 +1459,7 @@
       "groupFit": "Generous portions reward a four-person sharing table",
       "status": "rising",
       "confidence": "high",
+      "lastVerified": "2026-07-19",
       "dishes": [
         {
           "name": "Sweet-skin duck",
@@ -1362,26 +1485,26 @@
         {
           "label": "Official Richmond address, phone, menu, and daily hours",
           "url": "https://www.chengdustreetfood.ca/",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "Fantuan Chinese reviews and dish recommendations",
           "url": "https://www.fantuanorder.com/dianping/zh-CN/store/-cheng-du-street-food-richmond-8092065543-ca",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "Fantuan current delivery transactions and 2026 comments",
           "url": "https://order.fantuan.ca/zh-CN/store/Restaurant/ca-1216483012",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "Apple Maps current listing and contactless-payment note",
           "url": "https://maps.apple.com/place?place-id=IEEC6D99C84DBFC45",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         }
       ],
       "order": 220,
-      "notes": "## Evidence and current read\n\nDespite the jokey “fly restaurant” name, this is not a novelty concept. Fantuan's 1,000-plus Chinese reviews show a classic food-first split—strong taste and weak environment/service—while delivery activity supplies a current transaction signal. The menu's liver/kidney stir-fry, taro chicken, smoked-bamboo-shoot cured pork, and sweet-skin duck make the regional claim more specific than a generic Sichuan label."
+      "notes": "## Evidence and current read\n\nDespite the jokey “fly restaurant” name, this is not a novelty concept. Fantuan's 1,000-plus Chinese reviews show a classic food-first split—strong taste and weak environment/service—while delivery activity supplies a current transaction signal. The menu's liver/kidney stir-fry, taro chicken, smoked-bamboo-shoot cured pork, and sweet-skin duck make the regional claim more specific than a generic Sichuan label.\n\n### Source-access note\n\nFantuan's live Chinese review and delivery pages were inspected on 2026-07-19. Bare URLs can render opaque content outside the platform session; the observed review volume, score split, transaction signal, and named dishes are summarized above for auditability."
     },
     {
       "id": "ban-bu-xian",
@@ -1396,8 +1519,9 @@
       "bestDaypart": "Off-peak late lunch; the relocated kitchen is slow at dinner",
       "parking": "Shared Alexandra Road lot",
       "groupFit": "Shareable dishes; allow extra time and avoid a tightly timed meal",
-      "status": "hot",
+      "status": "watch",
       "confidence": "medium",
+      "lastVerified": "2026-07-19",
       "dishes": [
         {
           "name": "Intestine chicken",
@@ -1424,26 +1548,26 @@
         {
           "label": "Noms April 2026 relocation report and new address",
           "url": "https://nomsmagazine.com/ban-bu-xian-richmond-relocation/",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "RedNote June 2026 post-move food and room report",
           "url": "https://www.rednote.com/search_result/6a374456000000002200968e",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "RedNote July 2026 kitchen and service failure report",
           "url": "https://www.rednote.com/search_result/6a4f46780000000008026d44",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "Fantuan Chinese review archive at the stale former address",
           "url": "https://www.fantuanorder.com/dianping/zh-CN/store/Restaurant-4925878372-ca",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         }
       ],
       "order": 230,
-      "notes": "## Evidence and current read\n\nBan Bu Xian is currently hot and operationally unstable. A June 2026 RedNote report says the Alexandra room is larger, less noisy, full on a Wednesday, and still strong on 肥腸雞, 火爆雙脆, and 冒烤鴨. A July report describes severe ticket pacing and hostile service. Both are retained because the correct conclusion is “interesting food, risky meal timing,” not a smoothed score.\n\nThe Fantuan page is useful for historical dish evidence but still points to the former Capstan address; it is deliberately not used for structured location data."
+      "notes": "## Evidence and current read\n\nBan Bu Xian has interesting current food evidence but enough post-move operational instability to remain **watch**. A June 2026 RedNote report says the Alexandra room is larger, less noisy, full on a Wednesday, and still strong on 肥腸雞, 火爆雙脆, and 冒烤鴨. A July report describes severe ticket pacing and hostile service. Both are retained because the correct conclusion is “interesting food, risky meal timing,” not a smoothed score.\n\nThe Fantuan page is useful for historical dish evidence but still points to the former Capstan address; it is deliberately not used for structured location data.\n\n### Source-access note\n\nThe two RedNote posts were inspected in a signed-in browser session on 2026-07-19. Bare RedNote URLs may require login and are not reliably archivable; the observed dates, dishes, relocation comments, and service complaint are summarized above so the editorial judgment does not depend on unauthenticated access. The Fantuan page was inspected through its live Chinese listing, but direct automated fetches may not reproduce the rendered review content."
     },
     {
       "id": "jiang-jiang-xinjiang",
@@ -1468,6 +1592,7 @@
       "groupFit": "Food-court stall; useful for adding one regional dish to a mixed lunch",
       "status": "rising",
       "confidence": "medium",
+      "lastVerified": "2026-07-19",
       "dishes": [
         {
           "name": "Kazakh hand-grabbed lamb rice",
@@ -1493,21 +1618,21 @@
         {
           "label": "Fantuan Chinese listing, dishes, address, Friday hours, and live deal sales",
           "url": "https://www.fantuanorder.com/dianping/zh-CN/store/Restaurant-7587358070-ca",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "Uber Eats archived menu and unit corroboration",
           "url": "https://www.ubereats.com/ca/store/%E7%96%86%E7%96%86%E6%96%B0%E7%96%86%E8%8F%9C%E7%A0%94%E7%A9%B6%E6%89%80-%E7%96%86%E8%BE%A3-jiang-jiang-northwestern-chinese-food/uS5rO8UVT5qfiUcNylgVVg",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "Parker Place coordinates",
           "url": "https://www.mallsandstores.info/british-columbia/parker-place/130868-tak-fook-noodle-and-congee-shop.html",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         }
       ],
       "order": 240,
-      "notes": "## Evidence and current read\n\nJiang Jiang is a diversity **rising** pick, not yet a citywide benchmark. Fantuan's live deals have sold dozens of lamb-skewer/soup and Xinjiang fried-rice-noodle bundles, while the menu includes baked lamb buns and Kazakh-style lamb rice. That transaction evidence is stronger than an influencer photo, but the small review base and incomplete weekly hours keep confidence medium."
+      "notes": "## Evidence and current read\n\nJiang Jiang is a diversity **rising** pick, not yet a citywide benchmark. Fantuan's live deals have sold dozens of lamb-skewer/soup and Xinjiang fried-rice-noodle bundles, while the menu includes baked lamb buns and Kazakh-style lamb rice. That transaction evidence is stronger than an influencer photo, but the small review base and incomplete weekly hours keep confidence medium.\n\n### Source-access note\n\nFantuan's live Chinese listing was inspected on 2026-07-19, including deal sales, the displayed Friday hours, and named dishes. Bare URLs can render opaque content outside the platform session; those observations are summarized above. The archived Uber Eats menu corroborates identity and dishes but is explicitly not treated as current operating proof."
     },
     {
       "id": "joint-bbq",
@@ -1530,6 +1655,7 @@
       "groupFit": "Lively group meal built around shared skewers",
       "status": "rising",
       "confidence": "medium",
+      "lastVerified": "2026-07-19",
       "dishes": [
         {
           "name": "Lamb skewers",
@@ -1555,16 +1681,16 @@
         {
           "label": "Fantuan Chinese listing, current Saturday hours, dish evidence, and review counts",
           "url": "https://www.fantuanorder.com/dianping/store/joint-bbq--9164495423-ca",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "Bravo current phone, Friday hours, and Dongbei menu description",
           "url": "https://www.bravoup.ca/store/joint-bbq",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         }
       ],
       "order": 250,
-      "notes": "## Evidence and current read\n\nJoint BBQ is a useful Dongbei lane, not just “more spicy food.” Fantuan ranks it strongly among Richmond barbecue restaurants, while the menu joins charcoal offal and lamb skewers with canonical Northeastern guobaorou. Its late hours fill a different daypart from food-court Richmond. Incomplete weekday hours are left blank rather than inferred."
+      "notes": "## Evidence and current read\n\nJoint BBQ is a useful Dongbei lane, not just “more spicy food.” Fantuan ranks it strongly among Richmond barbecue restaurants, while the menu joins charcoal offal and lamb skewers with canonical Northeastern guobaorou. Its late hours fill a different daypart from food-court Richmond. Incomplete weekday hours are left blank rather than inferred.\n\n### Source-access note\n\nFantuan's live Chinese listing was inspected on 2026-07-19, including the displayed Saturday hours, ranking, review count, and dish set. Bare URLs can render opaque content outside the platform session; those observations are summarized above. Bravo independently corroborates the phone, address, Friday hours, and Dongbei menu identity."
     },
     {
       "id": "geng-shi-ji",
@@ -1592,6 +1718,7 @@
       "groupFit": "Stylish full-service room; shared dishes suit four or more",
       "status": "staple",
       "confidence": "high",
+      "lastVerified": "2026-07-19",
       "dishes": [
         {
           "name": "Century egg pounded with eggplant",
@@ -1617,21 +1744,21 @@
         {
           "label": "Fantuan Chinese in-store reviews, hours, address, and disagreement tags",
           "url": "https://www.fantuanorder.com/dianping/zh-CN/store/Restaurant-9164098843-ca",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "Fantuan July 2026 delivery transactions and repeat dish signals",
           "url": "https://www.fantuanorder.com/zh-CN/store/geng-shi-ji/CA-453",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "Chinese-language directory phone and full weekly hours",
           "url": "https://wanderlog.com/zh/place/details/2350764/%E8%80%95%E9%A3%9F%E8%AE%B0-geng-shi-ji",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         }
       ],
       "order": 260,
-      "notes": "## Evidence and current read\n\nGeng Shi Ji complicates simplistic regional labels. Fantuan classifies it as Shanghai food, while the current dish mix has real Hunan influence. More important, its July 2026 delivery record proves continuing local use: vegetable rice, salted duck, cured-pork bamboo shoots, soups, and small wontons receive recent praise. The same Chinese platform records complaints about price, portions, slow service, and spice labelling; those are preserved rather than averaged away."
+      "notes": "## Evidence and current read\n\nGeng Shi Ji complicates simplistic regional labels. Fantuan classifies it as Shanghai food, while the current dish mix has real Hunan influence. More important, its July 2026 delivery record proves continuing local use: vegetable rice, salted duck, cured-pork bamboo shoots, soups, and small wontons receive recent praise. The same Chinese platform records complaints about price, portions, slow service, and spice labelling; those are preserved rather than averaged away.\n\n### Source-access note\n\nFantuan's Chinese in-store and delivery pages were inspected on 2026-07-19, including dated July delivery comments and dish-level sales. Bare URLs can render opaque content outside the platform session; the observed classification, dishes, repeat-use evidence, and complaint categories are summarized above."
     },
     {
       "id": "south-silk-road",
@@ -1660,6 +1787,7 @@
       "groupFit": "Large shareable menu and private rooms suit a family group",
       "status": "staple",
       "confidence": "high",
+      "lastVerified": "2026-07-19",
       "dishes": [
         {
           "name": "Jianshui steam-pot chicken",
@@ -1685,26 +1813,311 @@
         {
           "label": "Official Chinese location page, address, and phone",
           "url": "https://www.southsilkroad.ca/locations",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "Fantuan Chinese reviews, current Tuesday hours, live deal sales, and Yunnan dishes",
           "url": "https://www.fantuanorder.com/dianping/store/Restaurant-2409259590-ca",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "Restaurantji July 2026 schedule and current cautions",
           "url": "https://www.restaurantji.com/bc/richmond/cool-chinese-restaurant-/",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         },
         {
           "label": "Apple Maps shorter-hours disagreement and payment notes",
           "url": "https://maps.apple.com/place?place-id=IA563772B7546AC67",
-          "date": "2026-07-19T00:00:00.000Z"
+          "date": "2026-07-19"
         }
       ],
       "order": 270,
-      "notes": "## Evidence and current read\n\nSouth Silk Road is the established Southwest-China anchor. Fantuan has thousands of Chinese reviews, hundreds of in-store payments, and live rice-noodle and set-menu sales; the menu's steam-pot chicken, Yunnan mushrooms, rice noodles, and regional mash dishes are a stronger authenticity signal than broad “Chinese” ratings. Closing time is the material disagreement: directories range from 10:00pm to 12:30am, so midnight is treated as provisional and diners should call after 10:00pm."
+      "notes": "## Evidence and current read\n\nSouth Silk Road is the established Southwest-China anchor. Fantuan has thousands of Chinese reviews, hundreds of in-store payments, and live rice-noodle and set-menu sales; the menu's steam-pot chicken, Yunnan mushrooms, rice noodles, and regional mash dishes are a stronger authenticity signal than broad “Chinese” ratings. Closing time is the material disagreement: directories range from 10:00pm to 12:30am, so midnight is treated as provisional and diners should call after 10:00pm.\n\n### Source-access note\n\nFantuan's live Chinese listing was inspected on 2026-07-19, including review volume, in-store payment count, live deal sales, and named Yunnan dishes. Bare URLs can render opaque content outside the platform session; those observations are summarized above. The Restaurantji URL retains an old `cool-chinese-restaurant` slug but was verified to resolve to South Silk Road; its citation label states the supported schedule and caution rather than the slug name."
+    },
+    {
+      "id": "szechuan-tales",
+      "name": "Szechuan Tales Restaurant",
+      "nameZh": "川說",
+      "region": "Sichuan · traditional and modern",
+      "format": "Full-service regional restaurant · private rooms",
+      "area": "Leslie / Golden Village",
+      "address": "8111 Leslie Road, Richmond, BC V6X 1E4",
+      "website": "https://szechuantales.ca/",
+      "price": "$$",
+      "hours": {
+        "mon": "11:00am–9:30pm",
+        "tue": "11:00am–9:30pm",
+        "wed": "11:00am–9:30pm",
+        "thu": "11:00am–9:30pm",
+        "fri": "11:00am–9:30pm",
+        "sat": "11:00am–9:30pm",
+        "sun": "11:00am–9:30pm"
+      },
+      "bestDaypart": "Late lunch or early group dinner before the busiest shared-table period",
+      "parking": "Shared plaza parking; current reviews flag peak-time difficulty",
+      "groupFit": "Large sharing dishes and three private rooms suit a family group",
+      "status": "hot",
+      "confidence": "medium",
+      "lastVerified": "2026-07-19",
+      "dishes": [
+        {
+          "name": "Pickled-pepper fish",
+          "nameZh": "泡椒魚",
+          "note": "high-volume current Fantuan set with 3–4-person fit"
+        },
+        {
+          "name": "Pickled-pepper bullfrog",
+          "nameZh": "泡椒牛蛙",
+          "note": "regional jianghu-style signature with active deal sales"
+        },
+        {
+          "name": "Peppery chicken",
+          "nameZh": "椒麻雞",
+          "note": "named positively in a dated March 2026 Chinese review"
+        }
+      ],
+      "cautions": [
+        "The old official site and current transactional/directories disagree on both phone and hours; the phone is intentionally blank",
+        "Fantuan deal sales demonstrate demand but are promotion-sensitive"
+      ],
+      "sources": [
+        {
+          "label": "Current official Chinese site and restaurant format",
+          "url": "https://szechuantales.ca/",
+          "date": "2026-07-19"
+        },
+        {
+          "label": "Fantuan public Chinese listing, 1,660 reviews, current deals, and March 2026 dish report",
+          "url": "https://www.fantuanorder.com/dianping/zh-CN/store/szechuan-tales-restaurant-8092581763-ca",
+          "date": "2026-07-19"
+        },
+        {
+          "label": "Chinese local forum recommendation for group Sichuan dining",
+          "url": "https://www.1point3acres.com/bbs/thread-1083183-4-1.html",
+          "date": "2026-07-19"
+        },
+        {
+          "label": "May 2026 directory hours, phone conflict, parking, and dish list",
+          "url": "https://www.restaurantji.com/bc/richmond/szechuan-tales-restaurant-/",
+          "date": "2026-07-19"
+        }
+      ],
+      "order": 280,
+      "notes": "## Evidence and current read\n\nSzechuan Tales is the clearest second Sichuan anchor in the present sweep. Fantuan's public page shows 1,660 reviews, a 4.5 taste score, more than 100 notes, active in-store payments, and live set sales; a March 2026 Chinese review specifically praises 椒麻雞, 川北涼粉, 水煮牛肉, and 腰肝合炒 while calling the last dish too salty. A Chinese local-forum recommendation independently names it as the writer's default Sichuan restaurant for group meals.\n\nThis is `hot` because current demand and dish evidence are strong, but confidence remains medium until the phone and weekly schedule are reconciled. The older `.com` page still shows a split 10:00am–3:00pm / 5:00pm–10:00pm schedule and a different phone; current Fantuan and May 2026 directories show continuous 11:00am–9:30pm service.\n\n### Source-access note\n\nFantuan's public web page was read without login on 2026-07-19. It exposed the review count, score split, selected dated reviews, note count, deal sales, and named dishes; the full 1,660-review corpus remains app-forward."
+    },
+    {
+      "id": "silkway-halal",
+      "name": "Silkway Halal Cuisine",
+      "nameZh": "絲路清真美食",
+      "region": "Hui / Ningxia · Northwestern Chinese halal",
+      "format": "Full-service regional restaurant",
+      "area": "Brighouse",
+      "address": "Unit 110, 8188 Saba Road, Richmond, BC V6Y 4B2",
+      "phone": "+1 604-278-6788",
+      "price": "$$",
+      "hours": {
+        "sat": "11:00am–3:00pm, 5:00pm–10:00pm"
+      },
+      "bestDaypart": "Lunch or early dinner; recheck the day's split schedule before travelling",
+      "parking": "Shared Saba Road plaza parking",
+      "groupFit": "Large lamb, chicken, hot-pot, and dumpling dishes suit a sharing table",
+      "status": "staple",
+      "confidence": "medium",
+      "lastVerified": "2026-07-19",
+      "dishes": [
+        {
+          "name": "Cumin lamb skewers",
+          "nameZh": "孜然羊肉串",
+          "note": "repeated signature across Tourism Richmond, Fantuan notes, and current delivery"
+        },
+        {
+          "name": "Xinjiang-style braised chicken",
+          "nameZh": "新疆大盤雞",
+          "note": "Northwestern group dish rather than a generic stir-fry"
+        },
+        {
+          "name": "Lamb dumplings",
+          "nameZh": "羊肉餃子",
+          "note": "available boiled, pan-fried, or in soup"
+        }
+      ],
+      "cautions": [
+        "Fantuan's food-first score split is sharp: taste 4.1 versus environment 1.5 and service 1.7",
+        "Only Saturday's split hours were directly rechecked; verify the current day before visiting"
+      ],
+      "sources": [
+        {
+          "label": "Tourism Richmond Hui/Ningxia ownership, all-halal practice, and Northwestern menu context",
+          "url": "https://www.visitrichmondbc.com/itineraries/silkway-halal/",
+          "date": "2026-07-19"
+        },
+        {
+          "label": "Tourism Richmond current address, phone, dumplings, and cumin lamb",
+          "url": "https://www.visitrichmondbc.com/partners/silkway-halal-cuisine/",
+          "date": "2026-07-19"
+        },
+        {
+          "label": "Fantuan public listing, 824 reviews, score split, Saturday hours, and Chinese notes",
+          "url": "https://www.fantuanorder.com/dianping/en-US/store/Restaurant-9164096443-ca",
+          "date": "2026-07-19"
+        },
+        {
+          "label": "Fantuan live delivery menu and repeat-customer comments",
+          "url": "https://www.fantuanorder.com/store/silkway-halal-cuisine-restaurant/ca-5660",
+          "date": "2026-07-19"
+        },
+        {
+          "label": "Richmond local discussion identifying Silkway as halal Chinese dining",
+          "url": "https://www.reddit.com/r/richmondbc/comments/1jw8lp5/muslim_foodie_looking_for_asian_dishes_to_try_in/",
+          "date": "2026-07-19"
+        }
+      ],
+      "order": 290,
+      "notes": "## Evidence and current read\n\nSilkway closes a real classification gap: it is a Hui-owned Chinese Muslim restaurant with Ningxia roots, not a generic “Xinjiang” proxy and not evidence of Uyghur ownership. Tourism Richmond explicitly identifies the owners as Hui Chinese from Ningxia and the kitchen as all halal. Fantuan supplies the behavioural layer: 824 reviews, current delivery, and a food-first score split whose weak environment/service numbers should not be hidden.\n\nThe best-supported order is a Northwestern sharing meal built around cumin lamb, braised chicken, dumplings, and a vegetable dish. The venue is a `staple`, not a trend call. Confidence stays medium because its public weekly schedule is fragmented and quality reports are positive but uneven.\n\n### Source-access note\n\nFantuan's public detail and delivery pages were readable without login on 2026-07-19. They exposed selected reviews, notes, menu items, current Saturday hours, and the taste/environment/service split; the complete review corpus remains in the app."
+    },
+    {
+      "id": "top-shanghai",
+      "name": "Top Shanghai Cuisine Restaurant",
+      "nameZh": "上海一只鼎",
+      "region": "Shanghai / Jiangnan",
+      "format": "Full-service regional restaurant · dumplings and wok dishes",
+      "area": "Brighouse / Ackroyd",
+      "address": "Unit 120, 8100 Ackroyd Road, Richmond, BC V6X 3K2",
+      "phone": "+1 604-278-8798",
+      "website": "https://www.topshanghai.ca/",
+      "price": "$$",
+      "hours": {
+        "mon": "10:30am–9:00pm",
+        "tue": "Closed",
+        "wed": "10:30am–9:00pm",
+        "thu": "10:30am–9:00pm",
+        "fri": "10:30am–9:00pm",
+        "sat": "10:30am–9:00pm",
+        "sun": "10:30am–9:00pm"
+      },
+      "bestDaypart": "Weekday late lunch for dumplings; early dinner for a broader sharing menu",
+      "parking": "Shared Ackroyd plaza parking",
+      "groupFit": "Works for a small dumpling lunch or a family sharing table",
+      "status": "staple",
+      "confidence": "medium",
+      "lastVerified": "2026-07-19",
+      "dishes": [
+        {
+          "name": "Pan-fried pork buns",
+          "nameZh": "生煎包",
+          "note": "the clearest cross-source Shanghai signature"
+        },
+        {
+          "name": "Xiao long bao",
+          "nameZh": "小籠包",
+          "note": "hand-made soup dumpling benchmark"
+        },
+        {
+          "name": "Oil-slicked eel paste",
+          "nameZh": "響油鱔糊",
+          "note": "more region-specific than the generic menu items"
+        }
+      ],
+      "cautions": [
+        "Fantuan scores food much higher than environment or service: taste 4.6 versus roughly 3.0 for each",
+        "The official site says open daily, while current Fantuan and May 2026 directories say Tuesday closed"
+      ],
+      "sources": [
+        {
+          "label": "Official address, phone, Shanghai identity, dishes, and current posts",
+          "url": "https://www.topshanghai.ca/",
+          "date": "2026-07-19"
+        },
+        {
+          "label": "Fantuan public listing, 1,140 reviews, score split, dishes, and Tuesday closure",
+          "url": "https://www.fantuanorder.com/dianping/store/Restaurant-8092581053-ca",
+          "date": "2026-07-19"
+        },
+        {
+          "label": "May 2026 directory schedule and booking availability",
+          "url": "https://restaurantguru.com/Top-Shanghai-Cuisine-Richmond-British-Columbia",
+          "date": "2026-07-19"
+        },
+        {
+          "label": "Historical Chinese-language review and long-running local identity",
+          "url": "https://vandiarydotcom.wordpress.com/2012/01/07/top-shanghai-cuisine-restaurant-ackroyd-road/",
+          "date": "2026-07-19"
+        },
+        {
+          "label": "VCH historical closure/reopening chronology for resolved 2023 incident",
+          "url": "https://www.vch.ca/en/media/21101",
+          "date": "2026-07-19"
+        }
+      ],
+      "order": 300,
+      "notes": "## Evidence and current read\n\nTop Shanghai is a long-running, food-first Shanghai specialist rather than a new regional discovery. Its public Fantuan page shows 1,140 reviews and a useful calibration split: taste 4.6, environment 3.0, and service 3.0. Pan-fried buns, xiao long bao, drunken chicken, pork chop with rice cakes, and 響油鱔糊 support the Shanghai/Jiangnan label at the dish level.\n\nThe venue remains `staple` rather than `hot`: it has durable Chinese-platform use and active current operations, but the room/service split and Tuesday-hours disagreement matter. VCH records show a historical closure on 2023-08-14 and reopening on 2023-08-17. Because that event was corrected nearly three years ago, it is preserved here as dated safety history rather than turned into a permanent present-day warning; any new hygiene claim must use the current VCH record.\n\n### Source-access note\n\nFantuan's public page was readable without login on 2026-07-19 and exposed review count, score split, named dishes, note count, address, and Tuesday closure. The full review corpus remains app-forward."
+    },
+    {
+      "id": "sing-yee",
+      "name": "Sing Yee Chinese Restaurant",
+      "nameZh": "勝意食館",
+      "region": "Cantonese · Hong Kong-style da laang",
+      "format": "Full-service Cantonese · late-night small dishes",
+      "area": "Continental Shopping Centre / Golden Village",
+      "address": "Unit 2118, 3779 Sexsmith Road, Richmond, BC V6X 3Z9",
+      "phone": "+1 604-232-1328",
+      "website": "https://singyee.ca/zh/",
+      "price": "$$",
+      "hours": {
+        "mon": "Closed",
+        "tue": "Closed",
+        "wed": "4:00pm–12:00am",
+        "thu": "4:00pm–12:00am",
+        "fri": "4:00pm–12:00am",
+        "sat": "4:00pm–12:00am",
+        "sun": "4:00pm–12:00am"
+      },
+      "bestDaypart": "After 9:00pm for the traditional da-laang small-dish menu",
+      "parking": "Shared Continental Shopping Centre lot",
+      "groupFit": "Best with four or more people so the late-night small dishes can be shared",
+      "status": "staple",
+      "confidence": "medium",
+      "lastVerified": "2026-07-19",
+      "dishes": [
+        {
+          "name": "Salted-fish steamed pork patty",
+          "nameZh": "鹹魚蒸肉餅",
+          "note": "long-running technique benchmark and family-style rice dish"
+        },
+        {
+          "name": "Clams in black-bean sauce",
+          "nameZh": "豉汁炒蜆",
+          "note": "classic da-laang order"
+        },
+        {
+          "name": "Deep-fried squab",
+          "nameZh": "生炸皇子鴿",
+          "note": "official signature and current family-table fit"
+        }
+      ],
+      "cautions": [
+        "Closed Monday and Tuesday",
+        "This is Cantonese cooking with a Hong Kong da-laang lane, not evidence of a dedicated Chaoshan restaurant"
+      ],
+      "sources": [
+        {
+          "label": "Official Chinese site, address, phone, hours, 9:00pm da-laang menu, and signature dishes",
+          "url": "https://singyee.ca/zh/",
+          "date": "2026-07-19"
+        },
+        {
+          "label": "Recent 2025–2026 diner reports, current hours, and crowd guidance",
+          "url": "https://wanderlog.com/place/details/3469281/sing-yee-chinese-restaurant",
+          "date": "2026-07-19"
+        },
+        {
+          "label": "Historical specialist profile of steamed pork patty, clams, wok work, and late-night clientele",
+          "url": "https://www.bonappetit.com/story/cantonese-restaurants-richmond",
+          "date": "2026-07-19"
+        }
+      ],
+      "order": 310,
+      "notes": "## Evidence and current read\n\nSing Yee fills a daypart and technique gap more than a regional-counting gap. The official Chinese site says the post-9:00pm menu is traditional 打冷, with a larger Cantonese repertoire that includes squab, winter-melon soup, eight-treasure duck, preserved-vegetable dishes, roast meats, and advance-order banquet cooking. Recent 2025–2026 reports continue to describe late groups, strong clay-pot and roast dishes, and attentive service.\n\nThe regional label is deliberately narrow: Hong Kong `da laang` is shaped by Teochew late-night culture, but Sing Yee self-identifies as traditional Cantonese. The guide should not count it as dedicated Chaoshan coverage. It is a `staple` with medium confidence because operations and current use are strong, while the best dish-level specialist profile is older."
     }
   ]
 }

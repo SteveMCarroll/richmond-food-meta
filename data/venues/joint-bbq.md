@@ -54,3 +54,7 @@ order: 250
 ## Evidence and current read
 
 Joint BBQ is a useful Dongbei lane, not just “more spicy food.” Fantuan ranks it strongly among Richmond barbecue restaurants, while the menu joins charcoal offal and lamb skewers with canonical Northeastern guobaorou. Its late hours fill a different daypart from food-court Richmond. Incomplete weekday hours are left blank rather than inferred.
+
+### Source-access note
+
+Fantuan's live Chinese listing was inspected on 2026-07-19, including the displayed Saturday hours, ranking, review count, and dish set. Bare URLs can render opaque content outside the platform session; those observations are summarized above. Bravo independently corroborates the phone, address, Friday hours, and Dongbei menu identity.

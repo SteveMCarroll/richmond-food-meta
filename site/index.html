@@ -16,7 +16,10 @@
       <div class="wrap">
         <nav class="topnav">
           <a class="brand" href="index.html">🥢 Richmond food meta</a>
-          <a class="navlink" href="meta.html">The mall meta →</a>
+          <div class="navlinks">
+            <a class="navlink" href="meta.html">The mall meta</a>
+            <a class="navlink" href="methodology.html">How we research</a>
+          </div>
         </nav>
         <p class="eyebrow">Richmond, BC · updated <span id="updated"></span></p>
         <h1 id="title">The Chinese food meta</h1>
@@ -42,6 +45,7 @@
       <section id="eat-section">
         <h2>Eat</h2>
         <div class="controls">
+          <label class="sr-only" for="search">Search venues</label>
           <input
             type="search"
             id="search"
@@ -58,11 +62,10 @@
 
     <footer class="wrap">
       <p class="muted">
-        Seed data extracted from research notes and being verified against current
-        Chinese-language sources and official hours. Every card shows a confidence
-        level and last-verified date.
+        A dated research snapshot, not a permanent ranking. Hours and operations
+        can change; verify time-sensitive details before a special trip.
       </p>
-      <p class="muted">Static site · hostable on GitHub Pages.</p>
+      <p class="muted"><a href="methodology.html">Read the methodology and limitations.</a></p>
     </footer>
 
     <script src="app.js"></script>

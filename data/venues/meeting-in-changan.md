@@ -53,3 +53,7 @@ order: 150
 ## Evidence and current read
 
 Noms documented the stall at 90% buildout on May 19, based partly on the Xi'an-born owner's RedNote post. Fantuan now surfaces the business for liangpi and hot-and-sour noodles, which is evidence of commercial activity but not enough to assert a verified walk-in schedule. This is intentionally a **lead**, not a recommendation. Coordinates use the Empire Centre centroid.
+
+### Source-access note
+
+Fantuan's dish directory was inspected on 2026-07-19 but may not render consistently from a bare URL. It showed the business attached to liangpi and hot-and-sour-noodle categories; that observation is recorded only as commercial-activity evidence. The source does not resolve the physical unit, phone, hours, or walk-in opening status.

@@ -60,3 +60,7 @@ order: 220
 ## Evidence and current read
 
 Despite the jokey “fly restaurant” name, this is not a novelty concept. Fantuan's 1,000-plus Chinese reviews show a classic food-first split—strong taste and weak environment/service—while delivery activity supplies a current transaction signal. The menu's liver/kidney stir-fry, taro chicken, smoked-bamboo-shoot cured pork, and sweet-skin duck make the regional claim more specific than a generic Sichuan label.
+
+### Source-access note
+
+Fantuan's live Chinese review and delivery pages were inspected on 2026-07-19. Bare URLs can render opaque content outside the platform session; the observed review volume, score split, transaction signal, and named dishes are summarized above for auditability.

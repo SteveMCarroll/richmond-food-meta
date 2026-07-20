@@ -57,3 +57,7 @@ order: 260
 ## Evidence and current read
 
 Geng Shi Ji complicates simplistic regional labels. Fantuan classifies it as Shanghai food, while the current dish mix has real Hunan influence. More important, its July 2026 delivery record proves continuing local use: vegetable rice, salted duck, cured-pork bamboo shoots, soups, and small wontons receive recent praise. The same Chinese platform records complaints about price, portions, slow service, and spice labelling; those are preserved rather than averaged away.
+
+### Source-access note
+
+Fantuan's Chinese in-store and delivery pages were inspected on 2026-07-19, including dated July delivery comments and dish-level sales. Bare URLs can render opaque content outside the platform session; the observed classification, dishes, repeat-use evidence, and complaint categories are summarized above.

@@ -25,7 +25,7 @@ bestDaypart: "Off-peak late lunch; the relocated kitchen is slow at dinner"
 parking: "Shared Alexandra Road lot"
 payment: ""
 groupFit: "Shareable dishes; allow extra time and avoid a tightly timed meal"
-status: hot
+status: watch
 confidence: medium
 lastVerified: 2026-07-19
 dishes:
@@ -60,6 +60,10 @@ order: 230
 
 ## Evidence and current read
 
-Ban Bu Xian is currently hot and operationally unstable. A June 2026 RedNote report says the Alexandra room is larger, less noisy, full on a Wednesday, and still strong on 肥腸雞, 火爆雙脆, and 冒烤鴨. A July report describes severe ticket pacing and hostile service. Both are retained because the correct conclusion is “interesting food, risky meal timing,” not a smoothed score.
+Ban Bu Xian has interesting current food evidence but enough post-move operational instability to remain **watch**. A June 2026 RedNote report says the Alexandra room is larger, less noisy, full on a Wednesday, and still strong on 肥腸雞, 火爆雙脆, and 冒烤鴨. A July report describes severe ticket pacing and hostile service. Both are retained because the correct conclusion is “interesting food, risky meal timing,” not a smoothed score.
 
 The Fantuan page is useful for historical dish evidence but still points to the former Capstan address; it is deliberately not used for structured location data.
+
+### Source-access note
+
+The two RedNote posts were inspected in a signed-in browser session on 2026-07-19. Bare RedNote URLs may require login and are not reliably archivable; the observed dates, dishes, relocation comments, and service complaint are summarized above so the editorial judgment does not depend on unauthenticated access. The Fantuan page was inspected through its live Chinese listing, but direct automated fetches may not reproduce the rendered review content.

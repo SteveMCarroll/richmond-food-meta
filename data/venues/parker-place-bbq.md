@@ -61,3 +61,7 @@ order: 170
 Parker Place is the strongest all-round, low-theatre recommendation in the current siu-mei set. A Chinese comparison explicitly prefers it to HK BBQ Master for reliability and an efficient line. Fantuan's 4.2 taste score versus 2.1 environment and 2.1 service is culturally useful: the low comfort/service marks coexist with hundreds of food-driven reviews and are not a reason to discard the counter.
 
 Coordinates are the Parker Place building centroid, not the butcher-counter door.
+
+### Source-access note
+
+The RedNote comparison was inspected in a signed-in browser session on 2026-07-19, and Fantuan's live listing was inspected through the rendered platform page. Bare links may not reproduce those views without session access, so the preference comparison, queue observation, review volume, and taste/environment/service split are summarized above. Current phone and hours are independently corroborated by a directory source.

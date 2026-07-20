@@ -1,5 +1,7 @@
 # Empire Centre calibration case
 
+> **Status:** Historical calibration case from the first research pass. It documents why raw ratings and mall appearance are misleading; current policy is in `research/METHODOLOGY.md` and current venue facts are in `data/`.
+
 Observed July 19, 2026. This is a first-pass research note, not a recommendation list.
 
 ## Why Empire is useful

@@ -34,6 +34,7 @@ dishes:
     note: established morning draw
 cautions:
   - "Last order is 15 minutes before the posted close"
+  - "Tourism Richmond's Empire background is older context; the official ordering page supplies current operations"
 sources:
   - label: Official ordering page, address, phone, daily hours, and last order
     url: https://onecafe.richmondpos.com/empire.html

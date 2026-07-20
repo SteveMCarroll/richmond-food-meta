@@ -61,6 +61,7 @@ body {
   margin-bottom: 26px;
   flex-wrap: wrap;
 }
+.navlinks { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 .brand {
   font-weight: 800;
   color: var(--ink);
@@ -431,3 +432,37 @@ footer {
   margin-top: 12px;
 }
 footer p { margin: 4px 0; }
+footer a { color: var(--staple); }
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.prose { max-width: 780px; }
+.prose section { margin-bottom: 34px; }
+.prose p, .prose li { color: var(--muted); }
+.prose ul { padding-left: 1.25rem; }
+.prose li { margin-bottom: 8px; }
+.prose b, .prose dt { color: var(--ink); }
+.method-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 10px;
+  margin: 0;
+}
+.method-grid div {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+  padding: 12px 14px;
+}
+.method-grid dt { font-weight: 800; }
+.method-grid dd { margin: 4px 0 0; color: var(--muted); font-size: 0.9rem; }
