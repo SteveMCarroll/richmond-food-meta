@@ -6,3 +6,7 @@ node_modules/
 .vinext/
 .openai/
 *.log
+
+# agent worktrees / local tooling
+.claude/
+.agents/
