@@ -1,0 +1,15 @@
+{
+  "name": "eastside-food-meta-site",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Static site for the Seattle Eastside Chinese food meta guide. Compiled from eastside/data/** at the repo root.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/compile.mjs",
+    "watch": "node scripts/compile.mjs --watch",
+    "serve": "python -m http.server 8138"
+  },
+  "devDependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}

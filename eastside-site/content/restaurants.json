@@ -1,0 +1,1712 @@
+{
+  "meta": {
+    "title": "Seattle Eastside — the Chinese food meta",
+    "subtitle": "Bellevue is the center; the useful scene extends well beyond it",
+    "updated": "2026-07-20",
+    "intro": "A curated, evidence-based map of Chinese and Taiwanese dining across Bellevue, Redmond, Kirkland, Issaquah, Sammamish, Factoria, Bel-Red, and Overlake. It is organized by cluster, regional lane, dish, and daypart rather than one popularity ranking, with operational conflicts and research gaps kept visible."
+  },
+  "hubs": [
+    {
+      "id": "bel-red-20th",
+      "name": "Bel-Red / NE 20th corridor",
+      "type": "Corridor",
+      "city": "Bellevue",
+      "area": "Bel-Red and East Bellevue",
+      "status": "hot",
+      "summary": "The Eastside's deepest Chinese-food cluster, with Hunan, Sichuan, Lanzhou noodles, dumplings, Taiwanese snacks, barbecue, and claypot cooking spread through utilitarian plazas.",
+      "dayparts": {
+        "breakfast": "Master Bing is outside the corridor but is the stronger early option.",
+        "lunch": "Excellent; many specialists serve lunch, though several keep an afternoon break.",
+        "dinner": "The corridor's strongest daypart.",
+        "late": "Nuodle is the clearest verified late option."
+      },
+      "sources": [
+        {
+          "label": "KUOW overview of Bellevue's Chinese-food depth",
+          "url": "https://www.kuow.org/stories/see-ya-b-c-bellevue-is-a-chinese-food-lover-s-dream",
+          "date": "2026-07-20"
+        },
+        {
+          "label": "Eater's Bel-Red cluster map",
+          "url": "https://seattle.eater.com/maps/best-asian-restaurants-bellevue-redmond-eastside",
+          "date": "2026-07-20"
+        }
+      ],
+      "order": 10,
+      "notes": "Treat this as a drive-and-park corridor, not a walkable restaurant row. The useful\ndefinition stretches beyond NE 20th itself to nearby Crossroads and Lake Hills."
+    },
+    {
+      "id": "downtown-bellevue",
+      "name": "Downtown Bellevue",
+      "type": "District",
+      "city": "Bellevue",
+      "area": "Downtown",
+      "status": "hot",
+      "summary": "Polished, reservation-friendly Chinese dining: hot pot, soup dumplings, Peking duck, and mall-adjacent group meals.",
+      "dayparts": {
+        "breakfast": "Master Bing opens early.",
+        "lunch": "Strong for business meals and dumplings.",
+        "dinner": "Strongest use; reserve for peak periods and groups.",
+        "late": "Haidilao is the most dependable late-night anchor."
+      },
+      "sources": [
+        {
+          "label": "Current Bellevue Chinese restaurant comparison",
+          "url": "https://www.theinfatuation.com/seattle/guides/best-chinese-restaurants-bellevue",
+          "date": "2026-07-20"
+        },
+        {
+          "label": "Downtown Bellevue dining directory",
+          "url": "https://www.bellevuedowntown.com/explore/dining",
+          "date": "2026-07-20"
+        }
+      ],
+      "order": 20,
+      "notes": "Downtown is easier for groups and transit than Bel-Red, but generally pricier and\nless specialist-driven."
+    },
+    {
+      "id": "factoria",
+      "name": "Factoria",
+      "type": "District",
+      "city": "Bellevue",
+      "area": "Factoria",
+      "status": "rising",
+      "summary": "A practical south-Bellevue cluster led by T&T Supermarket's large prepared-food ecosystem, plus dim sum and northern Chinese options nearby.",
+      "dayparts": {
+        "breakfast": "T&T bakery and prepared foods are the best fit.",
+        "lunch": "Strong for grazing, shopping, and casual groups.",
+        "dinner": "Useful, but quality varies more than in Bel-Red.",
+        "late": "Limited; verify same-day."
+      },
+      "sources": [
+        {
+          "label": "T&T first US store opening and food departments",
+          "url": "https://www.tntsupermarket.us/cht/aboutus/newsroom/80",
+          "date": "2026-07-20"
+        },
+        {
+          "label": "City of Bellevue Factoria existing-conditions report",
+          "url": "https://bellevuewa.gov/sites/default/files/media/pdf_document/2026/cd-01302026-factoriaexistingconditions-v01-en.pdf",
+          "date": "2026-07-20"
+        }
+      ],
+      "order": 30,
+      "notes": "T&T is a hub record as much as a venue: bakery, deli, street-food counters, dim\nsum, noodles, and groceries support several different visits."
+    },
+    {
+      "id": "overlake",
+      "name": "Overlake / 152nd",
+      "type": "Corridor",
+      "city": "Redmond",
+      "area": "Overlake",
+      "status": "rising",
+      "summary": "A compact, transit-improving pocket whose strongest Chinese anchor is 151 Days Chicken Soup House, with Asian retail and bakeries nearby.",
+      "dayparts": {
+        "breakfast": "Bakery use is stronger than restaurant use.",
+        "lunch": "Strongest practical daypart.",
+        "dinner": "Good for destination meals; watch split hours.",
+        "late": "Weak."
+      },
+      "sources": [
+        {
+          "label": "Seattle Met profile of 151 Days",
+          "url": "https://www.seattlemet.com/eat-and-drink/our-favorite-chinese-restaurants-in-and-around-seattle",
+          "date": "2026-07-20"
+        },
+        {
+          "label": "Eastside growth, diversity, and transit context",
+          "url": "https://www.axios.com/local/seattle/2024/11/21/eastside-housing-transit-expansion-diversity-2024",
+          "date": "2026-07-20"
+        }
+      ],
+      "order": 40,
+      "notes": "Do not collapse Overlake into downtown Redmond; it has a different transit and\nshopping pattern."
+    },
+    {
+      "id": "downtown-redmond",
+      "name": "Downtown Redmond",
+      "type": "District",
+      "city": "Redmond",
+      "area": "Downtown and Redmond Town Center",
+      "status": "rising",
+      "summary": "A small but improving cluster: Hunan at Dong Ting Chun, newly reopened Hakka House, and a new Supreme Dumplings branch.",
+      "dayparts": {
+        "breakfast": "Limited.",
+        "lunch": "Good, especially around Town Center.",
+        "dinner": "Improving; Hakka House adds a distinctive regional lane.",
+        "late": "Limited."
+      },
+      "sources": [
+        {
+          "label": "Hakka House reopening and signature dish",
+          "url": "https://seattlemag.com/food-drink/the-dish-everyone-orders-at-hakka-house/",
+          "date": "2026-07-20"
+        },
+        {
+          "label": "Dong Ting Chun directory listing",
+          "url": "https://redmondtowncenter.com/directory/dong-ting-chun",
+          "date": "2026-07-20"
+        }
+      ],
+      "order": 50,
+      "notes": "The corpus keeps the very new Supreme Dumplings branch in the lead ledger until\nbranch-specific evidence matures."
+    },
+    {
+      "id": "kirkland-124th",
+      "name": "North Rose Hill / 124th",
+      "type": "Micro-cluster",
+      "city": "Kirkland",
+      "area": "North Rose Hill and Totem Lake fringe",
+      "status": "watch",
+      "summary": "A modest pair of specialist options—Fang's noodles and Dim Sum Yuan—rather than a deep district.",
+      "dayparts": {
+        "breakfast": "Weak.",
+        "lunch": "Best use for noodles or made-to-order dim sum.",
+        "dinner": "Viable, with more limited evidence than Bellevue.",
+        "late": "Weak."
+      },
+      "sources": [
+        {
+          "label": "Current Fang's operational listing",
+          "url": "https://maps.apple.com/place?place-id=IA274DB0267F1F858",
+          "date": "2026-07-20"
+        },
+        {
+          "label": "Current Dim Sum Yuan listing",
+          "url": "https://maps.roadtrippers.com/us/kirkland-wa/food-drink/dim-sum-yuan-kirkland-wa--0",
+          "date": "2026-07-20"
+        }
+      ],
+      "order": 60,
+      "notes": "Downtown Kirkland has a Supreme Dumplings branch, but the 124th-area specialists\nprovide more distinct research value."
+    },
+    {
+      "id": "downtown-issaquah",
+      "name": "Downtown Issaquah",
+      "type": "Micro-cluster",
+      "city": "Issaquah",
+      "area": "Front Street and Olde Town",
+      "status": "staple",
+      "summary": "Dan Gui brings serious Sichuan cooking while Macky's supplies a long-running neighborhood dim-sum role.",
+      "dayparts": {
+        "breakfast": "Weak.",
+        "lunch": "Useful, especially for dim sum or a quieter Dan Gui meal.",
+        "dinner": "Good but narrow in choice.",
+        "late": "Weak."
+      },
+      "sources": [
+        {
+          "label": "Downtown Issaquah dining directory",
+          "url": "https://downtownissaquah.com/eat-and-drink/",
+          "date": "2026-07-20"
+        },
+        {
+          "label": "Dan Gui Issaquah ordering page",
+          "url": "https://pos.chowbus.com/online-ordering/store/Dan-Gui-Sichuan-Cuisine/21352",
+          "date": "2026-07-20"
+        }
+      ],
+      "order": 70,
+      "notes": "This is a two-anchor micro-cluster, not evidence that Issaquah matches Bellevue's\ndepth."
+    },
+    {
+      "id": "sammamish-plateau",
+      "name": "Sammamish Plateau",
+      "type": "Neighborhood catchment",
+      "city": "Sammamish",
+      "area": "228th Avenue SE",
+      "status": "staple",
+      "summary": "A convenience-oriented neighborhood market, with August Moon as the clearest enduring Chinese-American anchor.",
+      "dayparts": {
+        "breakfast": "Weak.",
+        "lunch": "Practical neighborhood use.",
+        "dinner": "Family takeout and familiar Chinese-American dishes.",
+        "late": "Weak."
+      },
+      "sources": [
+        {
+          "label": "August Moon first-party hours and menu",
+          "url": "https://www.myaugustmoon.com/",
+          "date": "2026-07-20"
+        }
+      ],
+      "order": 80,
+      "notes": "The thin record is intentional. Sammamish belongs in coverage, but the evidence\ndoes not support portraying it as a destination cluster."
+    }
+  ],
+  "restaurants": [
+    {
+      "id": "shaoshan-impression",
+      "name": "Shaoshan Impression",
+      "city": "Bellevue",
+      "region": "Hunan",
+      "format": "Full-service regional restaurant",
+      "hub": "bel-red-20th",
+      "area": "Bel-Red",
+      "address": "14150 NE 20th St, Suite C, Bellevue, WA 98007",
+      "phone": "425-598-2164",
+      "website": "https://www.shaoshanimpression.com/",
+      "price": "$$",
+      "hours": {
+        "mon": "11–2, 5–close",
+        "tue": "11–2, 5–close",
+        "wed": "11–2, 5–close",
+        "thu": "11–2, 5–close",
+        "fri": "11–2, 5–close",
+        "sat": "recheck",
+        "sun": "recheck"
+      },
+      "bestDaypart": "Dinner with a group",
+      "parking": "Plaza lot; weekend waits are reported",
+      "groupFit": "High; the menu rewards sharing",
+      "status": "hot",
+      "confidence": "high",
+      "lastVerified": "2026-07-20",
+      "dishes": [
+        {
+          "name": "Farmer-style stir-fried pork",
+          "note": "A direct Hunan benchmark"
+        },
+        {
+          "name": "Steamed fish head with chopped chile",
+          "note": "Large-format regional signature"
+        },
+        {
+          "name": "Mao-style braised pork",
+          "note": "Rich Shaoshan-associated classic"
+        }
+      ],
+      "cautions": [
+        "Closing times were not consistently exposed by the first-party page; recheck same-day."
+      ],
+      "sources": [
+        {
+          "label": "First-party operations",
+          "url": "https://www.shaoshanimpression.com/",
+          "date": "2026-07-20"
+        },
+        {
+          "label": "Current critical dish evidence",
+          "url": "https://seattle.eater.com/maps/best-chinese-restaurants-seattle-bellevue",
+          "date": "2026-07-20"
+        },
+        {
+          "label": "Bellevue visitor listing and weekend-use signal",
+          "url": "https://www.visitbellevuewa.com/listing/shaoshan-impression/3035/",
+          "date": "2026-07-20"
+        }
+      ],
+      "order": 10,
+      "notes": "The strongest destination-level regional restaurant in this first pass. Heat,\nsmoke, preserved flavors, and sharing-size dishes matter more than generic ranking."
+    },
+    {
+      "id": "supreme-dumplings-bellevue",
+      "name": "Supreme Dumplings — Bellevue",
+      "city": "Bellevue",
+      "region": "Jiangnan / soup dumplings",
+      "format": "Dumpling restaurant",
+      "hub": "bel-red-20th",
+      "area": "Bel-Red",
+      "address": "14603 NE 20th St, Unit 4B, Bellevue, WA 98007",
+      "phone": "877-309-0955",
+      "website": "https://www.supreme-dumplings.com/locations",
+      "price": "$$",
+      "hours": {
+        "mon": "11–9",
+        "tue": "11–9",
+        "wed": "11–9",
+        "thu": "11–9",
+        "fri": "11–9",
+        "sat": "11–9",
+        "sun": "11–9"
+      },
+      "bestDaypart": "Lunch or early dinner",
+      "parking": "Plaza lot",
+      "groupFit": "Medium; excellent for two to four",
+      "status": "hot",
+      "confidence": "high",
+      "lastVerified": "2026-07-20",
+      "otherEastsideLocations": "Kirkland and Redmond Town Center; each branch is tracked separately as a lead.",
+      "dishes": [
+        {
+          "name": "Pork xiao long bao",
+          "note": "Core benchmark order"
+        },
+        {
+          "name": "Truffle xiao long bao",
+          "note": "Distinctive luxury variation"
+        },
+        {
+          "name": "Pork chop fried rice",
+          "note": "Useful non-dumpling anchor"
+        }
+      ],
+      "cautions": [
+        "Do not copy these hours or status to the newer Redmond branch."
+      ],
+      "sources": [
+        {
+          "label": "First-party branch hours",
+          "url": "https://www.supreme-dumplings.com/locations",
+          "date": "2026-07-20"
+        },
+        {
+          "label": "Current independent review",
+          "url": "https://www.theinfatuation.com/seattle/guides/best-chinese-restaurants-bellevue",
+          "date": "2026-07-20"
+        }
+      ],
+      "order": 20,
+      "notes": "Branch-specific evidence is mature in Bellevue; the Eastside expansion should not\nbe treated as one interchangeable venue."
+    },
+    {
+      "id": "dan-gui-bellevue",
+      "name": "Dan Gui Sichuan Cuisine — Bellevue",
+      "city": "Bellevue",
+      "region": "Sichuan",
+      "format": "Full-service regional restaurant",
+      "hub": "bel-red-20th",
+      "area": "Bel-Red",
+      "address": "13112 NE 20th St, Suite 300, Bellevue, WA 98005",
+      "phone": "207-992-8888",
+      "website": "https://pos.chowbus.com/online-ordering/store/Dan-Gui-Sichuan-Cuisine-Bellevue/2471",
+      "price": "$$",
+      "hours": {
+        "mon": "11–2:30, 5–8:30",
+        "tue": "11–2:30, 5–8:30",
+        "wed": "11–2:30, 5–8:30",
+        "thu": "11–2:30, 5–8:30",
+        "fri": "11–2:30, 5–9",
+        "sat": "11–9",
+        "sun": "11–8:30"
+      },
+      "bestDaypart": "Dinner",
+      "parking": "Plaza lot",
+      "groupFit": "High",
+      "status": "hot",
+      "confidence": "high",
+      "lastVerified": "2026-07-20",
+      "dishes": [
+        {
+          "name": "Mortar eggplant with century egg",
+          "note": "Distinctive textural cold dish"
+        },
+        {
+          "name": "Tofu pudding fish",
+          "note": "Soft tofu and chile-forward fish specialty"
+        },
+        {
+          "name": "Dry-pot cabbage",
+          "note": "Wok-hei benchmark"
+        }
+      ],
+      "cautions": [
+        "The transactional page displays an unusual 207-area-code phone number; confirm before relying on it."
+      ],
+      "sources": [
+        {
+          "label": "Current transactional hours",
+          "url": "https://pos.chowbus.com/online-ordering/store/Dan-Gui-Sichuan-Cuisine-Bellevue/2471",
+          "date": "2026-07-20"
+        },
+        {
+          "label": "Current critical dish evidence",
+          "url": "https://seattle.eater.com/maps/best-chinese-restaurants-seattle-bellevue",
+          "date": "2026-07-20"
+        },
+        {
+          "label": "Current comparative review",
+          "url": "https://www.theinfatuation.com/seattle/guides/best-chinese-restaurants-bellevue",
+          "date": "2026-07-20"
+        }
+      ],
+      "order": 30,
+      "notes": "One of the corpus's clearest Sichuan recommendations, with an Issaquah branch\nmaintained as a separate operational record."
+    },
+    {
+      "id": "little-garden",
+      "name": "Little Garden",
+      "city": "Bellevue",
+      "region": "Hunan",
+      "format": "Full-service regional restaurant",
+      "hub": "bel-red-20th",
+      "area": "Bel-Red",
+      "address": "14725 NE 20th St, Bellevue, WA 98007",
+      "phone": "425-644-9038",
+      "website": "https://littlegardenchinese.com/",
+      "price": "$$",
+      "hours": {
+        "mon": "11–2:30, 5–9:30",
+        "tue": "11–2:30, 5–9:30",
+        "wed": "11–2:30, 5–9:30",
+        "thu": "11–2:30, 5–9:30",
+        "fri": "11–2:30, 5–9:30",
+        "sat": "11–2:30, 5–9:30",
+        "sun": "11–2:30, 5–9:30"
+      },
+      "bestDaypart": "Dinner",
+      "parking": "Plaza lot",
+      "groupFit": "High",
+      "status": "staple",
+      "confidence": "high",
+      "lastVerified": "2026-07-20",
+      "dishes": [
+        {
+          "name": "Stir-fried pork with green chile",
+          "note": "Hunan lane benchmark"
+        },
+        {
+          "name": "Preserved meat dishes",
+          "note": "Regional depth beyond generic stir-fries"
+        }
+      ],
+      "cautions": [
+        "Split hours make midafternoon visits risky."
+      ],
+      "sources": [
+        {
+          "label": "First-party operations",
+          "url": "https://littlegardenchinese.com/",
+          "date": "2026-07-20"
+        },
+        {
+          "label": "Independent Bel-Red guide",
+          "url": "https://seattle.eater.com/maps/best-asian-restaurants-bellevue-redmond-eastside",
+          "date": "2026-07-20"
+        }
+      ],
+      "order": 40,
+      "notes": "Less hype-driven than Shaoshan Impression but still an important part of the\ncorridor's unusually deep Hunan lane."
+    },
+    {
+      "id": "nuodle",
+      "name": "Nuodle",
+      "city": "Bellevue",
+      "region": "Lanzhou / Gansu",
+      "format": "Beef-noodle specialist",
+      "hub": "bel-red-20th",
+      "area": "Bel-Red",
+      "address": "14603 NE 20th St, Suite 6, Bellevue, WA 98007",
+      "phone": "425-395-9999",
+      "website": "https://www.ordertogo.com/nuodle",
+      "price": "$",
+      "hours": {
+        "mon": "11–midnight",
+        "tue": "11–midnight",
+        "wed": "11–midnight",
+        "thu": "11–midnight",
+        "fri": "11–midnight",
+        "sat": "11–midnight",
+        "sun": "11–midnight"
+      },
+      "bestDaypart": "Quick lunch or late dinner",
+      "parking": "Plaza lot",
+      "groupFit": "Low to medium",
+      "status": "staple",
+      "confidence": "high",
+      "lastVerified": "2026-07-20",
+      "dishes": [
+        {
+          "name": "Lanzhou beef noodle soup",
+          "note": "Choose noodle shape and chile level"
+        },
+        {
+          "name": "Cold skin noodles",
+          "note": "Useful contrasting side or warm-weather order"
+        }
+      ],
+      "cautions": [
+        "Do not label the restaurant halal without direct current certification evidence."
+      ],
+      "sources": [
+        {
+          "label": "Current ordering page and hours",
+          "url": "https://www.ordertogo.com/nuodle",
+          "date": "2026-07-20"
+        },
+        {
+          "label": "Independent regional description",
+          "url": "https://seattle.eater.com/maps/best-asian-restaurants-bellevue-redmond-eastside",
+          "date": "2026-07-20"
+        }
+      ],
+      "order": 50,
+      "notes": "A high-utility specialist: inexpensive, fast, and unusually late by Eastside\nstandards."
+    },
+    {
+      "id": "looking-for-chai",
+      "name": "Looking for Chai",
+      "city": "Bellevue",
+      "region": "Taiwanese",
+      "format": "Tea and casual-food shop",
+      "hub": "bel-red-20th",
+      "area": "Northup / Bel-Red fringe",
+      "address": "12121 Northup Way, Suite 205, Bellevue, WA 98005",
+      "phone": "425-502-7766",
+      "website": "https://lookingforchai.wordpress.com/",
+      "price": "$",
+      "hours": {
+        "mon": "11–9:30",
+        "tue": "closed",
+        "wed": "11–9:30",
+        "thu": "11–9:30",
+        "fri": "11–10",
+        "sat": "11–10",
+        "sun": "11–9:30"
+      },
+      "bestDaypart": "Afternoon snack or casual dinner",
+      "parking": "Plaza lot",
+      "groupFit": "Low to medium",
+      "status": "staple",
+      "confidence": "medium",
+      "lastVerified": "2026-07-20",
+      "dishes": [
+        {
+          "name": "Popcorn chicken",
+          "note": "Taiwanese snack benchmark"
+        },
+        {
+          "name": "Braised pork rice",
+          "note": "Compact comfort-food order"
+        },
+        {
+          "name": "Tea drinks",
+          "note": "Core daypart utility"
+        }
+      ],
+      "cautions": [
+        "Some current directories show Tuesday open; the first-party site says closed, so call if Tuesday matters."
+      ],
+      "sources": [
+        {
+          "label": "First-party hours and menu",
+          "url": "https://lookingforchai.wordpress.com/",
+          "date": "2026-07-20"
+        },
+        {
+          "label": "Independent quality signal",
+          "url": "https://www.seattlemet.com/eat-and-drink/our-favorite-chinese-restaurants-in-and-around-seattle",
+          "date": "2026-07-20"
+        }
+      ],
+      "order": 60,
+      "notes": "Useful because it fills a Taiwanese snack-and-tea lane rather than duplicating a\nformal dinner restaurant."
+    },
+    {
+      "id": "mr-huang-claypot",
+      "name": "Mr. Huang Claypot Braised Chicken",
+      "city": "Bellevue",
+      "region": "Northern Chinese",
+      "format": "Claypot chicken specialist",
+      "hub": "bel-red-20th",
+      "area": "Crossroads",
+      "address": "1336 156th Ave NE, Bellevue, WA 98007",
+      "phone": "425-465-8967",
+      "website": "https://www.mrhuangclaypotbraisedchicken.com/",
+      "price": "$$",
+      "hours": {
+        "mon": "11–9",
+        "tue": "11–9",
+        "wed": "11–9",
+        "thu": "11–9",
+        "fri": "11–9",
+        "sat": "11–9",
+        "sun": "11–9"
+      },
+      "bestDaypart": "Dinner",
+      "parking": "Plaza lot",
+      "groupFit": "Medium",
+      "status": "rising",
+      "confidence": "medium",
+      "lastVerified": "2026-07-20",
+      "dishes": [
+        {
+          "name": "Claypot braised chicken",
+          "note": "Choose add-ins and heat level"
+        }
+      ],
+      "cautions": [
+        "Regional labeling is kept broad; the available evidence does not justify a narrower province claim."
+      ],
+      "sources": [
+        {
+          "label": "First-party operations and menu",
+          "url": "https://www.mrhuangclaypotbraisedchicken.com/",
+          "date": "2026-07-20"
+        },
+        {
+          "label": "Independent Bellevue scene signal",
+          "url": "https://www.kuow.org/stories/see-ya-b-c-bellevue-is-a-chinese-food-lover-s-dream",
+          "date": "2026-07-20"
+        }
+      ],
+      "order": 70,
+      "notes": "A focused one-pot concept that adds format diversity to the guide."
+    },
+    {
+      "id": "frying-fish",
+      "name": "Frying Fish",
+      "city": "Bellevue",
+      "region": "Sichuan",
+      "format": "Full-service regional restaurant",
+      "hub": "bel-red-20th",
+      "area": "Bel-Red",
+      "address": "1915 140th Ave NE, D-1B, Bellevue, WA 98005",
+      "phone": "425-643-1234",
+      "website": "https://www.bellevuefryingfish.com/order-online",
+      "price": "$$",
+      "hours": {
+        "mon": "11–9:30",
+        "tue": "11–9:30",
+        "wed": "11–9:30",
+        "thu": "11–9:30",
+        "fri": "11–10",
+        "sat": "11:30–10",
+        "sun": "11:30–9:30"
+      },
+      "bestDaypart": "Dinner",
+      "parking": "Plaza lot",
+      "groupFit": "High",
+      "status": "staple",
+      "confidence": "medium",
+      "lastVerified": "2026-07-20",
+      "dishes": [
+        {
+          "name": "Chile-forward fish preparations",
+          "note": "Order around the kitchen's fish strength"
+        },
+        {
+          "name": "Dry-pot dishes",
+          "note": "Good sharing lane"
+        }
+      ],
+      "cautions": [
+        "The independent quality signal is established but less recent than its operational evidence."
+      ],
+      "sources": [
+        {
+          "label": "First-party hours and ordering",
+          "url": "https://www.bellevuefryingfish.com/order-online",
+          "date": "2026-07-20"
+        },
+        {
+          "label": "Independent Bel-Red guide",
+          "url": "https://seattle.eater.com/maps/best-asian-restaurants-bellevue-redmond-eastside",
+          "date": "2026-07-20"
+        }
+      ],
+      "order": 80,
+      "notes": "A long-running Sichuan choice whose role is clearest for groups ordering fish and\nseveral shared dishes."
+    },
+    {
+      "id": "shanghai-dumpling-king",
+      "name": "Shanghai Dumpling King",
+      "city": "Bellevue",
+      "region": "Shanghai / Jiangnan",
+      "format": "Dumpling and noodle restaurant",
+      "hub": "bel-red-20th",
+      "area": "Bel-Red",
+      "address": "2245 140th Ave NE, Bellevue, WA 98005",
+      "phone": "425-746-4764",
+      "price": "$",
+      "hours": {
+        "mon": "11–8",
+        "tue": "closed",
+        "wed": "11–8",
+        "thu": "11–8",
+        "fri": "11–8",
+        "sat": "11–8",
+        "sun": "11–8"
+      },
+      "bestDaypart": "Lunch",
+      "parking": "Plaza lot",
+      "groupFit": "Low to medium",
+      "status": "rising",
+      "confidence": "medium",
+      "lastVerified": "2026-07-20",
+      "dishes": [
+        {
+          "name": "Pan-fried dumplings",
+          "note": "Primary reason to visit"
+        },
+        {
+          "name": "Scallion noodles with pork chop",
+          "note": "Strong Shanghai-style complete meal"
+        }
+      ],
+      "cautions": [
+        "No robust first-party website was found; hours rely on a current map listing."
+      ],
+      "sources": [
+        {
+          "label": "Current editorial venue profile",
+          "url": "https://seattle.eater.com/venue/116963/shanghai-dumpling-king",
+          "date": "2026-07-20"
+        },
+        {
+          "label": "Current map hours",
+          "url": "https://maps.apple.com/",
+          "date": "2026-07-20"
+        }
+      ],
+      "order": 90,
+      "notes": "Opened in 2024 and now supported by enough dish-specific evidence to graduate from\nthe lead ledger."
+    },
+    {
+      "id": "lucky-barbecue",
+      "name": "Lucky Barbecue & Noodle House",
+      "city": "Bellevue",
+      "region": "Hong Kong / Cantonese",
+      "format": "Barbecue and noodle counter",
+      "hub": "bel-red-20th",
+      "area": "Asian Family Market plaza",
+      "address": "14509 NE 20th St, Bellevue, WA 98007",
+      "phone": "425-381-2888",
+      "website": "https://www.luckybarbecue.com/",
+      "price": "$",
+      "hours": {
+        "mon": "11–8 recheck",
+        "tue": "11–8 recheck",
+        "wed": "11–8 recheck",
+        "thu": "11–8 recheck",
+        "fri": "11–8 recheck",
+        "sat": "11–8 recheck",
+        "sun": "11–8 recheck"
+      },
+      "bestDaypart": "Lunch or takeout dinner",
+      "parking": "Large shared plaza lot",
+      "groupFit": "Low",
+      "status": "staple",
+      "confidence": "medium",
+      "lastVerified": "2026-07-20",
+      "operationalConflict": "Current sources disagree between 14509 and 14505 NE 20th and between 9am and 11am opening.",
+      "dishes": [
+        {
+          "name": "Roast duck",
+          "note": "Cantonese barbecue benchmark"
+        },
+        {
+          "name": "Barbecue pork",
+          "note": "Useful by-the-pound or rice-plate order"
+        }
+      ],
+      "cautions": [
+        "Confirm the exact unit and opening time; the plaza location is stable but directories conflict."
+      ],
+      "sources": [
+        {
+          "label": "First-party brand page",
+          "url": "https://www.luckybarbecue.com/",
+          "date": "2026-07-20"
+        },
+        {
+          "label": "Current Bellevue listing",
+          "url": "https://bellevue.com/restaurant_bar.php?id=24",
+          "date": "2026-07-20"
+        },
+        {
+          "label": "Independent quality signal",
+          "url": "https://www.seattlemet.com/eat-and-drink/our-favorite-chinese-restaurants-in-and-around-seattle",
+          "date": "2026-07-20"
+        }
+      ],
+      "order": 100,
+      "notes": "Its value is tactical: roast meats, noodles, and prepared-food pickup adjacent to\nan Asian grocery, not a polished destination dinner."
+    },
+    {
+      "id": "haidilao-bellevue",
+      "name": "Haidilao Hot Pot — Bellevue",
+      "city": "Bellevue",
+      "region": "Chinese hot pot",
+      "format": "Full-service hot pot",
+      "hub": "downtown-bellevue",
+      "area": "Downtown",
+      "address": "188 106th Ave NE, Suite 210, Bellevue, WA 98004",
+      "phone": "425-679-6408",
+      "website": "https://www.haidilao-inc.com/us/serve/storesearch",
+      "price": "$$$",
+      "hours": {
+        "mon": "11–midnight",
+        "tue": "11–midnight",
+        "wed": "11–midnight",
+        "thu": "11–midnight",
+        "fri": "11–12:30am",
+        "sat": "11–12:30am",
+        "sun": "11–midnight"
+      },
+      "bestDaypart": "Late dinner or celebratory group meal",
+      "parking": "Downtown garage; verify validation",
+      "groupFit": "High",
+      "status": "hot",
+      "confidence": "high",
+      "lastVerified": "2026-07-20",
+      "dishes": [
+        {
+          "name": "Split-pot broths",
+          "note": "Lets a mixed-preference table compare styles"
+        },
+        {
+          "name": "Hand-pulled dancing noodles",
+          "note": "Service-theater signature"
+        }
+      ],
+      "cautions": [
+        "Prime periods can involve waits; reserve or join the queue early."
+      ],
+      "sources": [
+        {
+          "label": "First-party store locator and hours",
+          "url": "https://www.haidilao-inc.com/us/serve/storesearch",
+          "date": "2026-07-20"
+        },
+        {
+          "label": "Current independent review",
+          "url": "https://www.theinfatuation.com/seattle/guides/best-chinese-restaurants-bellevue",
+          "date": "2026-07-20"
+        }
+      ],
+      "order": 110,
+      "notes": "The guide's strongest late-night and service-forward group option."
+    },
+    {
+      "id": "dolar-shop-bellevue",
+      "name": "The Dolar Shop — Bellevue",
+      "city": "Bellevue",
+      "region": "Macanese-style individual hot pot",
+      "format": "Premium hot pot",
+      "hub": "downtown-bellevue",
+      "area": "Downtown",
+      "address": "11020 NE 6th St, Suite 90, Bellevue, WA 98004",
+      "phone": "425-390-8888",
+      "website": "https://www.dolarshop.com/location/seattle",
+      "price": "$$$",
+      "hours": {
+        "mon": "11:30–10",
+        "tue": "11:30–10",
+        "wed": "11:30–10",
+        "thu": "11:30–10",
+        "fri": "11–11",
+        "sat": "11–11",
+        "sun": "11–11"
+      },
+      "bestDaypart": "Dinner",
+      "parking": "Six-hour validation advertised",
+      "groupFit": "High; private rooms available",
+      "status": "hot",
+      "confidence": "high",
+      "lastVerified": "2026-07-20",
+      "dishes": [
+        {
+          "name": "Individual broth pots",
+          "note": "Better fit for mixed diets and preferences"
+        },
+        {
+          "name": "Wagyu and seafood platters",
+          "note": "Premium lane"
+        }
+      ],
+      "cautions": [
+        "Price rises quickly with premium proteins."
+      ],
+      "sources": [
+        {
+          "label": "First-party branch details",
+          "url": "https://www.dolarshop.com/location/seattle",
+          "date": "2026-07-20"
+        },
+        {
+          "label": "Current independent review",
+          "url": "https://www.theinfatuation.com/seattle/guides/best-chinese-restaurants-bellevue",
+          "date": "2026-07-20"
+        }
+      ],
+      "order": 120,
+      "notes": "More polished and individually portioned than Haidilao; choose based on group style,\nnot an absolute ranking."
+    },
+    {
+      "id": "din-tai-fung-bellevue",
+      "name": "Din Tai Fung — Bellevue",
+      "city": "Bellevue",
+      "region": "Taiwanese / Jiangnan dumplings",
+      "format": "Full-service dumpling restaurant",
+      "hub": "downtown-bellevue",
+      "area": "Bellevue Square",
+      "address": "10455 NE 8th St, Bellevue, WA 98004",
+      "phone": "425-698-1095",
+      "website": "https://dtf.com/en-us/locations/bellevue",
+      "price": "$$",
+      "hours": {
+        "mon": "11–9:30",
+        "tue": "11–9:30",
+        "wed": "11–9:30",
+        "thu": "11–9:30",
+        "fri": "11–10:30",
+        "sat": "10:30–10:30",
+        "sun": "10:30–9:30"
+      },
+      "bestDaypart": "Lunch or planned group dinner",
+      "parking": "Bellevue Square parking",
+      "groupFit": "High; private and semi-private options",
+      "status": "staple",
+      "confidence": "high",
+      "lastVerified": "2026-07-20",
+      "dishes": [
+        {
+          "name": "Pork xiao long bao",
+          "note": "Canonical benchmark"
+        },
+        {
+          "name": "Pork chop fried rice",
+          "note": "Reliable non-dumpling anchor"
+        }
+      ],
+      "cautions": [
+        "Mall crowds and waits can dominate the experience at peak times."
+      ],
+      "sources": [
+        {
+          "label": "First-party hours and group details",
+          "url": "https://dtf.com/en-us/locations/bellevue",
+          "date": "2026-07-20"
+        }
+      ],
+      "order": 130,
+      "notes": "Not the newest choice, but operationally dependable and unusually easy to plan for\nlarger or mixed-experience groups."
+    },
+    {
+      "id": "barons-sino-kitchen",
+      "name": "Baron's Sino Kitchen & Bar",
+      "city": "Bellevue",
+      "region": "Contemporary Chinese / Beijing",
+      "format": "Upscale full-service restaurant",
+      "hub": "downtown-bellevue",
+      "area": "Lincoln Square",
+      "address": "500 Bellevue Way NE, Suite 210, Bellevue, WA 98004",
+      "phone": "425-500-8888",
+      "website": "https://baronsbellevue.com/",
+      "price": "$$$",
+      "hours": {
+        "mon": "11:30–9",
+        "tue": "11:30–9",
+        "wed": "11:30–9",
+        "thu": "11:30–9",
+        "fri": "11:30–10",
+        "sat": "11:30–10",
+        "sun": "11:30–9"
+      },
+      "bestDaypart": "Group dinner",
+      "parking": "Lincoln Square garage",
+      "groupFit": "Very high; reservations and private rooms",
+      "status": "staple",
+      "confidence": "high",
+      "lastVerified": "2026-07-20",
+      "dishes": [
+        {
+          "name": "Peking duck",
+          "note": "Primary destination order; plan a group"
+        }
+      ],
+      "cautions": [
+        "A poor fit for a quick or inexpensive solo meal."
+      ],
+      "sources": [
+        {
+          "label": "First-party operations",
+          "url": "https://baronsbellevue.com/",
+          "date": "2026-07-20"
+        },
+        {
+          "label": "Current independent review",
+          "url": "https://www.theinfatuation.com/seattle/guides/best-chinese-restaurants-bellevue",
+          "date": "2026-07-20"
+        }
+      ],
+      "order": 140,
+      "notes": "The corpus includes it for a specific use case—Peking duck, corporate meals, and\nprivate dining—not as the default picture of Eastside Chinese food."
+    },
+    {
+      "id": "master-bing-bellevue",
+      "name": "Master Bing — Bellevue",
+      "city": "Bellevue",
+      "region": "Northern Chinese street food",
+      "format": "Jianbing counter",
+      "hub": "downtown-bellevue",
+      "area": "Downtown",
+      "address": "11116 NE 10th St, Suite 201, Bellevue, WA 98004",
+      "website": "https://www.toasttab.com/local/order/master-bing-bellevue/r-3decf58a-015e-4357-bba5-f6161496f752",
+      "price": "$",
+      "hours": {
+        "mon": "8–10:30",
+        "tue": "8–10:30",
+        "wed": "8–10:30",
+        "thu": "8–10:30",
+        "fri": "8–10:30",
+        "sat": "8–10:30",
+        "sun": "8–10:30"
+      },
+      "bestDaypart": "Breakfast or quick lunch",
+      "parking": "Downtown parking; verify validation",
+      "groupFit": "Low",
+      "status": "rising",
+      "confidence": "medium",
+      "lastVerified": "2026-07-20",
+      "dishes": [
+        {
+          "name": "Jianbing",
+          "note": "Crisp"
+        },
+        {
+          "name": "Mini rolls",
+          "note": "Smaller portable alternative"
+        }
+      ],
+      "cautions": [
+        "Ordering page is the primary operational evidence; recheck on holidays."
+      ],
+      "sources": [
+        {
+          "label": "Current transactional menu and hours",
+          "url": "https://www.toasttab.com/local/order/master-bing-bellevue/r-3decf58a-015e-4357-bba5-f6161496f752",
+          "date": "2026-07-20"
+        },
+        {
+          "label": "Independent scene overview",
+          "url": "https://www.kuow.org/stories/see-ya-b-c-bellevue-is-a-chinese-food-lover-s-dream",
+          "date": "2026-07-20"
+        }
+      ],
+      "order": 150,
+      "notes": "It fills a rare early-morning gap and should be surfaced by daypart, not buried in\na dinner-heavy ranking."
+    },
+    {
+      "id": "t-and-t-supermarket-kitchen",
+      "name": "T&T Supermarket — Factoria prepared foods",
+      "city": "Bellevue",
+      "region": "Pan-Chinese / Asian market food",
+      "format": "Supermarket food hall, bakery, and deli",
+      "hub": "factoria",
+      "area": "Marketplace at Factoria",
+      "address": "12620 SE 41st Pl, Bellevue, WA 98006",
+      "website": "https://www.tntsupermarket.us/cht/aboutus/newsroom/80",
+      "price": "$",
+      "hours": {
+        "mon": "market hours; recheck counters",
+        "tue": "market hours; recheck counters",
+        "wed": "market hours; recheck counters",
+        "thu": "market hours; recheck counters",
+        "fri": "market hours; recheck counters",
+        "sat": "market hours; recheck counters",
+        "sun": "market hours; recheck counters"
+      },
+      "bestDaypart": "Breakfast through early dinner; counter availability varies",
+      "parking": "Large mall lot",
+      "groupFit": "High for grazing, low for formal seating",
+      "status": "hot",
+      "confidence": "high",
+      "lastVerified": "2026-07-20",
+      "dishes": [
+        {
+          "name": "Chinese bakery items",
+          "note": "Broad breakfast and snack utility"
+        },
+        {
+          "name": "Dim sum and hot deli",
+          "note": "Inspect what is fresh rather than precommitting"
+        },
+        {
+          "name": "Barbecue and noodle counters",
+          "note": "Supports mixed-preference groups"
+        }
+      ],
+      "cautions": [
+        "This record covers prepared foods, not every concession; counter hours can be shorter than market hours."
+      ],
+      "sources": [
+        {
+          "label": "First-party opening and department details",
+          "url": "https://www.tntsupermarket.us/cht/aboutus/newsroom/80",
+          "date": "2026-07-20"
+        },
+        {
+          "label": "On-site reported overview",
+          "url": "https://seattle.eater.com/2025/4/22/24393333/t-t-supermarket-seattle-bellevue-wa-opening",
+          "date": "2026-07-20"
+        }
+      ],
+      "order": 160,
+      "notes": "Opened December 2024 as T&T's first US store. Its research value is breadth and\nrepeat utility, not a single signature dish."
+    },
+    {
+      "id": "north-ayce-dumplings",
+      "name": "North All You Can Eat Dumplings",
+      "city": "Bellevue",
+      "region": "Northern Chinese",
+      "format": "All-you-can-eat dumpling restaurant",
+      "hub": "factoria",
+      "area": "Factoria",
+      "address": "12708 SE 38th St, Bellevue, WA 98006",
+      "phone": "425-603-1689",
+      "price": "$$",
+      "hours": {
+        "mon": "recheck",
+        "tue": "recheck",
+        "wed": "recheck",
+        "thu": "recheck",
+        "fri": "recheck",
+        "sat": "recheck",
+        "sun": "recheck"
+      },
+      "bestDaypart": "Casual group lunch or dinner",
+      "parking": "Shared plaza lot",
+      "groupFit": "High",
+      "status": "new-lead",
+      "confidence": "medium",
+      "lastVerified": "2026-07-20",
+      "dishes": [
+        {
+          "name": "Handmade boiled dumplings",
+          "note": "Core value proposition"
+        },
+        {
+          "name": "Soup dumplings",
+          "note": "Check current inclusion and batch quality"
+        }
+      ],
+      "cautions": [
+        "A promising new operation with limited independent track record; verify price and hours."
+      ],
+      "sources": [
+        {
+          "label": "Current destination listing and concept details",
+          "url": "https://www.visitbellevuewa.com/listing/north-all-you-can-eat-dumplings/3126/",
+          "date": "2026-07-20"
+        }
+      ],
+      "order": 170,
+      "notes": "Included visibly as a new lead, not prematurely promoted to a proven staple."
+    },
+    {
+      "id": "151-days-chicken-soup-house",
+      "name": "151 Days Chicken Soup House",
+      "city": "Redmond",
+      "region": "Chinese chicken-soup specialist",
+      "format": "Soup, noodles, and dumplings",
+      "hub": "overlake",
+      "area": "Overlake",
+      "address": "2720 152nd Ave NE, Redmond, WA 98052",
+      "website": "https://www.toasttab.com/local/151-days-chicken-soup-house-2720-152nd-avenue-northeast/r-1772657c-d0bb-4bf5-b484-d49700dc6853",
+      "price": "$$",
+      "hours": {
+        "mon": "11–2:30, 4:30–8:45",
+        "tue": "closed",
+        "wed": "11–2:30, 4:30–8:45",
+        "thu": "11–2:30, 4:30–8:45",
+        "fri": "11–2:30, 4:30–9",
+        "sat": "11–2:30, 4:30–9",
+        "sun": "11–2:30, 4:30–8:45"
+      },
+      "bestDaypart": "Lunch or cold-weather dinner",
+      "parking": "Plaza lot",
+      "groupFit": "Medium",
+      "status": "hot",
+      "confidence": "high",
+      "lastVerified": "2026-07-20",
+      "dishes": [
+        {
+          "name": "Chicken noodle soup",
+          "note": "Made around the restaurant's own slow-raised chickens"
+        },
+        {
+          "name": "Berkshire pork potstickers",
+          "note": "Strong supporting order"
+        }
+      ],
+      "cautions": [
+        "Closed Tuesday and between services; time the visit carefully."
+      ],
+      "sources": [
+        {
+          "label": "Current transactional hours",
+          "url": "https://www.toasttab.com/local/151-days-chicken-soup-house-2720-152nd-avenue-northeast/r-1772657c-d0bb-4bf5-b484-d49700dc6853",
+          "date": "2026-07-20"
+        },
+        {
+          "label": "Independent sourcing and dish evidence",
+          "url": "https://www.seattlemet.com/eat-and-drink/our-favorite-chinese-restaurants-in-and-around-seattle",
+          "date": "2026-07-20"
+        }
+      ],
+      "order": 180,
+      "notes": "One of Redmond's few true destination specialists, built around ingredient sourcing\nrather than menu sprawl."
+    },
+    {
+      "id": "dong-ting-chun",
+      "name": "Dong Ting Chun",
+      "city": "Redmond",
+      "region": "Hunan",
+      "format": "Full-service regional restaurant",
+      "hub": "downtown-redmond",
+      "area": "Redmond Town Center",
+      "address": "7425 166th Ave NE, C230, Redmond, WA 98052",
+      "phone": "425-882-7311",
+      "price": "$$",
+      "hours": {
+        "mon": "11–2:30, 4:30–8 recheck",
+        "tue": "11–2:30, 4:30–8 recheck",
+        "wed": "11–2:30, 4:30–8 recheck",
+        "thu": "11–2:30, 4:30–8 recheck",
+        "fri": "11–2:30, 4:30–8 recheck",
+        "sat": "11–8 recheck",
+        "sun": "11–8 recheck"
+      },
+      "bestDaypart": "Lunch or dinner",
+      "parking": "Redmond Town Center parking",
+      "groupFit": "High",
+      "status": "staple",
+      "confidence": "medium",
+      "lastVerified": "2026-07-20",
+      "operationalConflict": "Town Center and current directory sources disagree on split hours and 8pm versus 8:30pm closing.",
+      "dishes": [
+        {
+          "name": "Hunan stir-fries",
+          "note": "Order chile-forward regional dishes rather than generic defaults"
+        }
+      ],
+      "cautions": [
+        "Verify same-day hours, especially the afternoon break."
+      ],
+      "sources": [
+        {
+          "label": "Mall directory and operations",
+          "url": "https://redmondtowncenter.com/directory/dong-ting-chun",
+          "date": "2026-07-20"
+        }
+      ],
+      "order": 190,
+      "notes": "An important Redmond regional anchor, but current evidence does not justify a more\nspecific dish hierarchy yet."
+    },
+    {
+      "id": "hakka-house-redmond",
+      "name": "Hakka House",
+      "city": "Redmond",
+      "region": "Hakka with Taiwanese, Cantonese, and Fujian lanes",
+      "format": "Full-service regional restaurant",
+      "hub": "downtown-redmond",
+      "area": "Downtown",
+      "address": "7845 Leary Way NE, Redmond, WA 98052",
+      "phone": "425-448-9551",
+      "price": "$$",
+      "hours": {
+        "mon": "closed",
+        "tue": "11–9",
+        "wed": "11–9",
+        "thu": "11–9",
+        "fri": "11–10",
+        "sat": "10–10",
+        "sun": "10–9"
+      },
+      "bestDaypart": "Weekend lunch or dinner",
+      "parking": "Downtown street and nearby lots",
+      "groupFit": "High",
+      "status": "rising",
+      "confidence": "high",
+      "lastVerified": "2026-07-20",
+      "dishes": [
+        {
+          "name": "Pork-stuffed tofu (yong tau foo)",
+          "note": "The signature that best exposes the Hakka identity"
+        }
+      ],
+      "cautions": [
+        "Reopened in Redmond in 2026; older Bellevue address results are stale."
+      ],
+      "sources": [
+        {
+          "label": "Current map operations",
+          "url": "https://maps.apple.com/place?place-id=IA834FBA0003A344E",
+          "date": "2026-07-20"
+        },
+        {
+          "label": "Detailed reopening and dish profile",
+          "url": "https://seattlemag.com/food-drink/the-dish-everyone-orders-at-hakka-house/",
+          "date": "2026-07-20"
+        },
+        {
+          "label": "Current opening roundup",
+          "url": "https://www.seattlemet.com/eat-and-drink/2026/03/ferry-fries-mariners-seattle-restaurant-openings-closings",
+          "date": "2026-07-20"
+        }
+      ],
+      "order": 200,
+      "notes": "The most important 2026 Eastside reopening in this research pass, and a regional\nlane that Bellevue's Hunan/Sichuan concentration does not duplicate."
+    },
+    {
+      "id": "dan-gui-issaquah",
+      "name": "Dan Gui Sichuan Cuisine — Issaquah",
+      "city": "Issaquah",
+      "region": "Sichuan",
+      "format": "Full-service regional restaurant",
+      "hub": "downtown-issaquah",
+      "area": "Olde Town",
+      "address": "80 Front St N, Issaquah, WA 98027",
+      "phone": "425-879-8888",
+      "website": "https://pos.chowbus.com/online-ordering/store/Dan-Gui-Sichuan-Cuisine/21352",
+      "price": "$$",
+      "hours": {
+        "mon": "11–2:30, 5–8:30",
+        "tue": "recheck",
+        "wed": "11–2:30, 5–8:30",
+        "thu": "11–2:30, 5–8:30",
+        "fri": "11–2:30, 5–9",
+        "sat": "11–9",
+        "sun": "11–8:30"
+      },
+      "bestDaypart": "Dinner",
+      "parking": "Olde Town street and public parking",
+      "groupFit": "High",
+      "status": "rising",
+      "confidence": "medium",
+      "lastVerified": "2026-07-20",
+      "operationalConflict": "Transactional ordering shows Tuesday service while a current map listing shows Tuesday closed.",
+      "dishes": [
+        {
+          "name": "Tofu pudding fish",
+          "note": "Branch-level signature worth confirming"
+        },
+        {
+          "name": "Dry-pot cabbage",
+          "note": "Wok benchmark"
+        }
+      ],
+      "cautions": [
+        "Call before a Tuesday visit; do not inherit Bellevue branch hours blindly."
+      ],
+      "sources": [
+        {
+          "label": "Current branch ordering and hours",
+          "url": "https://pos.chowbus.com/online-ordering/store/Dan-Gui-Sichuan-Cuisine/21352",
+          "date": "2026-07-20"
+        },
+        {
+          "label": "Brand-level critical evidence",
+          "url": "https://seattle.eater.com/maps/best-chinese-restaurants-seattle-bellevue",
+          "date": "2026-07-20"
+        }
+      ],
+      "order": 210,
+      "notes": "This gives Issaquah a serious regional destination while preserving branch-level\nuncertainty."
+    },
+    {
+      "id": "august-moon-sammamish",
+      "name": "August Moon Chinese Restaurant",
+      "city": "Sammamish",
+      "region": "Chinese-American",
+      "format": "Neighborhood full-service and takeout restaurant",
+      "hub": "sammamish-plateau",
+      "area": "228th Avenue SE",
+      "address": "2904 228th Ave SE, Sammamish, WA 98075",
+      "phone": "425-391-8888",
+      "website": "https://www.myaugustmoon.com/",
+      "price": "$$",
+      "hours": {
+        "mon": "11–9",
+        "tue": "11–9:30",
+        "wed": "11–9:30",
+        "thu": "11–9:30",
+        "fri": "11–9:30",
+        "sat": "11:30–9:30",
+        "sun": "11:30–9"
+      },
+      "bestDaypart": "Family dinner or takeout",
+      "parking": "Shopping-center lot",
+      "groupFit": "Medium",
+      "status": "staple",
+      "confidence": "medium",
+      "lastVerified": "2026-07-20",
+      "dishes": [
+        {
+          "name": "Familiar Chinese-American standards",
+          "note": "Neighborhood comfort and convenience are the evidence-backed use case"
+        }
+      ],
+      "cautions": [
+        "Do not present this as a regional-specialist destination; its value is local reliability."
+      ],
+      "sources": [
+        {
+          "label": "First-party operations and menu",
+          "url": "https://www.myaugustmoon.com/",
+          "date": "2026-07-20"
+        },
+        {
+          "label": "Current customer evidence",
+          "url": "https://www.restaurantji.com/wa/sammamish/august-moon-chinese-restaurant-/",
+          "date": "2026-07-20"
+        }
+      ],
+      "order": 220,
+      "notes": "Included to make Sammamish coverage useful without pretending the Plateau has\nBellevue's density or regional range."
+    },
+    {
+      "id": "tasty-house-bellevue",
+      "name": "Tasty House",
+      "city": "Bellevue",
+      "region": "Sichuan",
+      "format": "Casual full-service restaurant",
+      "area": "Lake Hills / Kelsey Creek",
+      "address": "15015 Main St, Suite 107, Bellevue, WA 98007",
+      "phone": "425-746-9008",
+      "price": "$$",
+      "hours": {
+        "mon": "11–3, 5–9 recheck",
+        "tue": "11–3, 5–9 recheck",
+        "wed": "11–3, 5–9 recheck",
+        "thu": "11–3, 5–9 recheck",
+        "fri": "11–3, 5–9:30 recheck",
+        "sat": "11–3, 5–9:30 recheck",
+        "sun": "11–3, 5–9 recheck"
+      },
+      "bestDaypart": "Dinner",
+      "parking": "Shopping-center lot",
+      "groupFit": "Medium",
+      "status": "watch",
+      "confidence": "medium",
+      "lastVerified": "2026-07-20",
+      "operationalConflict": "Fresh editorial and local listings indicate operation, while some directory pages label it closed.",
+      "dishes": [
+        {
+          "name": "Mapo tofu",
+          "note": "Current review's central benchmark"
+        }
+      ],
+      "cautions": [
+        "Call before making a special trip because closure flags conflict."
+      ],
+      "sources": [
+        {
+          "label": "Fresh independent review",
+          "url": "https://www.theinfatuation.com/seattle/guides/best-chinese-restaurants-bellevue",
+          "date": "2026-07-20"
+        },
+        {
+          "label": "Current local listing",
+          "url": "https://local.yahoo.com/info-237458287-tasty-house-bellevue/",
+          "date": "2026-07-20"
+        }
+      ],
+      "order": 230,
+      "notes": "Kept visible as a watch record: the food signal is strong enough to retain, but\noperational disagreement prevents a high-confidence recommendation."
+    },
+    {
+      "id": "facing-east",
+      "name": "Facing East Taiwanese Restaurant",
+      "city": "Bellevue",
+      "region": "Taiwanese",
+      "format": "Full-service and takeout restaurant",
+      "hub": "downtown-bellevue",
+      "area": "Downtown / address under verification",
+      "address": "1075 Bellevue Way NE, Suite B2, Bellevue, WA 98004",
+      "website": "https://www.facingeastbellevue.com/",
+      "price": "$$",
+      "hours": {
+        "mon": "recheck",
+        "tue": "recheck",
+        "wed": "recheck",
+        "thu": "recheck",
+        "fri": "recheck",
+        "sat": "recheck",
+        "sun": "recheck"
+      },
+      "bestDaypart": "Lunch or dinner after confirming location",
+      "parking": "Recheck with current location",
+      "groupFit": "Medium",
+      "status": "watch",
+      "confidence": "medium",
+      "lastVerified": "2026-07-20",
+      "operationalConflict": "The brand site still shows the former 12736 Bel-Red Road takeout-only location, while current downtown sources place it in the Brio building.",
+      "dishes": [
+        {
+          "name": "Taiwanese pork burger (gua bao)",
+          "note": "Longstanding signature lane"
+        },
+        {
+          "name": "Pork blood rice cake",
+          "note": "Distinctive Taiwanese snack"
+        }
+      ],
+      "cautions": [
+        "Confirm current address, dine-in status, and hours directly before publishing operational details."
+      ],
+      "sources": [
+        {
+          "label": "First-party page with stale-location risk",
+          "url": "https://www.facingeastbellevue.com/",
+          "date": "2026-07-20"
+        },
+        {
+          "label": "Current downtown directory location",
+          "url": "https://www.bellevuedowntown.com/go/facingeast",
+          "date": "2026-07-20"
+        }
+      ],
+      "order": 240,
+      "notes": "Editorially important to Eastside Taiwanese food, but deliberately quarantined as\na watch record until its first-party location information catches up."
+    },
+    {
+      "id": "fangs-noodle-house",
+      "name": "Fang's Noodle House",
+      "city": "Kirkland",
+      "region": "Chinese noodle house",
+      "format": "Noodle specialist",
+      "hub": "kirkland-124th",
+      "area": "North Rose Hill",
+      "address": "12085 124th Ave NE, Kirkland, WA 98034",
+      "phone": "425-608-1258",
+      "price": "$$",
+      "hours": {
+        "mon": "11–9",
+        "tue": "11–9",
+        "wed": "closed",
+        "thu": "11–9",
+        "fri": "11–9",
+        "sat": "11–9",
+        "sun": "11–8"
+      },
+      "bestDaypart": "Lunch",
+      "parking": "Shared plaza lot",
+      "groupFit": "Low to medium",
+      "status": "watch",
+      "confidence": "medium",
+      "lastVerified": "2026-07-20",
+      "dishes": [
+        {
+          "name": "Beef-rib dry noodles",
+          "note": "Most specific current local recommendation signal"
+        }
+      ],
+      "cautions": [
+        "Current customer evidence is mixed by dish and service; treat as a specialist option, not a blanket endorsement."
+      ],
+      "sources": [
+        {
+          "label": "Current map operations",
+          "url": "https://maps.apple.com/place?place-id=IA274DB0267F1F858",
+          "date": "2026-07-20"
+        },
+        {
+          "label": "Recent local recommendation thread",
+          "url": "https://www.reddit.com/r/eastside/comments/1ulwy9n/where_should_i_eat_tonight/",
+          "date": "2026-07-20"
+        },
+        {
+          "label": "Current customer listing",
+          "url": "https://www.restaurantji.com/wa/kirkland/fangs-noodle-house-/",
+          "date": "2026-07-20"
+        }
+      ],
+      "order": 250,
+      "notes": "Kirkland's evidence is thinner than Bellevue's; this record says exactly what the\ncurrent signal supports and no more."
+    },
+    {
+      "id": "dim-sum-yuan",
+      "name": "Dim Sum Yuan",
+      "city": "Kirkland",
+      "region": "Cantonese dim sum",
+      "format": "All-day dim sum restaurant",
+      "hub": "kirkland-124th",
+      "area": "North Rose Hill",
+      "address": "11729 124th Ave NE, Kirkland, WA 98034",
+      "phone": "425-305-5101",
+      "price": "$$",
+      "hours": {
+        "mon": "11–8:30",
+        "tue": "11–8:30",
+        "wed": "11–8:30",
+        "thu": "11–8:30",
+        "fri": "11–8:30",
+        "sat": "11–8:30",
+        "sun": "11–8:30"
+      },
+      "bestDaypart": "Lunch",
+      "parking": "Shared plaza lot",
+      "groupFit": "Medium",
+      "status": "rising",
+      "confidence": "medium",
+      "lastVerified": "2026-07-20",
+      "dishes": [
+        {
+          "name": "Made-to-order dim sum",
+          "note": "All-day availability is the key use case"
+        }
+      ],
+      "cautions": [
+        "Independent editorial coverage is limited; retain medium confidence until another evidence cycle."
+      ],
+      "sources": [
+        {
+          "label": "Current hours and customer evidence",
+          "url": "https://maps.roadtrippers.com/us/kirkland-wa/food-drink/dim-sum-yuan-kirkland-wa--0",
+          "date": "2026-07-20"
+        },
+        {
+          "label": "Current menu and delivery availability",
+          "url": "https://www.ubereats.com/store/dim-sum-yuan-%E7%82%B9%E5%BF%83%E7%BC%98-11729-124th-ave-ne/WFNlt5dwQ3uRSqzYWmgStQ",
+          "date": "2026-07-20"
+        }
+      ],
+      "order": 260,
+      "notes": "A useful Kirkland option that fills an all-day dim-sum lane, with appropriately\nmodest confidence."
+    },
+    {
+      "id": "mackys-dim-sum",
+      "name": "Macky's Dim Sum",
+      "city": "Issaquah",
+      "region": "Cantonese / Chinese-American",
+      "format": "Neighborhood dim sum and Chinese restaurant",
+      "hub": "downtown-issaquah",
+      "area": "Olde Town",
+      "address": "28 E Sunset Way, Issaquah, WA 98027",
+      "phone": "425-391-7200",
+      "price": "$$",
+      "hours": {
+        "mon": "11–9 recheck",
+        "tue": "11–9 recheck",
+        "wed": "11–9 recheck",
+        "thu": "11–9 recheck",
+        "fri": "11–9 recheck",
+        "sat": "11–9 recheck",
+        "sun": "11–9 recheck"
+      },
+      "bestDaypart": "Lunch",
+      "parking": "Downtown street and public parking",
+      "groupFit": "Medium",
+      "status": "staple",
+      "confidence": "medium",
+      "lastVerified": "2026-07-20",
+      "operationalConflict": "Current sources use 28 E Sunset Way; older results still show 317 NW Gilman Blvd.",
+      "dishes": [
+        {
+          "name": "Dim sum assortment",
+          "note": "Neighborhood lunch use is better supported than any single destination dish"
+        }
+      ],
+      "cautions": [
+        "Confirm address when navigating; old-location search results remain prominent."
+      ],
+      "sources": [
+        {
+          "label": "Current downtown business directory",
+          "url": "https://downtownissaquah.com/whatsopen/",
+          "date": "2026-07-20"
+        },
+        {
+          "label": "Recent local-use discussion",
+          "url": "https://www.reddit.com/r/Issaquah/comments/1llh5oz",
+          "date": "2026-07-20"
+        }
+      ],
+      "order": 270,
+      "notes": "A long-running local-use record, not positioned as a region-wide dim-sum\ndestination."
+    }
+  ]
+}

@@ -20,12 +20,23 @@ jobs:
         with:
           node-version: 22
           cache: npm
-          cache-dependency-path: site/package-lock.json
+          cache-dependency-path: |
+            site/package-lock.json
+            eastside-site/package-lock.json
+      # Richmond BC site -> published at the site root
       - run: cd site && npm ci
       - run: cd site && npm run build
+      # Seattle Eastside site -> published under /eastside/
+      - run: cd eastside-site && npm ci
+      - run: cd eastside-site && npm run build
+      # Assemble a single Pages artifact: Richmond at root, Eastside under /eastside/
+      - run: |
+          mkdir -p public
+          rsync -a --exclude node_modules --exclude scripts --exclude 'package*.json' site/ public/
+          rsync -a --exclude node_modules --exclude scripts --exclude 'package*.json' eastside-site/ public/eastside/
       - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v5
-        with: { path: site }
+        with: { path: public }
   deploy:
     needs: build
     if: github.ref == 'refs/heads/main'
