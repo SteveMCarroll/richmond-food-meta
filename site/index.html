@@ -3,6 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      (() => {
+        const param = new URLSearchParams(window.location.search).get("scoutTheme");
+        const theme =
+          param || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+        document.documentElement.setAttribute("data-theme", theme);
+      })();
+    </script>
     <title>Richmond BC — the Chinese food meta</title>
     <meta
       name="description"
@@ -18,6 +26,7 @@
           <a class="brand" href="index.html">🥢 Richmond food meta</a>
           <div class="navlinks">
             <a class="navlink" href="meta.html">The mall meta</a>
+            <a class="navlink" href="ccd.html">CCD dish finder</a>
             <a class="navlink" href="methodology.html">How we research</a>
             <a class="navlink" href="eastside/">Seattle Eastside ↗</a>
           </div>
@@ -41,6 +50,19 @@
           </p>
         </div>
         <span class="meta-banner-cta" id="meta-banner-count">Explore hubs →</span>
+      </a>
+
+      <a class="meta-banner ccd-home-banner" href="ccd.html">
+        <div class="meta-banner-text">
+          <p class="eyebrow">New · 99 dishes</p>
+          <h2>Find a Chinese Cooking Demystified dish</h2>
+          <p>
+            Search CCD’s regional catalog against Richmond menus. See exact
+            matches, close analogues, regional specialists, and the meaningful
+            gaps—including a short list for tomorrow.
+          </p>
+        </div>
+        <span class="meta-banner-cta">Open the dish finder →</span>
       </a>
 
       <section id="eat-section">

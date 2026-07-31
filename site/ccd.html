@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      (() => {
+        const param = new URLSearchParams(window.location.search).get("scoutTheme");
+        const theme =
+          param || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+        document.documentElement.setAttribute("data-theme", theme);
+      })();
+    </script>
+    <title>CCD dish crosswalk · Richmond BC food meta</title>
+    <meta
+      name="description"
+      content="Explore all 99 Chinese Cooking Demystified regional dishes and their exact, close, regional, gap, or component matches in Richmond, BC."
+    />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A5%A2%3C/text%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="ccd">
+    <header class="hero hero-compact">
+      <div class="wrap">
+        <nav class="topnav" aria-label="Primary navigation">
+          <a class="brand" href="index.html">🥢 Richmond food meta</a>
+          <div class="navlinks">
+            <a class="navlink" href="index.html">All restaurants</a>
+            <a class="navlink" href="meta.html">The mall meta</a>
+            <a class="navlink" href="methodology.html">How we research</a>
+          </div>
+        </nav>
+        <p class="eyebrow">Chinese Cooking Demystified × Richmond</p>
+        <h1>Can I find this dish here?</h1>
+        <p class="intro">
+          A 99-dish crosswalk from CCD’s regional catalog to current Richmond
+          menus and specialists. Match type measures dish fit—not overall
+          restaurant quality. Gaps are retained as useful negative results.
+        </p>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <section aria-labelledby="tomorrow-title">
+        <p class="eyebrow">Fast answer</p>
+        <h2 id="tomorrow-title">If you only have tomorrow</h2>
+        <p class="section-lead" id="tomorrow-intro"></p>
+        <div class="ccd-priority-grid" id="ccd-priorities"></div>
+      </section>
+
+      <section aria-labelledby="explorer-title">
+        <p class="eyebrow">Dish finder</p>
+        <h2 id="explorer-title">Explore all 99 dishes</h2>
+        <p class="section-lead">
+          Search English or Chinese dish names, then narrow by catalog region,
+          match type, confidence, or restaurant. Open a card for source and
+          verification details.
+        </p>
+
+        <div class="ccd-stats" id="ccd-stats" aria-label="Catalog summary"></div>
+
+        <div class="ccd-controls" role="search" aria-label="Filter CCD dishes">
+          <div class="ccd-search">
+            <label for="ccd-search">Search dishes and recommendations</label>
+            <input
+              type="search"
+              id="ccd-search"
+              placeholder="Try 甜水面, mapo tofu, Hunan, or Ajea…"
+              autocomplete="off"
+            />
+          </div>
+          <div class="filters" id="ccd-filters"></div>
+          <div class="ccd-control-foot">
+            <p class="result-count" id="ccd-count" aria-live="polite"></p>
+            <button type="button" class="ccd-clear" id="ccd-clear">Clear filters</button>
+          </div>
+        </div>
+
+        <div id="ccd-regions"></div>
+        <p class="empty" id="ccd-empty" hidden>No dishes match those filters.</p>
+      </section>
+    </main>
+
+    <footer class="wrap">
+      <p class="muted">
+        Crosswalk researched July 30, 2026. Menus and hours change; verify
+        time-sensitive details before a special trip.
+      </p>
+      <p class="muted">
+        <a href="methodology.html">Read the research method and limitations.</a>
+      </p>
+    </footer>
+
+    <script src="ccd.js"></script>
+  </body>
+</html>

@@ -8,6 +8,7 @@ data/
   site.md            # site-level meta (title, subtitle, intro, updated)
   hubs/<id>.md       # one file per hub (food court / mall / plaza / food street / district)
   venues/<id>.md     # one file per restaurant OR stall
+  ccd/catalog.yml    # 99-dish Chinese Cooking Demystified crosswalk
 ```
 
 Each file is **YAML frontmatter** (structured fields, between `---` fences) plus a
@@ -117,3 +118,58 @@ Evidence for the hub: popular-times observations, tenant churn, redevelopment, e
 - Prefer `""`/`null`/omission over guessing. Every strong claim needs a source.
 - Keep `bestDaypart` human-readable; keep `hours` machine-structured.
 - After edits, the site owner runs the compiler; do not edit compiled JSON.
+
+## CCD dish crosswalk (`data/ccd/catalog.yml`)
+
+This collection keeps the canonical 99-dish Chinese Cooking Demystified catalog
+separate from venue records. It joins to established venues by `venueIds`; it
+does not copy addresses, hours, status, or other venue facts.
+
+Top-level keys:
+
+- `meta`: title, updated date, expected dish count, introduction, and the five
+  match definitions.
+- `tomorrow`: a small, explicitly curated set of visit-ready recommendations.
+  An item uses either `venueId` for a core venue or `leadName` for an
+  unpromoted dish-specific lead.
+- `dishes`: exactly 99 dish records in canonical catalog order.
+
+Each dish record uses:
+
+```yaml
+- id: chengdu-sweet-water-noodles  # stable unique slug
+  region: Sichuan & Chongqing      # canonical catalog region
+  name: Chengdu Sweet Water Noodles
+  nameZh: 甜水面
+  province: Sichuan (Chengdu)
+  dishType: Noodles
+  ccdSourceUrl: https://...
+  ccdSourceLabel: Substack · 2023-10-15
+  match: exact                      # exact | close | regional | gap | component
+  matchLabel: Exact                 # original research wording
+  venueIds: [szechuan-tales]        # only IDs present in data/venues/
+  leadNames: [Ajea Noodle]          # unpromoted dish lead; no venue-detail link
+  recommendedMenuItem: ...
+  matchExplanation: ...
+  confidence: high                  # high | medium | low | not-applicable
+  confidenceNote: High              # original nuanced confidence wording
+  caution: ...
+  sourceUrls: [https://...]         # local dish/menu evidence when available
+  lastVerified: 2026-07-30
+```
+
+Rules:
+
+- Preserve all five match classes. `exact`, `close`, `regional`, `gap`, and
+  `component` are not interchangeable.
+- `gap` and `component` records must not contain `venueIds` or `leadNames`.
+  Their explanatory text may mention rejected or contextual leads, but the UI
+  must never present those rows as restaurant recommendations.
+- `venueIds` must resolve to existing venue records. Use `leadNames` instead
+  when a dish-specific lead has not passed the core venue admission rule.
+- Keep `confidenceNote` when the research distinguishes menu confidence,
+  regional fit, destination value, or operating confidence.
+- `ccdSourceUrl` points to the specific CCD recipe when available. Classic
+  YouTube-era dishes may link to the CCD channel when the exact video has not
+  been verified.
+- `site/content/ccd-dishes.json` is generated output. Never hand-edit it.

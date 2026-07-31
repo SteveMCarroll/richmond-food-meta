@@ -1,6 +1,6 @@
 # Richmond BC Chinese dining guide — project plan
 
-Last aligned with the dataset and methodology: 2026-07-19.
+Last aligned with the dataset and methodology: 2026-07-30.
 
 ## Product
 
@@ -25,6 +25,9 @@ The public product is a reusable dining guide. Family-specific itineraries, name
 - Current expansion covers dish-specific Hong Kong barbecue plus multiple Sichuan and Shanghai/Jiangnan options, Hunan, Xinjiang, Dongbei, Yunnan, Hui/Ningxia halal, and late-night Cantonese `da laang` lanes.
 - Every venue has a dated source list and an evidence body.
 - Operational blanks and source disagreements are preserved rather than guessed.
+- A dedicated Chinese Cooking Demystified addendum preserves all 99 catalog
+  dishes as exact, close, regional, gap, or component records. It joins to core
+  venues by ID and keeps unpromoted dish leads distinct from venue recommendations.
 
 ## Research priorities
 

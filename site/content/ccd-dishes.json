@@ -1,0 +1,2059 @@
+{
+  "meta": {
+    "title": "Chinese Cooking Demystified: Richmond dish crosswalk",
+    "updated": "2026-07-30",
+    "totalDishes": 99,
+    "intro": "A dish-by-dish crosswalk between the 99-item CCD regional catalog and current Richmond options. Match type measures menu fit, not restaurant quality.",
+    "classificationDefinitions": {
+      "exact": "The current menu or a current specialist source names the dish.",
+      "close": "The same dish family or technique, but not the catalog’s specific regional version.",
+      "regional": "A supported specialist for that cuisine; the exact dish was not found.",
+      "gap": "No credible current Richmond match was found.",
+      "component": "A technique, sauce, or home-cooking format rather than a sensible standalone restaurant target."
+    }
+  },
+  "tomorrow": {
+    "title": "If you only have tomorrow",
+    "intro": "Choose for rarity, group size, and exact-match breadth—not by trying to visit every lead.",
+    "recommendations": [
+      {
+        "priority": 1,
+        "leadName": "Ajea Noodle",
+        "headline": "Chengdu sweet-water noodles",
+        "detail": "The rarest exact match found. Add made-to-order claypot rice only if appetite and 15–20 minutes allow.",
+        "hours": "Friday 11:00am–8:00pm",
+        "address": "3700 No. 3 Road, Yaohan Centre",
+        "caution": "Dish-specific lead outside the core venue dataset; verify before a special trip.",
+        "dishIds": [
+          "chengdu-sweet-water-noodles"
+        ]
+      },
+      {
+        "priority": 2,
+        "venueId": "xiang-chuan-mansion",
+        "headline": "Mao’s pork + chopped-pepper fish",
+        "detail": "Two exact Hunan matches suited to a 3–6 person dinner.",
+        "caution": "Call ahead to confirm the live Mandarin fish and preparation.",
+        "dishIds": [
+          "chairman-maos-red-braised-pork",
+          "steamed-fish-head-w-chopped-chili"
+        ]
+      },
+      {
+        "priority": 3,
+        "venueId": "szechuan-tales",
+        "headline": "Greatest exact-match breadth",
+        "detail": "Dan dan noodles, chili-oil wontons, kung pao chicken, twice-cooked pork, laziji, fish-fragrant pork, water-boiled beef, and mapo tofu.",
+        "dishIds": [
+          "dan-dan-noodles",
+          "wontons-in-chili-oil",
+          "kung-pao-chicken",
+          "twice-cooked-pork",
+          "spicy-chicken-w-edible-crispy-chilis-laziji",
+          "fish-fragrant-pork-slivers",
+          "boiled-beef-in-chili-broth",
+          "mapo-tofu"
+        ]
+      }
+    ]
+  },
+  "dishes": [
+    {
+      "id": "chengdu-tomato-egg-noodles",
+      "region": "Sichuan & Chongqing",
+      "name": "Chengdu Tomato & Egg Noodles",
+      "nameZh": "番茄煎蛋面",
+      "province": "Sichuan (Chengdu)",
+      "dishType": "Noodles",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/chengdu-tomato-and-egg-noodles",
+      "ccdSourceLabel": "Substack · 2025-10-25",
+      "match": "close",
+      "matchLabel": "Close",
+      "leadNames": [
+        "Old Xian"
+      ],
+      "recommendedMenuItem": "noodle with tomato and fried egg in soup; not Chengdu's pan-fried-egg version",
+      "matchExplanation": "Old Xian — noodle with tomato and fried egg in soup; not Chengdu's pan-fried-egg version",
+      "confidence": "medium",
+      "confidenceNote": "Medium",
+      "caution": "Not an exact CCD dish match; use this as the closest supported analogue or regional specialist.",
+      "sourceUrls": [
+        "https://www.oldxiansfood.ca/wp-content/uploads/2025/03/Old-Xian_Main-Menu_V9-min.pdf"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "sichuan-restaurant-style-dishes-set",
+      "region": "Sichuan & Chongqing",
+      "name": "Sichuan Restaurant-style Dishes (set)",
+      "province": "Sichuan",
+      "dishType": "Stir-fry set",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/sichuan-food-like-the-restaurants",
+      "ccdSourceLabel": "Substack · 2025-06-03",
+      "match": "regional",
+      "matchLabel": "Regional",
+      "venueIds": [
+        "szechuan-tales"
+      ],
+      "recommendedMenuItem": "use the exact dishes below to assemble the set",
+      "matchExplanation": "Szechuan Tales — use the exact dishes below to assemble the set",
+      "confidence": "high",
+      "confidenceNote": "High",
+      "caution": "Not an exact CCD dish match; use this as the closest supported analogue or regional specialist.",
+      "sourceUrls": [
+        "https://www.skipthedishes.com/szechuan-tales-richmond"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "mapo-tofu-the-first-recipe",
+      "region": "Sichuan & Chongqing",
+      "name": "Mapo Tofu (the 'first' recipe)",
+      "nameZh": "麻婆豆腐",
+      "province": "Sichuan (Chengdu)",
+      "dishType": "Tofu",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/the-first-mapo-tofu-recipe",
+      "ccdSourceLabel": "Substack · 2025-01-08",
+      "match": "exact",
+      "matchLabel": "Exact",
+      "venueIds": [
+        "szechuan-tales"
+      ],
+      "recommendedMenuItem": "mapo tofu 麻婆豆腐",
+      "matchExplanation": "Szechuan Tales — mapo tofu 麻婆豆腐",
+      "confidence": "high",
+      "confidenceNote": "High",
+      "sourceUrls": [
+        "https://www.skipthedishes.com/szechuan-tales-richmond"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "spicy-chicken-w-edible-crispy-chilis-laziji",
+      "region": "Sichuan & Chongqing",
+      "name": "Spicy Chicken w/ Edible Crispy Chilis (laziji)",
+      "nameZh": "辣子鸡",
+      "province": "Sichuan",
+      "dishType": "Chicken",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/sichuan-spicy-chicken-with-edible",
+      "ccdSourceLabel": "Substack · 2024-04-01",
+      "match": "exact",
+      "matchLabel": "Exact",
+      "venueIds": [
+        "szechuan-tales"
+      ],
+      "recommendedMenuItem": "hot and spicy chicken 多情辣子鸡",
+      "matchExplanation": "Szechuan Tales — hot and spicy chicken 多情辣子鸡",
+      "confidence": "high",
+      "confidenceNote": "High",
+      "sourceUrls": [
+        "https://www.skipthedishes.com/szechuan-tales-richmond"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "chili-oil-baozi",
+      "region": "Sichuan & Chongqing",
+      "name": "Chili Oil Baozi",
+      "nameZh": "红油包子",
+      "province": "Sichuan",
+      "dishType": "Bun/dumpling",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/chili-oil-baozi",
+      "ccdSourceLabel": "Substack · 2024-03-16",
+      "match": "close",
+      "matchLabel": "Close",
+      "leadNames": [
+        "Chinese Baozi Master"
+      ],
+      "recommendedMenuItem": "fresh baozi; add chili oil, but the CCD preparation is not named",
+      "matchExplanation": "Chinese Baozi Master, Yaohan — fresh baozi; add chili oil, but the CCD preparation is not named",
+      "confidence": "low",
+      "confidenceNote": "Low",
+      "caution": "Not an exact CCD dish match; use this as the closest supported analogue or regional specialist.",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "sichuan-hotpot-1972-recipe",
+      "region": "Sichuan & Chongqing",
+      "name": "Sichuan Hotpot (1972 recipe)",
+      "nameZh": "四川火锅",
+      "province": "Sichuan / Chongqing",
+      "dishType": "Hotpot",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/my-favorite-sichuan-hotpot-recipe",
+      "ccdSourceLabel": "Substack · 2024-01-07",
+      "match": "regional",
+      "matchLabel": "Regional",
+      "matchExplanation": "Richmond has modern Sichuan/Chongqing hotpot, but no evidence for this specific 1972 formula",
+      "confidence": "low",
+      "confidenceNote": "Low",
+      "caution": "Not an exact CCD dish match; use this as the closest supported analogue or regional specialist.",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "chengdu-sweet-water-noodles",
+      "region": "Sichuan & Chongqing",
+      "name": "Chengdu 'Sweet Water' Noodles",
+      "nameZh": "甜水面",
+      "province": "Sichuan (Chengdu)",
+      "dishType": "Noodles",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/chengdu-sweet-water-noodles",
+      "ccdSourceLabel": "Substack · 2023-10-15",
+      "match": "exact",
+      "matchLabel": "Exact",
+      "leadNames": [
+        "Ajea Noodle"
+      ],
+      "recommendedMenuItem": "thick alkaline sweet-water noodles in spicy-sweet sauce",
+      "matchExplanation": "Ajea Noodle — thick alkaline sweet-water noodles in spicy-sweet sauce",
+      "confidence": "high",
+      "confidenceNote": "High",
+      "sourceUrls": [
+        "https://www.theinfatuation.com/vancouver/reviews/ajea-noodle",
+        "https://www.restaurantji.com/bc/richmond/ajea-noodle-/",
+        "https://www.visitrichmondbc.com/blogs/food-drink/must-eat-dishes-at-the-yaohan-centre-food-court/"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "sichuan-kongfan-chinese-pilaf",
+      "region": "Sichuan & Chongqing",
+      "name": "Sichuan Kongfan (Chinese pilaf)",
+      "nameZh": "箜饭",
+      "province": "Sichuan",
+      "dishType": "Rice",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/sichuan-kongfan-a-chinese-pilaf-sort",
+      "ccdSourceLabel": "Substack · 2023-09-25",
+      "match": "gap",
+      "matchLabel": "Gap",
+      "matchExplanation": "No current Richmond restaurant version found",
+      "confidence": "medium",
+      "confidenceNote": "Medium",
+      "caution": "No current Richmond match was verified; this is a research gap, not a restaurant recommendation.",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "kung-pao-chicken",
+      "region": "Sichuan & Chongqing",
+      "name": "Kung Pao Chicken",
+      "nameZh": "宫保鸡丁",
+      "province": "Sichuan",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "exact",
+      "matchLabel": "Exact",
+      "venueIds": [
+        "szechuan-tales"
+      ],
+      "recommendedMenuItem": "宫保鸡丁",
+      "matchExplanation": "Szechuan Tales — 宫保鸡丁",
+      "confidence": "high",
+      "confidenceNote": "High",
+      "sourceUrls": [
+        "https://www.skipthedishes.com/szechuan-tales-richmond"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "dan-dan-noodles",
+      "region": "Sichuan & Chongqing",
+      "name": "Dan Dan Noodles",
+      "nameZh": "担担面",
+      "province": "Sichuan (Chengdu)",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "exact",
+      "matchLabel": "Exact",
+      "venueIds": [
+        "szechuan-tales"
+      ],
+      "recommendedMenuItem": "四川担担面",
+      "matchExplanation": "Szechuan Tales — 四川担担面",
+      "confidence": "high",
+      "confidenceNote": "High",
+      "sourceUrls": [
+        "https://www.skipthedishes.com/szechuan-tales-richmond"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "twice-cooked-pork",
+      "region": "Sichuan & Chongqing",
+      "name": "Twice-Cooked Pork",
+      "nameZh": "回锅肉",
+      "province": "Sichuan",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "exact",
+      "matchLabel": "Exact",
+      "venueIds": [
+        "szechuan-tales"
+      ],
+      "recommendedMenuItem": "川香回锅肉",
+      "matchExplanation": "Szechuan Tales — 川香回锅肉",
+      "confidence": "high",
+      "confidenceNote": "High",
+      "sourceUrls": [
+        "https://www.skipthedishes.com/szechuan-tales-richmond"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "fish-fragrant-eggplant",
+      "region": "Sichuan & Chongqing",
+      "name": "Fish-Fragrant Eggplant",
+      "nameZh": "鱼香茄子",
+      "province": "Sichuan",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "close",
+      "matchLabel": "Close",
+      "venueIds": [
+        "szechuan-tales"
+      ],
+      "matchExplanation": "Szechuan Tales has crispy eggplant rather than 鱼香茄子; exact current match not verified",
+      "confidence": "low",
+      "confidenceNote": "Low",
+      "caution": "Not an exact CCD dish match; use this as the closest supported analogue or regional specialist.",
+      "sourceUrls": [
+        "https://www.skipthedishes.com/szechuan-tales-richmond"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "fish-fragrant-pork-slivers",
+      "region": "Sichuan & Chongqing",
+      "name": "Fish-Fragrant Pork Slivers",
+      "nameZh": "鱼香肉丝",
+      "province": "Sichuan",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "exact",
+      "matchLabel": "Exact",
+      "venueIds": [
+        "szechuan-tales"
+      ],
+      "recommendedMenuItem": "鱼香肉丝",
+      "matchExplanation": "Szechuan Tales — 鱼香肉丝",
+      "confidence": "high",
+      "confidenceNote": "High",
+      "sourceUrls": [
+        "https://www.skipthedishes.com/szechuan-tales-richmond"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "wontons-in-chili-oil",
+      "region": "Sichuan & Chongqing",
+      "name": "Wontons in Chili Oil",
+      "nameZh": "红油抄手",
+      "province": "Sichuan",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "exact",
+      "matchLabel": "Exact",
+      "venueIds": [
+        "szechuan-tales"
+      ],
+      "recommendedMenuItem": "红油抄手",
+      "matchExplanation": "Szechuan Tales — 红油抄手",
+      "confidence": "high",
+      "confidenceNote": "High",
+      "sourceUrls": [
+        "https://www.skipthedishes.com/szechuan-tales-richmond"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "boiled-beef-in-chili-broth",
+      "region": "Sichuan & Chongqing",
+      "name": "Boiled Beef in Chili Broth",
+      "nameZh": "水煮牛肉",
+      "province": "Sichuan",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "exact",
+      "matchLabel": "Exact",
+      "venueIds": [
+        "szechuan-tales"
+      ],
+      "recommendedMenuItem": "水煮牛肉",
+      "matchExplanation": "Szechuan Tales — 水煮牛肉",
+      "confidence": "high",
+      "confidenceNote": "High",
+      "sourceUrls": [
+        "https://www.skipthedishes.com/szechuan-tales-richmond"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "dry-fried-green-beans",
+      "region": "Sichuan & Chongqing",
+      "name": "Dry-Fried Green Beans",
+      "nameZh": "干煸四季豆",
+      "province": "Sichuan",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "exact",
+      "matchLabel": "Exact",
+      "leadNames": [
+        "Szechuan Delicious"
+      ],
+      "recommendedMenuItem": "干煸四季豆 on its current menu",
+      "matchExplanation": "Szechuan Delicious — 干煸四季豆 on its current menu",
+      "confidence": "medium",
+      "confidenceNote": "Medium",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "mapo-tofu",
+      "region": "Sichuan & Chongqing",
+      "name": "Mapo Tofu",
+      "nameZh": "麻婆豆腐",
+      "province": "Sichuan",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "exact",
+      "matchLabel": "Exact",
+      "venueIds": [
+        "szechuan-tales"
+      ],
+      "recommendedMenuItem": "麻婆豆腐",
+      "matchExplanation": "Szechuan Tales — 麻婆豆腐",
+      "confidence": "high",
+      "confidenceNote": "High",
+      "sourceUrls": [
+        "https://www.skipthedishes.com/szechuan-tales-richmond"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "chili-fried-chili-poor-mans-stir-fry",
+      "region": "Hunan & Spicy Interior",
+      "name": "Chili-Fried Chili (poor-man's stir fry)",
+      "nameZh": "辣椒炒辣椒",
+      "province": "Hunan / Guizhou",
+      "dishType": "Stir-fry",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/poor-mans-stir-fry-chili-fried-chili",
+      "ccdSourceLabel": "Substack · 2026-04-14",
+      "match": "close",
+      "matchLabel": "Close",
+      "venueIds": [
+        "xiang-chuan-mansion"
+      ],
+      "recommendedMenuItem": "choose a fresh-chile Hunan stir-fry; the minimalist CCD dish is not named",
+      "matchExplanation": "Xiang Chuan Mansion — choose a fresh-chile Hunan stir-fry; the minimalist CCD dish is not named",
+      "confidence": "medium",
+      "confidenceNote": "Medium",
+      "caution": "Not an exact CCD dish match; use this as the closest supported analogue or regional specialist.",
+      "sourceUrls": [
+        "https://www.zomi.menu/shop/xiangchuanmansion"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "chairman-maos-red-braised-pork",
+      "region": "Hunan & Spicy Interior",
+      "name": "Chairman Mao's Red-Braised Pork",
+      "nameZh": "毛氏红烧肉",
+      "province": "Hunan",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "exact",
+      "matchLabel": "Exact",
+      "venueIds": [
+        "xiang-chuan-mansion"
+      ],
+      "recommendedMenuItem": "毛氏红烧肉",
+      "matchExplanation": "Xiang Chuan Mansion — 毛氏红烧肉",
+      "confidence": "high",
+      "confidenceNote": "High",
+      "sourceUrls": [
+        "https://www.zomi.menu/shop/xiangchuanmansion"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "steamed-fish-head-w-chopped-chili",
+      "region": "Hunan & Spicy Interior",
+      "name": "Steamed Fish Head w/ Chopped Chili",
+      "nameZh": "剁椒鱼头",
+      "province": "Hunan",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "close",
+      "matchLabel": "Exact/close",
+      "venueIds": [
+        "xiang-chuan-mansion"
+      ],
+      "recommendedMenuItem": "live Mandarin fish can be chopped-pepper steamed; confirm whether fish head alone is available",
+      "matchExplanation": "Xiang Chuan Mansion — live Mandarin fish can be chopped-pepper steamed; confirm whether fish head alone is available",
+      "confidence": "high",
+      "confidenceNote": "High",
+      "caution": "Call ahead to confirm the live fish and preparation.",
+      "sourceUrls": [
+        "https://www.zomi.menu/shop/xiangchuanmansion"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "yunnan-business-noodles",
+      "region": "Yunnan",
+      "name": "Yunnan 'Business' Noodles",
+      "nameZh": "办事处米线",
+      "province": "Yunnan (Dai / Dehong)",
+      "dishType": "Noodles",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/yunnan-business-noodles",
+      "ccdSourceLabel": "Substack · 2026-05-22",
+      "match": "regional",
+      "matchLabel": "Regional",
+      "venueIds": [
+        "south-silk-road"
+      ],
+      "recommendedMenuItem": "Yunnan rice noodles",
+      "matchExplanation": "South Silk Road — Yunnan rice noodles",
+      "confidence": "high",
+      "confidenceNote": "High regional / low exact",
+      "caution": "Not an exact CCD dish match; use this as the closest supported analogue or regional specialist.",
+      "sourceUrls": [
+        "https://www.southsilkroad.ca/locations"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "dipping-sauce-tilapia",
+      "region": "Yunnan",
+      "name": "Dipping-Sauce Tilapia",
+      "nameZh": "蘸水罗非鱼",
+      "province": "Yunnan (Xinping / Yuxi)",
+      "dishType": "Fish",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/dipping-sauce-tilapia",
+      "ccdSourceLabel": "Substack · 2026-05-10",
+      "match": "regional",
+      "matchLabel": "Regional",
+      "venueIds": [
+        "south-silk-road"
+      ],
+      "recommendedMenuItem": "ask about current Yunnan fish dishes; exact tilapia not found",
+      "matchExplanation": "South Silk Road — ask about current Yunnan fish dishes; exact tilapia not found",
+      "confidence": "medium",
+      "confidenceNote": "Medium regional / low exact",
+      "caution": "Not an exact CCD dish match; use this as the closest supported analogue or regional specialist.",
+      "sourceUrls": [
+        "https://www.southsilkroad.ca/locations"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "youqiang-herb-stir-fries",
+      "region": "Yunnan",
+      "name": "'Youqiang' Herb Stir Fries",
+      "nameZh": "油橄榄/youqiang",
+      "province": "Yunnan–Sichuan border",
+      "dishType": "Stir-fry",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/the-yunnan-sichuan-fusion-of-youqiang",
+      "ccdSourceLabel": "Substack · 2026-03-09",
+      "match": "regional",
+      "matchLabel": "Regional",
+      "venueIds": [
+        "south-silk-road"
+      ],
+      "recommendedMenuItem": "Xishuangbanna mushroom/vegetable dishes",
+      "matchExplanation": "South Silk Road — Xishuangbanna mushroom/vegetable dishes",
+      "confidence": "medium",
+      "confidenceNote": "Medium regional / low exact",
+      "caution": "Not an exact CCD dish match; use this as the closest supported analogue or regional specialist.",
+      "sourceUrls": [
+        "https://www.southsilkroad.ca/locations"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "three-halal-over-rice-dishes-mala-beef-etc",
+      "region": "Yunnan",
+      "name": "Three Halal Over-Rice Dishes (mala beef etc.)",
+      "province": "Yunnan (Hui / Halal)",
+      "dishType": "Over rice",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/three-chinese-halal-dishes-to-smother",
+      "ccdSourceLabel": "Substack · 2026-02-06",
+      "match": "gap",
+      "matchLabel": "Gap",
+      "matchExplanation": "No current Yunnan-Hui over-rice match found",
+      "confidence": "medium",
+      "confidenceNote": "Medium",
+      "caution": "No current Richmond match was verified; this is a research gap, not a restaurant recommendation.",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "dai-land-dishes-set",
+      "region": "Yunnan",
+      "name": "Dai-land Dishes (set)",
+      "nameZh": "傣味",
+      "province": "Yunnan (Dai)",
+      "dishType": "Regional set",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/the-food-of-dai-land",
+      "ccdSourceLabel": "Substack · 2026-01-07",
+      "match": "regional",
+      "matchLabel": "Regional",
+      "venueIds": [
+        "south-silk-road"
+      ],
+      "recommendedMenuItem": "closest current Yunnan specialist; ask for Xishuangbanna dishes",
+      "matchExplanation": "South Silk Road — closest current Yunnan specialist; ask for Xishuangbanna dishes",
+      "confidence": "high",
+      "confidenceNote": "High regional / low exact",
+      "caution": "Not an exact CCD dish match; use this as the closest supported analogue or regional specialist.",
+      "sourceUrls": [
+        "https://www.southsilkroad.ca/locations"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "jingpo-rice-balls",
+      "region": "Yunnan",
+      "name": "Jingpo Rice Balls",
+      "nameZh": "景颇饭团",
+      "province": "Yunnan (Jingpo)",
+      "dishType": "Rice",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/jingpo-rice-balls",
+      "ccdSourceLabel": "Substack · 2025-12-10",
+      "match": "gap",
+      "matchLabel": "Gap",
+      "matchExplanation": "No current Richmond match found",
+      "confidence": "medium",
+      "confidenceNote": "Medium",
+      "caution": "No current Richmond match was verified; this is a research gap, not a restaurant recommendation.",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "ghost-fire-green-chili-salad",
+      "region": "Yunnan",
+      "name": "Ghost Fire Green (chili salad)",
+      "nameZh": "鬼火绿",
+      "province": "Yunnan",
+      "dishType": "Cold dish",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/poor-mans-food-ghost-fire-green",
+      "ccdSourceLabel": "Substack · 2025-10-15",
+      "match": "gap",
+      "matchLabel": "Gap",
+      "matchExplanation": "No current Richmond match found",
+      "confidence": "medium",
+      "confidenceNote": "Medium",
+      "caution": "No current Richmond match was verified; this is a research gap, not a restaurant recommendation.",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "cheese-potstickers-rubing",
+      "region": "Yunnan",
+      "name": "'Cheese' Potstickers (rubing)",
+      "nameZh": "乳饼锅贴",
+      "province": "Yunnan (Dali)",
+      "dishType": "Dumpling",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/rare-old-recipes-cheese-potstickers",
+      "ccdSourceLabel": "Substack · 2025-09-28",
+      "match": "gap",
+      "matchLabel": "Gap",
+      "matchExplanation": "No current Richmond match found",
+      "confidence": "medium",
+      "confidenceNote": "Medium",
+      "caution": "No current Richmond match was verified; this is a research gap, not a restaurant recommendation.",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "egg-battered-fries-spicy-lemon-dip",
+      "region": "Yunnan",
+      "name": "Egg-Battered Fries, Spicy Lemon Dip",
+      "nameZh": "元江蛋酥洋芋",
+      "province": "Yunnan (Yuanjiang)",
+      "dishType": "Snack",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/egg-battered-fries-with-a-spicy-lemon",
+      "ccdSourceLabel": "Substack · 2025-04-25",
+      "match": "gap",
+      "matchLabel": "Gap",
+      "matchExplanation": "No current Richmond match found",
+      "confidence": "medium",
+      "confidenceNote": "Medium",
+      "caution": "No current Richmond match was verified; this is a research gap, not a restaurant recommendation.",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "yi-peoples-pounded-chicken",
+      "region": "Yunnan",
+      "name": "Yi People's Pounded Chicken",
+      "nameZh": "舂鸡",
+      "province": "Yunnan (Yi)",
+      "dishType": "Chicken",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/yi-peoples-pounded-chicken",
+      "ccdSourceLabel": "Substack · 2025-03-07",
+      "match": "gap",
+      "matchLabel": "Gap",
+      "matchExplanation": "No current Richmond match found",
+      "confidence": "medium",
+      "confidenceNote": "Medium",
+      "caution": "No current Richmond match was verified; this is a research gap, not a restaurant recommendation.",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "crispy-mint-ribs",
+      "region": "Yunnan",
+      "name": "Crispy Mint Ribs",
+      "nameZh": "薄荷排骨",
+      "province": "Yunnan / Guizhou",
+      "dishType": "Pork",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/crispy-mint-ribs",
+      "ccdSourceLabel": "Substack · 2024-06-26",
+      "match": "gap",
+      "matchLabel": "Gap",
+      "matchExplanation": "No current Richmond match found",
+      "confidence": "medium",
+      "confidenceNote": "Medium",
+      "caution": "No current Richmond match was verified; this is a research gap, not a restaurant recommendation.",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "danshan-chili-dip",
+      "region": "Yunnan",
+      "name": "Danshan Chili Dip",
+      "nameZh": "蘸山/单山蘸水",
+      "province": "Yunnan",
+      "dishType": "Condiment",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/danshan-the-yunnan-chili-dip-that",
+      "ccdSourceLabel": "Substack · 2024-03-26",
+      "match": "component",
+      "matchLabel": "Component/gap",
+      "matchExplanation": "No current menu serving found; ask South Silk Road whether a Yunnan dipping powder is available",
+      "confidence": "low",
+      "confidenceNote": "Low",
+      "caution": "Technique or component rather than a standalone restaurant target.",
+      "sourceUrls": [
+        "https://www.southsilkroad.ca/locations"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "spicy-noodles-in-mashed-potato-sauce",
+      "region": "Yunnan",
+      "name": "Spicy Noodles in Mashed-Potato Sauce",
+      "nameZh": "洋芋面",
+      "province": "Yunnan",
+      "dishType": "Noodles",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/spicy-noodles-in-mashed-potato-sauce",
+      "ccdSourceLabel": "Substack · 2023-12-09",
+      "match": "gap",
+      "matchLabel": "Gap",
+      "matchExplanation": "No current Richmond match found",
+      "confidence": "medium",
+      "confidenceNote": "Medium",
+      "caution": "No current Richmond match was verified; this is a research gap, not a restaurant recommendation.",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "crispy-pork-noodles",
+      "region": "Guizhou",
+      "name": "Crispy Pork Noodles",
+      "nameZh": "脆哨面",
+      "province": "Guizhou",
+      "dishType": "Noodles",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/crispy-pork-noodles",
+      "ccdSourceLabel": "Substack · 2025-05-03",
+      "match": "gap",
+      "matchLabel": "Gap",
+      "matchExplanation": "No current Richmond 脆哨面 found",
+      "confidence": "medium",
+      "confidenceNote": "Medium",
+      "caution": "No current Richmond match was verified; this is a research gap, not a restaurant recommendation.",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "guizhou-beef-dry-pot",
+      "region": "Guizhou",
+      "name": "Guizhou Beef Dry Pot",
+      "nameZh": "兴义干锅牛肉",
+      "province": "Guizhou (Xingyi)",
+      "dishType": "Beef / dry pot",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/guizhou-beef-pot",
+      "ccdSourceLabel": "Substack · 2024-03-03",
+      "match": "gap",
+      "matchLabel": "Gap",
+      "matchExplanation": "No current Richmond 兴义干锅牛肉 found",
+      "confidence": "medium",
+      "confidenceNote": "Medium",
+      "caution": "No current Richmond match was verified; this is a research gap, not a restaurant recommendation.",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "hk-milk-tea-w-cheese-froth",
+      "region": "Cantonese — Guangdong (incl. Hong Kong & Macau)",
+      "name": "HK Milk Tea w/ Cheese Froth",
+      "nameZh": "芝士奶盖奶茶",
+      "province": "Guangdong / Hong Kong",
+      "dishType": "Drink",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/if-asian-are-lactose-intolerant-why",
+      "ccdSourceLabel": "Substack · 2025-11-30",
+      "match": "close",
+      "matchLabel": "Close",
+      "matchExplanation": "Easy to find as a modern tea-shop drink, but no destination-worthy specialist selected",
+      "confidence": "low",
+      "confidenceNote": "Low",
+      "caution": "Not an exact CCD dish match; use this as the closest supported analogue or regional specialist.",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "cantonese-over-rice-dishes-set",
+      "region": "Cantonese — Guangdong (incl. Hong Kong & Macau)",
+      "name": "Cantonese Over-Rice Dishes (set)",
+      "nameZh": "碟头饭",
+      "province": "Guangdong",
+      "dishType": "Over rice",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/over-rice-cantonese-edition",
+      "ccdSourceLabel": "Substack · 2025-10-07",
+      "match": "exact",
+      "matchLabel": "Exact format",
+      "venueIds": [
+        "tak-fook"
+      ],
+      "recommendedMenuItem": "double-combination roast-meat rice",
+      "matchExplanation": "Tak Fook — double-combination roast-meat rice",
+      "confidence": "high",
+      "confidenceNote": "High",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "vegetarian-doggy-pot",
+      "region": "Cantonese — Guangdong (incl. Hong Kong & Macau)",
+      "name": "Vegetarian 'Doggy' Pot",
+      "nameZh": "素狗肉煲",
+      "province": "Guangdong / Guangxi",
+      "dishType": "Claypot",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/the-traditional-dog-meat-flavor-profile",
+      "ccdSourceLabel": "Substack · 2025-09-05",
+      "match": "gap",
+      "matchLabel": "Gap",
+      "matchExplanation": "No current Richmond 素狗肉煲 found",
+      "confidence": "medium",
+      "confidenceNote": "Medium",
+      "caution": "No current Richmond match was verified; this is a research gap, not a restaurant recommendation.",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "cantonese-fried-wontons",
+      "region": "Cantonese — Guangdong (incl. Hong Kong & Macau)",
+      "name": "Cantonese Fried Wontons",
+      "nameZh": "炸云吞",
+      "province": "Guangdong",
+      "dishType": "Wonton",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/the-best-fried-wontons-in-my-opinion",
+      "ccdSourceLabel": "Substack · 2025-08-01",
+      "match": "gap",
+      "matchLabel": "Gap",
+      "matchExplanation": "Common item, but no current specialist-quality match verified",
+      "confidence": "low",
+      "confidenceNote": "Low",
+      "caution": "No current Richmond match was verified; this is a research gap, not a restaurant recommendation.",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "macau-tamarind-pork",
+      "region": "Cantonese — Guangdong (incl. Hong Kong & Macau)",
+      "name": "Macau Tamarind Pork",
+      "nameZh": "Porco Balichão Tamarindo",
+      "province": "Macau",
+      "dishType": "Pork",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/recreating-macaus-tamarind-pork-porco",
+      "ccdSourceLabel": "Substack · 2025-07-12",
+      "match": "gap",
+      "matchLabel": "Gap",
+      "matchExplanation": "No current Richmond Macanese version found",
+      "confidence": "medium",
+      "confidenceNote": "Medium",
+      "caution": "No current Richmond match was verified; this is a research gap, not a restaurant recommendation.",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "master-stock-noodle-soup",
+      "region": "Cantonese — Guangdong (incl. Hong Kong & Macau)",
+      "name": "Master-Stock Noodle Soup",
+      "nameZh": "卤粉",
+      "province": "Guangdong",
+      "dishType": "Noodle soup",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/master-stock-noodle-soup",
+      "ccdSourceLabel": "Substack · 2025-06-22",
+      "match": "close",
+      "matchLabel": "Close",
+      "venueIds": [
+        "master-hung"
+      ],
+      "recommendedMenuItem": "wonton/roast-meat noodle soups; not the CCD master-stock powder",
+      "matchExplanation": "Master Hung — wonton/roast-meat noodle soups; not the CCD master-stock powder",
+      "confidence": "medium",
+      "confidenceNote": "Medium",
+      "caution": "Not an exact CCD dish match; use this as the closest supported analogue or regional specialist.",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "cantonese-stewed-beef-brisket",
+      "region": "Cantonese — Guangdong (incl. Hong Kong & Macau)",
+      "name": "Cantonese Stewed Beef Brisket",
+      "nameZh": "柱侯牛腩",
+      "province": "Guangdong",
+      "dishType": "Beef stew",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/cantonese-stewed-beef-brisket",
+      "ccdSourceLabel": "Substack · 2025-05-12",
+      "match": "close",
+      "matchLabel": "Close",
+      "venueIds": [
+        "master-hung"
+      ],
+      "recommendedMenuItem": "beef/brisket noodle-shop lane; confirm today's brisket availability",
+      "matchExplanation": "Master Hung — beef/brisket noodle-shop lane; confirm today's brisket availability",
+      "confidence": "medium",
+      "confidenceNote": "Medium",
+      "caution": "Not an exact CCD dish match; use this as the closest supported analogue or regional specialist.",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "cantonese-oyster-sauce-sauce",
+      "region": "Cantonese — Guangdong (incl. Hong Kong & Macau)",
+      "name": "Cantonese Oyster Sauce 'Sauce'",
+      "nameZh": "蚝油汁",
+      "province": "Guangdong",
+      "dishType": "Sauce / component",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/cantonese-oyster-sauce-sauce",
+      "ccdSourceLabel": "Substack · 2025-03-23",
+      "match": "component",
+      "matchLabel": "Component",
+      "matchExplanation": "Judge it on Chinese broccoli or other blanched greens at a Cantonese dinner restaurant",
+      "confidence": "not-applicable",
+      "confidenceNote": "—",
+      "caution": "Technique or component rather than a standalone restaurant target.",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "cantonese-rice-plates",
+      "region": "Cantonese — Guangdong (incl. Hong Kong & Macau)",
+      "name": "Cantonese Rice Plates",
+      "nameZh": "碟头饭",
+      "province": "Guangdong",
+      "dishType": "Over rice",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/cantonese-rice-plates",
+      "ccdSourceLabel": "Substack · 2024-06-19",
+      "match": "exact",
+      "matchLabel": "Exact format",
+      "venueIds": [
+        "tak-fook"
+      ],
+      "recommendedMenuItem": "double-combination rice",
+      "matchExplanation": "Tak Fook — double-combination rice",
+      "confidence": "high",
+      "confidenceNote": "High",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "cantonese-congee-101",
+      "region": "Cantonese — Guangdong (incl. Hong Kong & Macau)",
+      "name": "Cantonese Congee 101",
+      "nameZh": "广东粥",
+      "province": "Guangdong",
+      "dishType": "Congee",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/cantonese-congee-101",
+      "ccdSourceLabel": "Substack · 2024-05-02",
+      "match": "exact",
+      "matchLabel": "Exact",
+      "venueIds": [
+        "double-double"
+      ],
+      "recommendedMenuItem": "long-running congee specialist",
+      "matchExplanation": "Double Double — long-running congee specialist",
+      "confidence": "high",
+      "confidenceNote": "High",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "cantonese-dishes-w-thai-ingredients",
+      "region": "Cantonese — Guangdong (incl. Hong Kong & Macau)",
+      "name": "Cantonese Dishes w/ Thai Ingredients",
+      "province": "Guangdong",
+      "dishType": "Stir-fry",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/cantonese-food-traditional-thai-ingredients",
+      "ccdSourceLabel": "Substack · 2024-02-22",
+      "match": "gap",
+      "matchLabel": "Gap",
+      "matchExplanation": "No current menu match for the CCD set",
+      "confidence": "medium",
+      "confidenceNote": "Medium",
+      "caution": "No current Richmond match was verified; this is a research gap, not a restaurant recommendation.",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "cantonese-salty-rice-balls",
+      "region": "Cantonese — Guangdong (incl. Hong Kong & Macau)",
+      "name": "Cantonese Salty Rice Balls",
+      "nameZh": "咸丸",
+      "province": "Guangdong",
+      "dishType": "Rice ball",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/cantonese-salty-rice-balls",
+      "ccdSourceLabel": "Substack · 2023-12-20",
+      "match": "gap",
+      "matchLabel": "Gap",
+      "matchExplanation": "No current Richmond 咸丸 found",
+      "confidence": "medium",
+      "confidenceNote": "Medium",
+      "caution": "No current Richmond match was verified; this is a research gap, not a restaurant recommendation.",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "char-siu-bbq-pork",
+      "region": "Cantonese — Guangdong (incl. Hong Kong & Macau)",
+      "name": "Char Siu (BBQ Pork)",
+      "nameZh": "叉烧",
+      "province": "Guangdong",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "exact",
+      "matchLabel": "Exact",
+      "venueIds": [
+        "hk-bbq-master"
+      ],
+      "recommendedMenuItem": "char siu without bright-red colouring; go before sellout",
+      "matchExplanation": "HK BBQ Master — char siu without bright-red colouring; go before sellout",
+      "confidence": "high",
+      "confidenceNote": "High",
+      "caution": "Go early; roast meats can sell out.",
+      "sourceUrls": [
+        "https://zh.chineserestaurantawards.com/list/2025/elite-30-canada/hk-bbq-master/"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "cantonese-steamed-fish",
+      "region": "Cantonese — Guangdong (incl. Hong Kong & Macau)",
+      "name": "Cantonese Steamed Fish",
+      "nameZh": "清蒸鱼",
+      "province": "Guangdong",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "regional",
+      "matchLabel": "Regional",
+      "venueIds": [
+        "sing-yee"
+      ],
+      "matchExplanation": "Sing Yee for a Cantonese evening meal; call to confirm today's whole/live fish",
+      "confidence": "medium",
+      "confidenceNote": "Medium",
+      "caution": "Not an exact CCD dish match; use this as the closest supported analogue or regional specialist.",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "white-cut-chicken",
+      "region": "Cantonese — Guangdong (incl. Hong Kong & Macau)",
+      "name": "White Cut Chicken",
+      "nameZh": "白切鸡",
+      "province": "Guangdong",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "close",
+      "matchLabel": "Close",
+      "venueIds": [
+        "master-hung"
+      ],
+      "matchExplanation": "Master Hung specializes in soy chicken, which is adjacent but not 白切鸡",
+      "confidence": "high",
+      "confidenceNote": "High that it is close, not exact",
+      "caution": "Not an exact CCD dish match; use this as the closest supported analogue or regional specialist.",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "wonton-noodle-soup",
+      "region": "Cantonese — Guangdong (incl. Hong Kong & Macau)",
+      "name": "Wonton Noodle Soup",
+      "nameZh": "云吞面",
+      "province": "Guangdong",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "exact",
+      "matchLabel": "Exact",
+      "venueIds": [
+        "master-hung"
+      ],
+      "recommendedMenuItem": "wonton noodle soup",
+      "matchExplanation": "Master Hung — wonton noodle soup",
+      "confidence": "high",
+      "confidenceNote": "High",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "beef-chow-fun",
+      "region": "Cantonese — Guangdong (incl. Hong Kong & Macau)",
+      "name": "Beef Chow Fun",
+      "nameZh": "干炒牛河",
+      "province": "Guangdong",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "exact",
+      "matchLabel": "Exact/menu lead",
+      "leadNames": [
+        "Richport"
+      ],
+      "recommendedMenuItem": "干炒牛河 on the current menu; quality confidence is lower than menu confidence",
+      "matchExplanation": "Richport — 干炒牛河 on the current menu; quality confidence is lower than menu confidence",
+      "confidence": "medium",
+      "confidenceNote": "Medium",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "char-siu-bao",
+      "region": "Cantonese — Guangdong (incl. Hong Kong & Macau)",
+      "name": "Char Siu Bao",
+      "nameZh": "叉烧包",
+      "province": "Guangdong",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "exact",
+      "matchLabel": "Exact/common",
+      "venueIds": [
+        "chef-tony",
+        "empire-seafood"
+      ],
+      "matchExplanation": "Chef Tony or Empire Seafood at dim sum; verify the day's cart/menu",
+      "confidence": "medium",
+      "confidenceNote": "Medium",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "clay-pot-rice",
+      "region": "Cantonese — Guangdong (incl. Hong Kong & Macau)",
+      "name": "Clay Pot Rice",
+      "nameZh": "煲仔饭",
+      "province": "Guangdong",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "close",
+      "matchLabel": "Close",
+      "leadNames": [
+        "Ajea Noodle"
+      ],
+      "matchExplanation": "Ajea Noodle is the strongest current Richmond claypot-rice recommendation, but its version is Sichuan rather than classic Cantonese",
+      "confidence": "medium",
+      "confidenceNote": "High quality / medium dish fit",
+      "caution": "Not an exact CCD dish match; use this as the closest supported analogue or regional specialist.",
+      "sourceUrls": [
+        "https://www.theinfatuation.com/vancouver/reviews/ajea-noodle",
+        "https://www.restaurantji.com/bc/richmond/ajea-noodle-/",
+        "https://www.visitrichmondbc.com/blogs/food-drink/must-eat-dishes-at-the-yaohan-centre-food-court/"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "rice-noodle-rolls-cheung-fun",
+      "region": "Cantonese — Guangdong (incl. Hong Kong & Macau)",
+      "name": "Rice Noodle Rolls (cheung fun)",
+      "nameZh": "肠粉",
+      "province": "Guangdong",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "exact",
+      "matchLabel": "Exact",
+      "venueIds": [
+        "golden-paramount"
+      ],
+      "leadNames": [
+        "Yin Ji Chang Fen"
+      ],
+      "recommendedMenuItem": "steamed rice rolls; Yin Ji Chang Fen is the specialist alternative",
+      "matchExplanation": "Golden Paramount — steamed rice rolls; Yin Ji Chang Fen is the specialist alternative",
+      "confidence": "medium",
+      "confidenceNote": "Medium",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "cantonese-sweet-sour-pork",
+      "region": "Cantonese — Guangdong (incl. Hong Kong & Macau)",
+      "name": "Cantonese Sweet & Sour Pork",
+      "nameZh": "咕噜肉",
+      "province": "Guangdong",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "exact",
+      "matchLabel": "Exact",
+      "venueIds": [
+        "sanbo"
+      ],
+      "matchExplanation": "Sanbo for the neighborhood HK-café version; call before weekday lunch because directories conflict",
+      "confidence": "medium",
+      "confidenceNote": "Medium",
+      "caution": "Call before weekday lunch because current directories conflict.",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "steamed-spare-ribs-w-black-bean",
+      "region": "Cantonese — Guangdong (incl. Hong Kong & Macau)",
+      "name": "Steamed Spare Ribs w/ Black Bean",
+      "nameZh": "豉汁排骨",
+      "province": "Guangdong",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "exact",
+      "matchLabel": "Exact/common",
+      "venueIds": [
+        "chef-tony",
+        "empire-seafood"
+      ],
+      "matchExplanation": "Empire Seafood or Chef Tony at dim sum; verify the day's menu",
+      "confidence": "medium",
+      "confidenceNote": "Medium",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "hakka-thai-salads",
+      "region": "Hakka & Teochew",
+      "name": "Hakka 'Thai' Salads",
+      "nameZh": "客家凉拌",
+      "province": "Guangdong / diaspora (Hakka)",
+      "dishType": "Cold dish",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/are-thai-salads-hakka-chinese",
+      "ccdSourceLabel": "Substack · 2024-08-24",
+      "match": "gap",
+      "matchLabel": "Gap",
+      "matchExplanation": "No current dedicated Hakka/Thai-salad match found",
+      "confidence": "medium",
+      "confidenceNote": "Medium",
+      "caution": "No current Richmond match was verified; this is a research gap, not a restaurant recommendation.",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "peanut-milk-soup",
+      "region": "Fujian (Hokkien)",
+      "name": "Peanut Milk Soup",
+      "nameZh": "花生汤",
+      "province": "Fujian (Xiamen)",
+      "dishType": "Sweet soup",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/peanut-milk-soup",
+      "ccdSourceLabel": "Substack · 2024-11-28",
+      "match": "gap",
+      "matchLabel": "Gap",
+      "matchExplanation": "No current Richmond 花生汤 found",
+      "confidence": "medium",
+      "confidenceNote": "Medium",
+      "caution": "No current Richmond match was verified; this is a research gap, not a restaurant recommendation.",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "fujian-fried-rice",
+      "region": "Fujian (Hokkien)",
+      "name": "Fujian Fried Rice",
+      "nameZh": "福建炒饭",
+      "province": "Fujian",
+      "dishType": "Rice",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/fujian-fried-rice",
+      "ccdSourceLabel": "Substack · 2024-08-07",
+      "match": "gap",
+      "matchLabel": "Gap",
+      "matchExplanation": "“Fukien fried rice” may appear at Cantonese rooms, but no current specialist version was verified",
+      "confidence": "low",
+      "confidenceNote": "Low",
+      "caution": "No current Richmond match was verified; this is a research gap, not a restaurant recommendation.",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "hainan-coconut-chicken-hotpot",
+      "region": "Hainan",
+      "name": "'Hainan' Coconut Chicken Hotpot",
+      "nameZh": "椰子鸡火锅",
+      "province": "Hainan",
+      "dishType": "Hotpot",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/hainan-coconut-chicken-hotpot",
+      "ccdSourceLabel": "Substack · 2024-07-05",
+      "match": "gap",
+      "matchLabel": "Gap",
+      "matchExplanation": "The former YELIN listing is closed; JN Chicken Pot is chicken hotpot but not verified as coconut-based",
+      "confidence": "high",
+      "confidenceNote": "High that no exact current match was found",
+      "caution": "No current Richmond match was verified; this is a research gap, not a restaurant recommendation.",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "red-braised-pork-hong-shao-rou",
+      "region": "Jiangnan — Lower Yangtze (Shanghai · Jiangsu · Zhejiang)",
+      "name": "Red-Braised Pork (Hong Shao Rou)",
+      "nameZh": "红烧肉",
+      "province": "Shanghai / Jiangnan",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "exact",
+      "matchLabel": "Exact/menu lead",
+      "leadNames": [
+        "Shanghai Dumpling King"
+      ],
+      "recommendedMenuItem": "red-braised pork belly; current menu evidence is stronger than independent quality evidence",
+      "matchExplanation": "Shanghai Dumpling King — red-braised pork belly; current menu evidence is stronger than independent quality evidence",
+      "confidence": "medium",
+      "confidenceNote": "Medium",
+      "sourceUrls": [
+        "https://www.zomi.menu/shop/shanghaidumplingkingrmd/take-out/menu"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "lions-head-meatballs",
+      "region": "Jiangnan — Lower Yangtze (Shanghai · Jiangsu · Zhejiang)",
+      "name": "Lion's Head Meatballs",
+      "nameZh": "狮子头",
+      "province": "Jiangsu (Huaiyang)",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "exact",
+      "matchLabel": "Exact/menu lead",
+      "leadNames": [
+        "Shanghai Lao Wei Dao"
+      ],
+      "recommendedMenuItem": "red-braised lion's-head meatball; current ordering menu",
+      "matchExplanation": "Shanghai Lao Wei Dao — red-braised lion's-head meatball; current ordering menu",
+      "confidence": "medium",
+      "confidenceNote": "Medium",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "drunken-chicken",
+      "region": "Jiangnan — Lower Yangtze (Shanghai · Jiangsu · Zhejiang)",
+      "name": "Drunken Chicken",
+      "nameZh": "醉鸡",
+      "province": "Shanghai / Zhejiang",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "exact",
+      "matchLabel": "Exact",
+      "venueIds": [
+        "top-shanghai"
+      ],
+      "recommendedMenuItem": "醉鸡",
+      "matchExplanation": "Top Shanghai — 醉鸡",
+      "confidence": "high",
+      "confidenceNote": "High",
+      "sourceUrls": [
+        "https://www.topshanghai.ca/"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "scallion-oil-noodles",
+      "region": "Jiangnan — Lower Yangtze (Shanghai · Jiangsu · Zhejiang)",
+      "name": "Scallion Oil Noodles",
+      "nameZh": "葱油拌面",
+      "province": "Shanghai",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "exact",
+      "matchLabel": "Exact/menu lead",
+      "leadNames": [
+        "Shanghai Dumpling King"
+      ],
+      "recommendedMenuItem": "scallion-oil noodles with pork chop",
+      "matchExplanation": "Shanghai Dumpling King — scallion-oil noodles with pork chop",
+      "confidence": "medium",
+      "confidenceNote": "Medium",
+      "sourceUrls": [
+        "https://www.zomi.menu/shop/shanghaidumplingkingrmd/take-out/menu"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "sheng-jian-bao-pan-fried-buns",
+      "region": "Jiangnan — Lower Yangtze (Shanghai · Jiangsu · Zhejiang)",
+      "name": "Sheng Jian Bao (pan-fried buns)",
+      "nameZh": "生煎包",
+      "province": "Shanghai",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "exact",
+      "matchLabel": "Exact",
+      "venueIds": [
+        "top-shanghai"
+      ],
+      "recommendedMenuItem": "pan-fried pork buns 生煎包",
+      "matchExplanation": "Top Shanghai — pan-fried pork buns 生煎包",
+      "confidence": "high",
+      "confidenceNote": "High",
+      "sourceUrls": [
+        "https://www.topshanghai.ca/"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "xiao-long-bao-soup-dumplings",
+      "region": "Jiangnan — Lower Yangtze (Shanghai · Jiangsu · Zhejiang)",
+      "name": "Xiao Long Bao (soup dumplings)",
+      "nameZh": "小笼包",
+      "province": "Jiangsu (Wuxi/Nanxiang)",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "exact",
+      "matchLabel": "Exact",
+      "venueIds": [
+        "top-shanghai"
+      ],
+      "recommendedMenuItem": "hand-made soup dumplings 小笼包",
+      "matchExplanation": "Top Shanghai — hand-made soup dumplings 小笼包",
+      "confidence": "high",
+      "confidenceNote": "High",
+      "sourceUrls": [
+        "https://www.topshanghai.ca/"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "breakfast-bing-flatbreads",
+      "region": "Northern China (Beijing · Shandong · Shanxi · Henan)",
+      "name": "Breakfast Bing (flatbreads)",
+      "nameZh": "饼",
+      "province": "Northern China",
+      "dishType": "Flatbread",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/breakfast-bing",
+      "ccdSourceLabel": "Substack · 2025-07-03",
+      "match": "close",
+      "matchLabel": "Close",
+      "leadNames": [
+        "Old Xian"
+      ],
+      "recommendedMenuItem": "green-onion pancake and beef roll; not a broad breakfast-bing set",
+      "matchExplanation": "Old Xian — green-onion pancake and beef roll; not a broad breakfast-bing set",
+      "confidence": "high",
+      "confidenceNote": "High menu / medium fit",
+      "caution": "Not an exact CCD dish match; use this as the closest supported analogue or regional specialist.",
+      "sourceUrls": [
+        "https://www.oldxiansfood.ca/wp-content/uploads/2025/03/Old-Xian_Main-Menu_V9-min.pdf"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "big-plate-chicken-noodle-soup",
+      "region": "Northern China (Beijing · Shandong · Shanxi · Henan)",
+      "name": "Big Plate Chicken Noodle Soup",
+      "nameZh": "运城大盘鸡",
+      "province": "Shanxi (Yuncheng)",
+      "dishType": "Chicken / noodle",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/big-plate-chicken-noodle-soup",
+      "ccdSourceLabel": "Substack · 2024-10-15",
+      "match": "close",
+      "matchLabel": "Close",
+      "leadNames": [
+        "Old Xian"
+      ],
+      "recommendedMenuItem": "Xibei chicken stew with potatoes and hand-pulled noodle; not the Yuncheng soup version",
+      "matchExplanation": "Old Xian — Xibei chicken stew with potatoes and hand-pulled noodle; not the Yuncheng soup version",
+      "confidence": "high",
+      "confidenceNote": "High menu / medium fit",
+      "caution": "Not an exact CCD dish match; use this as the closest supported analogue or regional specialist.",
+      "sourceUrls": [
+        "https://www.oldxiansfood.ca/wp-content/uploads/2025/03/Old-Xian_Main-Menu_V9-min.pdf"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "basil-jingjie-noodles",
+      "region": "Northern China (Beijing · Shandong · Shanxi · Henan)",
+      "name": "Basil (jingjie) Noodles",
+      "nameZh": "荆芥拌面",
+      "province": "Henan",
+      "dishType": "Noodles",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/basil-noodles-from-henan",
+      "ccdSourceLabel": "Substack · 2024-06-11",
+      "match": "gap",
+      "matchLabel": "Gap",
+      "matchExplanation": "No current Richmond 荆芥拌面 found",
+      "confidence": "medium",
+      "confidenceNote": "Medium",
+      "caution": "No current Richmond match was verified; this is a research gap, not a restaurant recommendation.",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "pork-chive-dumplings",
+      "region": "Northern China (Beijing · Shandong · Shanxi · Henan)",
+      "name": "Pork & Chive Dumplings",
+      "nameZh": "猪肉韭菜饺子",
+      "province": "Northern China",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "exact",
+      "matchLabel": "Exact",
+      "leadNames": [
+        "Old Xian"
+      ],
+      "recommendedMenuItem": "dry or hot-and-sour-soup pork-and-chive dumplings",
+      "matchExplanation": "Old Xian — dry or hot-and-sour-soup pork-and-chive dumplings",
+      "confidence": "high",
+      "confidenceNote": "High",
+      "sourceUrls": [
+        "https://www.oldxiansfood.ca/wp-content/uploads/2025/03/Old-Xian_Main-Menu_V9-min.pdf"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "potstickers",
+      "region": "Northern China (Beijing · Shandong · Shanxi · Henan)",
+      "name": "Potstickers",
+      "nameZh": "锅贴",
+      "province": "Northern China",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "exact",
+      "matchLabel": "Exact/menu lead",
+      "leadNames": [
+        "Kung Fu Dumpling"
+      ],
+      "recommendedMenuItem": "pork, shrimp and chive potstickers",
+      "matchExplanation": "Kung Fu Dumpling — pork, shrimp and chive potstickers",
+      "confidence": "medium",
+      "confidenceNote": "Medium",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "tomato-egg-stir-fry",
+      "region": "Northern China (Beijing · Shandong · Shanxi · Henan)",
+      "name": "Tomato & Egg Stir Fry",
+      "nameZh": "番茄炒蛋",
+      "province": "Nationwide / Northern",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "exact",
+      "matchLabel": "Exact",
+      "venueIds": [
+        "szechuan-tales"
+      ],
+      "recommendedMenuItem": "pan-fried tomato with egg 番茄炒蛋",
+      "matchExplanation": "Szechuan Tales — pan-fried tomato with egg 番茄炒蛋",
+      "confidence": "high",
+      "confidenceNote": "High",
+      "sourceUrls": [
+        "https://www.skipthedishes.com/szechuan-tales-richmond"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "hot-sour-soup",
+      "region": "Northern China (Beijing · Shandong · Shanxi · Henan)",
+      "name": "Hot & Sour Soup",
+      "nameZh": "酸辣汤",
+      "province": "Northern China",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "exact",
+      "matchLabel": "Exact",
+      "venueIds": [
+        "szechuan-tales"
+      ],
+      "recommendedMenuItem": "hot-and-sour chicken soup; a Sichuan restaurant version",
+      "matchExplanation": "Szechuan Tales — hot-and-sour chicken soup; a Sichuan restaurant version",
+      "confidence": "medium",
+      "confidenceNote": "High menu / medium regional fit",
+      "sourceUrls": [
+        "https://www.skipthedishes.com/szechuan-tales-richmond"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "scallion-pancakes",
+      "region": "Northern China (Beijing · Shandong · Shanxi · Henan)",
+      "name": "Scallion Pancakes",
+      "nameZh": "葱油饼",
+      "province": "Northern China",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "exact",
+      "matchLabel": "Exact",
+      "leadNames": [
+        "Old Xian"
+      ],
+      "recommendedMenuItem": "green-onion pancake 葱油饼",
+      "matchExplanation": "Old Xian — green-onion pancake 葱油饼",
+      "confidence": "high",
+      "confidenceNote": "High",
+      "sourceUrls": [
+        "https://www.oldxiansfood.ca/wp-content/uploads/2025/03/Old-Xian_Main-Menu_V9-min.pdf"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "beijing-zhajiangmian",
+      "region": "Northern China (Beijing · Shandong · Shanxi · Henan)",
+      "name": "Beijing Zhajiangmian",
+      "nameZh": "老北京炸酱面",
+      "province": "Beijing",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "exact",
+      "matchLabel": "Exact/menu lead",
+      "leadNames": [
+        "Old Xian",
+        "Tasty BBQ Beer Bar"
+      ],
+      "recommendedMenuItem": "old Beijing zhajiangmian; Old Xian has a Northwest soy-pork version",
+      "matchExplanation": "Tasty BBQ Beer Bar — old Beijing zhajiangmian; Old Xian has a Northwest soy-pork version",
+      "confidence": "medium",
+      "confidenceNote": "Medium",
+      "sourceUrls": [
+        "https://www.oldxiansfood.ca/wp-content/uploads/2025/03/Old-Xian_Main-Menu_V9-min.pdf"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "guo-bao-rou-sweet-sour-pork",
+      "region": "Northeast (Dongbei)",
+      "name": "Guo Bao Rou (sweet & sour pork)",
+      "nameZh": "锅包肉",
+      "province": "Heilongjiang / Liaoning",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "exact",
+      "matchLabel": "Exact",
+      "venueIds": [
+        "joint-bbq"
+      ],
+      "recommendedMenuItem": "锅包肉",
+      "matchExplanation": "Joint BBQ — 锅包肉",
+      "confidence": "high",
+      "confidenceNote": "High dish / medium operations",
+      "sourceUrls": [
+        "https://www.fantuanorder.com/dianping/store/joint-bbq--9164495423-ca"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "di-san-xian-3-earthly-treasures",
+      "region": "Northeast (Dongbei)",
+      "name": "Di San Xian (3 earthly treasures)",
+      "nameZh": "地三鲜",
+      "province": "Northeast",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "exact",
+      "matchLabel": "Exact/menu lead",
+      "leadNames": [
+        "Once More Restaurant"
+      ],
+      "recommendedMenuItem": "地三鲜; current menu and customer-favorite evidence",
+      "matchExplanation": "Once More Restaurant — 地三鲜; current menu and customer-favorite evidence",
+      "confidence": "medium",
+      "confidenceNote": "Medium",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "biang-biang-noodles",
+      "region": "Northwest — Shaanxi · Gansu · Xinjiang",
+      "name": "Biang Biang Noodles",
+      "nameZh": "biangbiang面",
+      "province": "Shaanxi",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "close",
+      "matchLabel": "Close",
+      "leadNames": [
+        "Old Xian"
+      ],
+      "recommendedMenuItem": "wide hand-pulled hot-oil noodles; menu does not explicitly label them biangbiang",
+      "matchExplanation": "Old Xian — wide hand-pulled hot-oil noodles; menu does not explicitly label them biangbiang",
+      "confidence": "high",
+      "confidenceNote": "High menu / medium fit",
+      "caution": "Not an exact CCD dish match; use this as the closest supported analogue or regional specialist.",
+      "sourceUrls": [
+        "https://www.oldxiansfood.ca/wp-content/uploads/2025/03/Old-Xian_Main-Menu_V9-min.pdf"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "rou-jia-mo-chinese-burger",
+      "region": "Northwest — Shaanxi · Gansu · Xinjiang",
+      "name": "Rou Jia Mo (Chinese 'burger')",
+      "nameZh": "肉夹馍",
+      "province": "Shaanxi",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "exact",
+      "matchLabel": "Exact",
+      "leadNames": [
+        "Old Xian"
+      ],
+      "recommendedMenuItem": "stewed-pork Xian burger, classic or Tongguan flaky style",
+      "matchExplanation": "Old Xian — stewed-pork Xian burger, classic or Tongguan flaky style",
+      "confidence": "high",
+      "confidenceNote": "High",
+      "sourceUrls": [
+        "https://www.oldxiansfood.ca/wp-content/uploads/2025/03/Old-Xian_Main-Menu_V9-min.pdf"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "cumin-lamb",
+      "region": "Northwest — Shaanxi · Gansu · Xinjiang",
+      "name": "Cumin Lamb",
+      "nameZh": "孜然羊肉",
+      "province": "Xinjiang / Northern",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "close",
+      "matchLabel": "Close",
+      "venueIds": [
+        "silkway-halal"
+      ],
+      "leadNames": [
+        "Old Xian"
+      ],
+      "recommendedMenuItem": "cumin-lamb noodle/rice/burger; Silkway Halal for cumin-lamb skewers",
+      "matchExplanation": "Old Xian — cumin-lamb noodle/rice/burger; Silkway Halal for cumin-lamb skewers",
+      "confidence": "high",
+      "confidenceNote": "High menu / medium fit",
+      "caution": "Friday hours were not independently verified; call before making it a destination.",
+      "sourceUrls": [
+        "https://www.oldxiansfood.ca/wp-content/uploads/2025/03/Old-Xian_Main-Menu_V9-min.pdf"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "big-plate-chicken-da-pan-ji",
+      "region": "Northwest — Shaanxi · Gansu · Xinjiang",
+      "name": "Big Plate Chicken (Da Pan Ji)",
+      "nameZh": "大盘鸡",
+      "province": "Xinjiang",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "close",
+      "matchLabel": "Exact/close",
+      "venueIds": [
+        "silkway-halal"
+      ],
+      "leadNames": [
+        "Old Xian"
+      ],
+      "recommendedMenuItem": "Xibei chicken stew with potatoes and hand-pulled noodle; Silkway Halal has a Xinjiang-style version but Friday hours need confirmation",
+      "matchExplanation": "Old Xian — Xibei chicken stew with potatoes and hand-pulled noodle; Silkway Halal has a Xinjiang-style version but Friday hours need confirmation",
+      "confidence": "medium",
+      "confidenceNote": "High at Old Xian / medium dish fit",
+      "caution": "Friday hours were not independently verified; call before making it a destination.",
+      "sourceUrls": [
+        "https://www.oldxiansfood.ca/wp-content/uploads/2025/03/Old-Xian_Main-Menu_V9-min.pdf"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "lanzhou-beef-noodle-soup",
+      "region": "Northwest — Shaanxi · Gansu · Xinjiang",
+      "name": "Lanzhou Beef Noodle Soup",
+      "nameZh": "兰州牛肉面",
+      "province": "Gansu",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "close",
+      "matchLabel": "Close",
+      "leadNames": [
+        "Old Xian"
+      ],
+      "recommendedMenuItem": "clear beef-shank noodle soup; no high-confidence dedicated Lanzhou specialist selected",
+      "matchExplanation": "Old Xian — clear beef-shank noodle soup; no high-confidence dedicated Lanzhou specialist selected",
+      "confidence": "medium",
+      "confidenceNote": "Medium",
+      "caution": "Not an exact CCD dish match; use this as the closest supported analogue or regional specialist.",
+      "sourceUrls": [
+        "https://www.oldxiansfood.ca/wp-content/uploads/2025/03/Old-Xian_Main-Menu_V9-min.pdf"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "saucy-over-rice-dishes-quanzhou-ningbo-canton",
+      "region": "Cross-Regional — Rice, Noodles & Staples",
+      "name": "Saucy Over-Rice Dishes (Quanzhou · Ningbo · Canton)",
+      "nameZh": "盖浇饭",
+      "province": "Fujian / Zhejiang / Guangdong",
+      "dishType": "Over rice",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/over-rice-saucy-edition",
+      "ccdSourceLabel": "Substack · 2026-07-02",
+      "match": "exact",
+      "matchLabel": "Exact format",
+      "venueIds": [
+        "tak-fook"
+      ],
+      "leadNames": [
+        "Old Xian"
+      ],
+      "matchExplanation": "Tak Fook for Cantonese roast-meat rice; Old Xian for Northwest tomato-egg/cumin-lamb rice",
+      "confidence": "high",
+      "confidenceNote": "High",
+      "sourceUrls": [
+        "https://www.oldxiansfood.ca/wp-content/uploads/2025/03/Old-Xian_Main-Menu_V9-min.pdf"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "brothy-rice-paofan",
+      "region": "Cross-Regional — Rice, Noodles & Staples",
+      "name": "'Brothy Rice' (paofan)",
+      "nameZh": "泡饭",
+      "province": "Nationwide",
+      "dishType": "Rice",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/brothy-rice",
+      "ccdSourceLabel": "Substack · 2026-06-18",
+      "match": "gap",
+      "matchLabel": "Gap",
+      "matchExplanation": "No current specialist paofan match found",
+      "confidence": "low",
+      "confidenceNote": "Low",
+      "caution": "No current Richmond match was verified; this is a research gap, not a restaurant recommendation.",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "zha-jiang-mian-4-regional-versions",
+      "region": "Cross-Regional — Rice, Noodles & Staples",
+      "name": "Zha Jiang Mian, 4 regional versions",
+      "nameZh": "炸酱面",
+      "province": "Beijing · Sichuan · Canton · US",
+      "dishType": "Noodles",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/the-zha-jiang-mian-extended-universe",
+      "ccdSourceLabel": "Substack · 2026-01-30",
+      "match": "close",
+      "matchLabel": "Partial exact",
+      "venueIds": [
+        "szechuan-tales"
+      ],
+      "leadNames": [
+        "Old Xian",
+        "Tasty BBQ Beer Bar"
+      ],
+      "matchExplanation": "Tasty BBQ Beer Bar for Beijing; Szechuan Tales for Sichuan; Old Xian for Northwest. No four-way sampler",
+      "confidence": "high",
+      "confidenceNote": "High that three variants exist",
+      "caution": "Not an exact CCD dish match; use this as the closest supported analogue or regional specialist.",
+      "sourceUrls": [
+        "https://www.skipthedishes.com/szechuan-tales-richmond",
+        "https://www.oldxiansfood.ca/wp-content/uploads/2025/03/Old-Xian_Main-Menu_V9-min.pdf"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "street-style-fried-noodles-youmian",
+      "region": "Cross-Regional — Rice, Noodles & Staples",
+      "name": "Street-Style Fried Noodles (youmian)",
+      "nameZh": "炒油面",
+      "province": "Nationwide",
+      "dishType": "Noodles",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/how-to-fry-noodles-like-they-do-on",
+      "ccdSourceLabel": "Substack · 2025-11-21",
+      "match": "exact",
+      "matchLabel": "Exact/common",
+      "leadNames": [
+        "Old Xian"
+      ],
+      "recommendedMenuItem": "vegetable or cumin-meat fried noodles",
+      "matchExplanation": "Old Xian — vegetable or cumin-meat fried noodles",
+      "confidence": "high",
+      "confidenceNote": "High menu / low uniqueness",
+      "sourceUrls": [
+        "https://www.oldxiansfood.ca/wp-content/uploads/2025/03/Old-Xian_Main-Menu_V9-min.pdf"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "traditional-chinese-egg-salads",
+      "region": "Cross-Regional — Rice, Noodles & Staples",
+      "name": "Traditional Chinese Egg Salads",
+      "nameZh": "鸡蛋沙拉",
+      "province": "Nationwide",
+      "dishType": "Cold dish",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/chinese-traditional-egg-salads",
+      "ccdSourceLabel": "Substack · 2025-03-15",
+      "match": "gap",
+      "matchLabel": "Gap",
+      "matchExplanation": "No current destination-worthy match found",
+      "confidence": "low",
+      "confidenceNote": "Low",
+      "caution": "No current Richmond match was verified; this is a research gap, not a restaurant recommendation.",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "lao-gan-ma-fried-rice",
+      "region": "Cross-Regional — Rice, Noodles & Staples",
+      "name": "Lao Gan Ma Fried Rice",
+      "nameZh": "老干妈炒饭",
+      "province": "Nationwide (Guizhou brand)",
+      "dishType": "Rice",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/lao-gan-ma-fried-rice",
+      "ccdSourceLabel": "Substack · 2024-01-31",
+      "match": "gap",
+      "matchLabel": "Gap",
+      "matchExplanation": "No current named-menu match found",
+      "confidence": "medium",
+      "confidenceNote": "Medium",
+      "caution": "No current Richmond match was verified; this is a research gap, not a restaurant recommendation.",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "chinese-bagels",
+      "region": "Cross-Regional — Rice, Noodles & Staples",
+      "name": "Chinese Bagels",
+      "nameZh": "贝果",
+      "province": "Novelty / fusion",
+      "dishType": "Bread",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/chinese-bagels",
+      "ccdSourceLabel": "Substack · 2024-05-09",
+      "match": "gap",
+      "matchLabel": "Gap",
+      "matchExplanation": "No current named-menu match found",
+      "confidence": "medium",
+      "confidenceNote": "Medium",
+      "caution": "No current Richmond match was verified; this is a research gap, not a restaurant recommendation.",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "yangzhou-fried-rice",
+      "region": "Cross-Regional — Rice, Noodles & Staples",
+      "name": "Yangzhou Fried Rice",
+      "nameZh": "扬州炒饭",
+      "province": "Jiangsu / nationwide",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "exact",
+      "matchLabel": "Exact",
+      "venueIds": [
+        "szechuan-tales"
+      ],
+      "recommendedMenuItem": "扬州炒饭",
+      "matchExplanation": "Szechuan Tales — 扬州炒饭",
+      "confidence": "high",
+      "confidenceNote": "High",
+      "sourceUrls": [
+        "https://www.skipthedishes.com/szechuan-tales-richmond"
+      ],
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "egg-fried-rice",
+      "region": "Cross-Regional — Rice, Noodles & Staples",
+      "name": "Egg Fried Rice",
+      "nameZh": "蛋炒饭",
+      "province": "Nationwide",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "exact",
+      "matchLabel": "Exact/common",
+      "matchExplanation": "Widely available; no specialist trip required",
+      "confidence": "high",
+      "confidenceNote": "High availability / low destination value",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "chow-mein",
+      "region": "Cross-Regional — Rice, Noodles & Staples",
+      "name": "Chow Mein",
+      "nameZh": "炒面",
+      "province": "Nationwide",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "exact",
+      "matchLabel": "Exact/common",
+      "matchExplanation": "Widely available; no specialist trip required",
+      "confidence": "high",
+      "confidenceNote": "High availability / low destination value",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "congee-plain-101",
+      "region": "Cross-Regional — Rice, Noodles & Staples",
+      "name": "Congee (plain / 101)",
+      "nameZh": "白粥",
+      "province": "Nationwide",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "exact",
+      "matchLabel": "Exact",
+      "venueIds": [
+        "double-double"
+      ],
+      "recommendedMenuItem": "congee specialist",
+      "matchExplanation": "Double Double — congee specialist",
+      "confidence": "high",
+      "confidenceNote": "High",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "chinese-broccoli-w-oyster-sauce",
+      "region": "Cross-Regional — Rice, Noodles & Staples",
+      "name": "Chinese Broccoli w/ Oyster Sauce",
+      "nameZh": "蚝油芥兰",
+      "province": "Guangdong / nationwide",
+      "ccdSourceUrl": "https://www.youtube.com/@ChineseCookingDemystified",
+      "ccdSourceLabel": "YouTube (classic)",
+      "match": "exact",
+      "matchLabel": "Exact/common",
+      "venueIds": [
+        "empire-seafood",
+        "fishermans-terrace"
+      ],
+      "matchExplanation": "Order at Empire Seafood, Fisherman's Terrace, or another Cantonese dinner room",
+      "confidence": "medium",
+      "confidenceNote": "Medium",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "chinese-style-buffalo-wings",
+      "region": "Fusion · Western & Chinese-American",
+      "name": "Chinese-Style Buffalo Wings",
+      "nameZh": "水牛城鸡翅",
+      "province": "Chinese-American fusion",
+      "dishType": "Chicken",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/why-china-hates-buffalo-wings-and",
+      "ccdSourceLabel": "Substack · 2026-04-01",
+      "match": "gap",
+      "matchLabel": "Gap",
+      "matchExplanation": "No current named-menu match found",
+      "confidence": "medium",
+      "confidenceNote": "Medium",
+      "caution": "No current Richmond match was verified; this is a research gap, not a restaurant recommendation.",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "improved-western-weeknight-stir-fry",
+      "region": "Fusion · Western & Chinese-American",
+      "name": "Improved 'Western Weeknight Stir Fry'",
+      "province": "Western fusion",
+      "dishType": "Stir-fry",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/improving-the-western-weeknight-stir",
+      "ccdSourceLabel": "Substack · 2025-08-12",
+      "match": "component",
+      "matchLabel": "Component",
+      "matchExplanation": "A home-cooking exercise, not a regional restaurant target",
+      "confidence": "not-applicable",
+      "confidenceNote": "—",
+      "caution": "Technique or component rather than a standalone restaurant target.",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "moo-goo-gai-pan-kissingers",
+      "region": "Fusion · Western & Chinese-American",
+      "name": "Moo Goo Gai Pan (Kissinger's)",
+      "nameZh": "蘑菇鸡片",
+      "province": "Chinese-American",
+      "dishType": "Chicken",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/henry-kissingers-moo-goo-gai-pan",
+      "ccdSourceLabel": "Substack · 2025-04-01",
+      "match": "gap",
+      "matchLabel": "Gap",
+      "matchExplanation": "No destination-worthy Richmond match found",
+      "confidence": "medium",
+      "confidenceNote": "Medium",
+      "caution": "No current Richmond match was verified; this is a research gap, not a restaurant recommendation.",
+      "lastVerified": "2026-07-30"
+    },
+    {
+      "id": "asian-broth-spaghetti-fix",
+      "region": "Fusion · Western & Chinese-American",
+      "name": "Asian-Broth Spaghetti Fix",
+      "province": "Western fusion",
+      "dishType": "Noodles",
+      "ccdSourceUrl": "https://chinesecookingdemystified.substack.com/p/fixing-spaghettis-asian-soup-problem",
+      "ccdSourceLabel": "Substack · 2024-09-03",
+      "match": "component",
+      "matchLabel": "Component",
+      "matchExplanation": "A home-cooking technique, not a restaurant target",
+      "confidence": "not-applicable",
+      "confidenceNote": "—",
+      "caution": "Technique or component rather than a standalone restaurant target.",
+      "lastVerified": "2026-07-30"
+    }
+  ]
+}

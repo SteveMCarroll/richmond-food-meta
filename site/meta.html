@@ -3,6 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      (() => {
+        const param = new URLSearchParams(window.location.search).get("scoutTheme");
+        const theme =
+          param || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+        document.documentElement.setAttribute("data-theme", theme);
+      })();
+    </script>
     <title>The mall meta · Richmond BC food</title>
     <meta
       name="description"
@@ -18,6 +26,7 @@
           <a class="brand" href="index.html">🥢 Richmond food meta</a>
           <div class="navlinks">
             <a class="navlink" href="index.html">All restaurants</a>
+            <a class="navlink" href="ccd.html">CCD dish finder</a>
             <a class="navlink" href="methodology.html">How we research</a>
           </div>
         </nav>

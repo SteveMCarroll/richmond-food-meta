@@ -12,13 +12,14 @@ data/            # SINGLE SOURCE OF TRUTH (hand-edited: markdown + YAML frontmat
   site.md        #   site-level meta
   hubs/*.md      #   one file per hub (food court / mall / plaza / food street)
   venues/*.md    #   one file per restaurant or stall
+  ccd/catalog.yml#   99-dish CCD regional crosswalk
 research/        # exploratory research ledger (not read by the site)
   METHODOLOGY.md #   canonical research and editorial method
   REVIEW-BRIEF.md#   cold-review instructions for a separate agent/model
 site/            # the static website (GitHub Pages-ready)
   scripts/compile.mjs   # data/** -> site/content/restaurants.json
-  content/restaurants.json  # GENERATED — do not hand-edit
-  index.html, meta.html, app.js, styles.css
+  content/*.json  # GENERATED — do not hand-edit
+  index.html, meta.html, methodology.html, ccd.html, app.js, ccd.js, styles.css
 PROJECT_PLAN.md  # project vision + editorial principles
 ```
 
@@ -35,7 +36,8 @@ npm run watch        # auto-recompile on data/ changes
 npm run serve        # preview at http://localhost:8137
 ```
 
-See `data/SCHEMA.md` for the data contract and `research/METHODOLOGY.md` for
+See `data/SCHEMA.md` for the venue, hub, and CCD dish contracts and
+`research/METHODOLOGY.md` for
 the canonical source hierarchy, evidence rules, status/confidence calibration,
 recency policy, known biases, and update workflow.
 
